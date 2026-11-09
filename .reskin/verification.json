@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T19:26:52.484Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/8crypt/website",
+    "name": "gradix-website",
+    "baseUrl": "http://127.0.0.1:3000/"
+  },
+  "passed": true,
+  "thresholds": {
+    "maxStructureSimilarity": 0.5,
+    "maxLandmarkSimilarity": 0.68,
+    "maxClassOverlap": 0.1,
+    "minAccentDistance": 30,
+    "maxContrastFailures": 0,
+    "maxAxeSerious": 0
+  },
+  "gates": {
+    "sourceContract": {
+      "passed": true,
+      "issues": [],
+      "warnings": [],
+      "hash": "82f8ea197f7bc849e28dc85233262000d6123136aa6e2ee755dec74bc6ac39eb"
+    },
+    "skeleton": {
+      "passed": true,
+      "original": {
+        "id": "topnav-marketing",
+        "family": "marketing",
+        "traits": {
+          "topbar": true,
+          "hero": true,
+          "cards": true,
+          "sidebar": true,
+          "table": true,
+          "grid": true
+        }
+      },
+      "current": {
+        "id": "split-stage",
+        "family": "spatial",
+        "traits": {
+          "split": true,
+          "sticky": true,
+          "sidebar": true,
+          "hero": true,
+          "cards": true,
+          "ledger": true,
+          "table": true,
+          "grid": true
+        }
+      },
+      "accent": {
+        "original": "#e5293f",
+        "current": "#1e7be8",
+        "deltaE": 112.84,
+        "min": 30
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 93 -> 98 (dynamic values may differ)"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.261,
+          "landmarkSimilarity": 0.6,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 31,
+              "total": 93
+            },
+            "current": {
+              "tokens": 36,
+              "total": 98
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/home-desktop.png",
+          "mobile": "current/home-mobile.png"
+        }
+      },
+      {
+        "route": "/app",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 170 -> 221 (dynamic values may differ)",
+          "aria attribute added: aria-label=Search cards"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.388,
+          "landmarkSimilarity": 0.333,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 76,
+              "total": 170
+            },
+            "current": {
+              "tokens": 122,
+              "total": 221
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/app-desktop.png",
+          "mobile": "current/app-mobile.png"
+        }
+      },
+      {
+        "route": "/offers",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 0 -> 6 (dynamic values may differ)"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.255,
+          "landmarkSimilarity": 0.667,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 0,
+              "total": 0
+            },
+            "current": {
+              "tokens": 3,
+              "total": 6
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/offers-desktop.png",
+          "mobile": "current/offers-mobile.png"
+        }
+      },
+      {
+        "route": "/docs",
+        "passed": true,
+        "skipped": false,
+        "failures": [],
+        "warnings": [
+          "numeric token count changed: 44 -> 49 (dynamic values may differ)"
+        ],
+        "structure": {
+          "fingerprintSimilarity": 0.087,
+          "landmarkSimilarity": 0.375,
+          "classOverlap": 0
+        },
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {
+            "baseline": {
+              "tokens": 19,
+              "total": 44
+            },
+            "current": {
+              "tokens": 24,
+              "total": 49
+            }
+          }
+        },
+        "usability": {
+          "passed": true,
+          "failures": [],
+          "warnings": [],
+          "axe": {
+            "serious": [],
+            "moderate": []
+          }
+        },
+        "screenshots": {
+          "desktop": "current/docs-desktop.png",
+          "mobile": "current/docs-mobile.png"
+        }
+      },
+      {
+        "route": "/card/[mint]",
+        "passed": true,
+        "skipped": true,
+        "failures": [],
+        "warnings": [],
+        "structure": {},
+        "content": {
+          "missing": [],
+          "extra": [],
+          "numeric": {}
+        },
+        "screenshots": {}
+      }
+    ]
+  },
+  "failures": [],
+  "warnings": [
+    "/: numeric token count changed: 93 -> 98 (dynamic values may differ)",
+    "/app: numeric token count changed: 170 -> 221 (dynamic values may differ)",
+    "/app: aria attribute added: aria-label=Search cards",
+    "/offers: numeric token count changed: 0 -> 6 (dynamic values may differ)",
+    "/docs: numeric token count changed: 44 -> 49 (dynamic values may differ)"
+  ],
+  "baseline": {
+    "generatedAt": "2026-10-21T19:00:07.194Z",
+    "routes": [
+      "/",
+      "/app",
+      "/offers",
+      "/docs",
+      "/card/[mint]"
+    ]
+  }
+}

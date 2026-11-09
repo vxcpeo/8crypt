@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/auth/logout/route": "/api/auth/logout",
+  "/api/auth/nonce/route": "/api/auth/nonce",
+  "/api/auth/session/route": "/api/auth/session",
+  "/api/auth/verify/route": "/api/auth/verify",
+  "/api/offers/[id]/accept/route": "/api/offers/[id]/accept",
+  "/api/offers/[id]/cancel/route": "/api/offers/[id]/cancel",
+  "/api/offers/route": "/api/offers",
+  "/app/page": "/app",
+  "/offers/page": "/offers",
+  "/card/[mint]/page": "/card/[mint]",
+  "/docs/page": "/docs",
+  "/page": "/"
+}
