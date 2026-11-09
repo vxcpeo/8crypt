@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
+import { X_HANDLE, X_URL } from '@/lib/links';
 import { Brand } from './Brand';
+import { XIcon } from './Icons';
 
 const MARKETING_LINKS = [
   { href: '/app', label: 'Swap' },
@@ -42,6 +44,21 @@ export function SplitLayout({
   );
 }
 
+export function XIconLink() {
+  return (
+    <a
+      className="tx-xbtn"
+      href={X_URL}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={`Gradix on X, ${X_HANDLE}`}
+      title={`${X_HANDLE} on X`}
+    >
+      <XIcon size={15} />
+    </a>
+  );
+}
+
 export function BrandBar({
   label = 'Gradix home',
   children,
@@ -54,7 +71,10 @@ export function BrandBar({
       <Link href="/" className="tx-brandlink" aria-label={label}>
         <Brand size={34} />
       </Link>
-      {children}
+      <div className="tx-brandbar-actions">
+        <XIconLink />
+        {children}
+      </div>
     </div>
   );
 }
@@ -90,12 +110,22 @@ export function IndexNav({
   );
 }
 
-export function SoonChip() {
+export function XFollowChip({ suffix = 'on X' }: { suffix?: string }) {
   return (
-    <span className="tx-chip">
-      <b>$GRADIX</b>
-      <span>CA soon</span>
-    </span>
+    <a
+      className="tx-chip tx-chip--x"
+      href={X_URL}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={`Gradix on X, ${X_HANDLE}`}
+    >
+      <XIcon size={11} />
+      <b>{X_HANDLE}</b>
+      <span>{suffix}</span>
+      <span className="tx-chip-arrow" aria-hidden="true">
+        ↗
+      </span>
+    </a>
   );
 }
 
@@ -106,7 +136,7 @@ export function SiteFooter() {
         <div className="tx-footer-brand">
           <Brand size={30} />
           <p>Card-for-card swaps for Collector Crypt cards on Solana.</p>
-          <SoonChip />
+          <XFollowChip />
         </div>
         <div className="tx-footer-cols">
           <div className="tx-footer-col">
@@ -123,6 +153,9 @@ export function SiteFooter() {
           </div>
           <div className="tx-footer-col">
             <b>Elsewhere</b>
+            <a href={X_URL} target="_blank" rel="noreferrer">
+              x.com/gradix_xyz ↗
+            </a>
             <a
               href="https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6"
               target="_blank"

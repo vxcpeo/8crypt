@@ -20,7 +20,7 @@
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-b1e2483a7e02feee.js",
       "static/chunks/main-app-8c80ea225db5da1c.js",
-      "static/css/fd8cb076d65cfb3c.css",
+      "static/css/f402938d64fc93da.css",
       "static/chunks/619-ba102abea3e3d0e4.js",
       "static/chunks/532-78278f7c76007fd9.js",
       "static/chunks/app/layout-5975d7470ba0d45e.js"
@@ -84,7 +84,7 @@
       "static/chunks/538-a8143576a3110098.js",
       "static/chunks/532-78278f7c76007fd9.js",
       "static/chunks/464-8f5bb5ccaab2e5f0.js",
-      "static/chunks/app/app/page-b700ebb2a4d76028.js"
+      "static/chunks/app/app/page-28c352533612d7f3.js"
     ],
     "/offers/page": [
       "static/chunks/webpack-daae1b1298539882.js",
@@ -94,7 +94,7 @@
       "static/chunks/619-ba102abea3e3d0e4.js",
       "static/chunks/532-78278f7c76007fd9.js",
       "static/chunks/464-8f5bb5ccaab2e5f0.js",
-      "static/chunks/app/offers/page-af748d2dcc3404d7.js"
+      "static/chunks/app/offers/page-fa139df0a700a668.js"
     ],
     "/card/[mint]/page": [
       "static/chunks/webpack-daae1b1298539882.js",

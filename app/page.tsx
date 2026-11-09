@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { CARDS } from '@/lib/cards';
+import { X_HANDLE, X_URL } from '@/lib/links';
 import { Arrow, Brand } from '@/components/Brand';
-import { BrandBar, IndexNav, SiteFooter, SoonChip, SplitLayout } from '@/components/Tidal';
+import { BrandBar, IndexNav, SiteFooter, SplitLayout, XFollowChip, XIconLink } from '@/components/Tidal';
 import {
   ArrowShieldIcon,
   BoltIcon,
@@ -225,7 +226,7 @@ export default function HomePage() {
               </li>
             </ul>
             <div className="tx-metarow">
-              <SoonChip />
+              <XFollowChip />
               <span>1 USDC per side · only when a swap completes</span>
             </div>
           </div>
@@ -363,7 +364,7 @@ export default function HomePage() {
           <div className="tx-token" id="token">
             <div className="tx-token-head">
               <Brand size={34} />
-              <SoonChip />
+              <XIconLink />
             </div>
             <h3 className="tx-token-title">
               Hold 1,000,000 $GRADIX.
@@ -393,8 +394,12 @@ export default function HomePage() {
               </div>
             </dl>
             <p className="tx-note">
-              $GRADIX is not needed to swap. The contract address will appear here the day it
-              launches; any other address is not ours.
+              $GRADIX is not needed to swap; holding 1,000,000 waives the 1 USDC fee. Launch
+              updates land on X — follow{' '}
+              <a href={X_URL} target="_blank" rel="noreferrer">
+                {X_HANDLE}
+              </a>
+              .
             </p>
           </div>
         </div>

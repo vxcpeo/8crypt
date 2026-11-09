@@ -176,6 +176,33 @@ svg {
   border-radius: 12px;
 }
 
+.tx-brandbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tx-xbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--tx-line-strong);
+  border-radius: 999px;
+  background: var(--tx-surface);
+  color: var(--tx-ink);
+  transition: color 160ms var(--tx-ease), border-color 160ms var(--tx-ease),
+    background 160ms var(--tx-ease), transform 160ms var(--tx-ease);
+}
+
+.tx-xbtn:hover {
+  color: var(--tx-accent-strong);
+  border-color: var(--tx-accent);
+  background: #fff;
+  transform: translateY(-1px);
+}
+
 .tx-brandmark {
   display: inline-flex;
   align-items: center;
@@ -416,6 +443,30 @@ svg {
 
 .tx-chip span {
   color: var(--tx-faint);
+}
+
+.tx-chip--x {
+  transition: border-color 160ms var(--tx-ease), background 160ms var(--tx-ease);
+}
+
+.tx-chip--x svg {
+  flex: none;
+  color: var(--tx-ink);
+}
+
+.tx-chip--x:hover {
+  border-color: var(--tx-accent);
+  background: #fff;
+}
+
+.tx-chip--x:hover b {
+  color: var(--tx-accent);
+}
+
+.tx-chip span.tx-chip-arrow {
+  color: var(--tx-accent-strong);
+  font-size: 10px;
+  opacity: 0.7;
 }
 
 .tx-features {

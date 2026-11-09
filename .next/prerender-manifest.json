@@ -26,6 +26,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/offers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/offers",
+      "dataRoute": "/offers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -74,30 +98,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/offers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/offers",
-      "dataRoute": "/offers.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/app": {
       "experimentalBypassFor": [
         {
@@ -126,8 +126,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "30c2889246fa082e9757b0d406f5261e",
-    "previewModeSigningKey": "52fa5f0947ecd94b0ae7eec015df9b3759419241c2c3ab2ee204cd2595a876c7",
-    "previewModeEncryptionKey": "9bd05d84a5680b65507ca48ba723ad7c35633e751c805adaedc3e553b03fd140"
+    "previewModeId": "1d30f30a353b282600705a95b2a0d698",
+    "previewModeSigningKey": "4e473a70fe3048fb81318ac5c4977604d9807c5f2ae4d579d5a191850a3f8714",
+    "previewModeEncryptionKey": "1b1c152e85f361b48a1df8322d7ef9e34414d6fbe055d2a114e3513e6c03041f"
   }
 }

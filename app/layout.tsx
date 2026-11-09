@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@gradix_xyz',
+    creator: '@gradix_xyz',
     title: 'Gradix — swap graded Pokémon cards, no selling first',
     description:
       'Swap graded Pokémon cards card-for-card on Solana, with optional USDC to balance. One signature, one atomic transaction.',
