@@ -286,7 +286,7 @@ function WalletModal({
             ✦
           </span>
           <span className="tx-wordmark">
-            gradix<b>.xyz</b>
+            tabuline<b>.top</b>
           </span>
         </div>
         <p className="tx-modal-kicker">On-chain authentication</p>

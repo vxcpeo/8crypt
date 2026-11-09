@@ -1,8 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/logout/route": "app/api/auth/logout/route.js",
-  "/api/auth/nonce/route": "app/api/auth/nonce/route.js",
   "/api/auth/session/route": "app/api/auth/session/route.js",
+  "/api/auth/nonce/route": "app/api/auth/nonce/route.js",
   "/api/auth/verify/route": "app/api/auth/verify/route.js",
   "/api/offers/[id]/accept/route": "app/api/offers/[id]/accept/route.js",
   "/api/offers/[id]/cancel/route": "app/api/offers/[id]/cancel/route.js",

@@ -1,7 +1,25 @@
-# Gradix — website
+# Tabuline — website
 
-Next.js 15 frontend for the Gradix card-for-card swap protocol, with wallet-native
+Next.js 15 frontend for the Tabuline card-for-card swap protocol, with wallet-native
 on-chain authentication (Sign-In With Solana) instead of email or hosted auth.
+
+Brand: **tabuline.top** · X: **@tabuline_top**
+
+## Brand and social links
+
+The X link is part of the shell, so every route carries it:
+
+| Where | Source |
+| --- | --- |
+| Brand-bar icon button (all routes) | `components/Tidal.tsx` → `XIconLink` |
+| Footer "@tabuline_top on X" chip + `x.com/tabuline_top` link | `components/Tidal.tsx` → `XFollowChip`, `SiteFooter` |
+| `<meta name="twitter:site">` / `creator` | `app/layout.tsx` |
+| Canonical/OG base URL | `app/layout.tsx` → `metadataBase` |
+
+`lib/links.ts` is the single source of truth for the URL and handle; change it
+there and the shell, metadata and footer follow. `app/layout.tsx` repeats the
+handle in the `twitter` metadata block because Next.js metadata is static — keep
+the two in step.
 
 ## Run
 
@@ -43,7 +61,7 @@ npm start
 5. `GET /api/auth/session` restores the session. All write APIs (`POST /api/offers`, accept,
    cancel) require the session and ignore any address supplied by the client.
 
-The companion `gradix_auth` Anchor program mirrors the same wallet identity on-chain: a
+The companion `tabuline_auth` Anchor program mirrors the same wallet identity on-chain: a
 wallet can register a profile, record login attestations and keep its handle, all keyed by
 the same Solana key that signs swaps.
 
@@ -60,8 +78,8 @@ time and served from `public/cards/`. Because a preview wallet normally does not
 each connected wallet receives a deterministic six-card preview vault; the offer book is
 stored in `.data/offers.json`. Swap and auth flows are exercised end-to-end in the preview.
 
-To go on-chain, deploy `contracts/programs/gradix_swap` and point the app at a program
-client (the IDL is generated at `contracts/target/idl/gradix_swap.json`). The program
+To go on-chain, deploy `contracts/programs/tabuline_swap` and point the app at a program
+client (the IDL is generated at `contracts/target/idl/tabuline_swap.json`). The program
 interface and escrow semantics are documented in `../contracts/README.md`.
 
 ## Environment

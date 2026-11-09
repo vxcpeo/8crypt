@@ -42,7 +42,7 @@ export function buildLoginMessage(address: string, domain: string, nonce: string
     `${new URL(domain).host} wants you to sign in with your Solana account:`,
     address,
     '',
-    'Sign in to Gradix with your Solana wallet. This proves you control the wallet and does not create a transaction or cost any fees.',
+    'Sign in to Tabuline with your Solana wallet. This proves you control the wallet and does not create a transaction or cost any fees.',
     '',
     `URI: ${domain}`,
     'Version: 1',

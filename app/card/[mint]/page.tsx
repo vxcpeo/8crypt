@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!card) return { title: 'Card not found' };
   return {
     title: card.name,
-    description: `${card.grade} · $${card.insuredValue.toLocaleString('en-US')} insured value. Offer a Collector Crypt card for it on Gradix.`,
+    description: `${card.grade} · $${card.insuredValue.toLocaleString('en-US')} insured value. Offer a Collector Crypt card for it on Tabuline.`,
   };
 }
 

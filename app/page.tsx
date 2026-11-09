@@ -20,9 +20,9 @@ import {
 } from '@/components/Icons';
 
 export const metadata = {
-  title: 'Gradix — swap graded Pokémon cards, no selling first',
+  title: 'Tabuline — swap graded Pokémon cards, no selling first',
   description:
-    'Gradix lets Collector Crypt holders swap tokenized graded Pokémon cards directly on Solana: card for card, with optional USDC to balance, settled in one atomic transaction.',
+    'Tabuline lets Collector Crypt holders swap tokenized graded Pokémon cards directly on Solana: card for card, with optional USDC to balance, settled in one atomic transaction.',
 };
 
 const steps = [
@@ -113,12 +113,12 @@ const security = [
 
 const faqs = [
   {
-    q: 'Where does the money for the $GRADIX buyback come from?',
+    q: 'Where does the money for the $TABULINE buyback come from?',
     a: 'Only from swap fees: 1 USDC per side on each completed swap. There are no emissions and no outside top-ups. If nobody swaps, nothing is bought. Cancelled and expired offers pay nothing.',
   },
   {
     q: 'Who can change the rules after launch?',
-    a: 'An admin key sets the fee, the treasury account and the $GRADIX waiver, and can pause new offers. The program caps the fee at 10 USDC per side, and an open offer keeps the fee it was made with. The admin key cannot move escrowed cards or USDC, and a pause never blocks cancel or accept.',
+    a: 'An admin key sets the fee, the treasury account and the $TABULINE waiver, and can pause new offers. The program caps the fee at 10 USDC per side, and an open offer keeps the fee it was made with. The admin key cannot move escrowed cards or USDC, and a pause never blocks cancel or accept.',
   },
   {
     q: 'Do I need to claim anything?',
@@ -126,11 +126,11 @@ const faqs = [
   },
   {
     q: 'What can go wrong?',
-    a: 'The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt’s insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GRADIX can lose all its value.',
+    a: 'The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt’s insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $TABULINE can lose all its value.',
   },
   {
     q: 'Is there a presale, team allocation or airdrop?',
-    a: 'No presale, no team allocation, no airdrop. $GRADIX launches on Pump.fun with the standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its transaction.',
+    a: 'No presale, no team allocation, no airdrop. $TABULINE launches on Pump.fun with the standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its transaction.',
   },
   {
     q: 'Is it audited?',
@@ -146,7 +146,7 @@ const faqs = [
   },
   {
     q: 'How do I skip the 1 USDC fee?',
-    a: 'Hold at least 1,000,000 $GRADIX in the wallet that signs. The bidder is checked when the offer is made, the owner when they accept. The waiver turns on once $GRADIX exists; until then every side pays 1 USDC.',
+    a: 'Hold at least 1,000,000 $TABULINE in the wallet that signs. The bidder is checked when the offer is made, the owner when they accept. The waiver turns on once $TABULINE exists; until then every side pays 1 USDC.',
   },
 ];
 
@@ -272,7 +272,7 @@ export default function HomePage() {
           </div>
           <div className="tx-stat">
             <b>0 USDC</b>
-            <span>To $GRADIX buyback</span>
+            <span>To $TABULINE buyback</span>
             <small>100% of swap fees</small>
           </div>
         </div>
@@ -331,14 +331,14 @@ export default function HomePage() {
         <div className="tx-band-head">
           <p className="tx-kicker">Where the fees go</p>
           <h2 className="tx-h2" id="fees-title">
-            Every swap fee <em>buys $GRADIX.</em>
+            Every swap fee <em>buys $TABULINE.</em>
           </h2>
         </div>
         <div className="tx-split">
           <div>
             <p className="tx-copy">
               A completed swap costs 1 USDC per side. All of it goes to the treasury, and once a
-              day the treasury buys $GRADIX on the market and burns it. Cancelled and expired
+              day the treasury buys $TABULINE on the market and burns it. Cancelled and expired
               offers pay nothing.
             </p>
             <div className="tx-flow">
@@ -357,7 +357,7 @@ export default function HomePage() {
               <div className="tx-flow-node tx-flow-node--hot">
                 <FlameIcon />
                 <b>Buyback + burn</b>
-                <small>$GRADIX, daily</small>
+                <small>$TABULINE, daily</small>
               </div>
             </div>
           </div>
@@ -367,7 +367,7 @@ export default function HomePage() {
               <XIconLink />
             </div>
             <h3 className="tx-token-title">
-              Hold 1,000,000 $GRADIX.
+              Hold 1,000,000 $TABULINE.
               <br />
               <em>Swap for free.</em>
             </h3>
@@ -394,7 +394,7 @@ export default function HomePage() {
               </div>
             </dl>
             <p className="tx-note">
-              $GRADIX is not needed to swap; holding 1,000,000 waives the 1 USDC fee. Launch
+              $TABULINE is not needed to swap; holding 1,000,000 waives the 1 USDC fee. Launch
               updates land on X — follow{' '}
               <a href={X_URL} target="_blank" rel="noreferrer">
                 {X_HANDLE}
@@ -459,7 +459,7 @@ export default function HomePage() {
         </div>
         <div className="tx-final-inner">
           <p className="tx-kicker">
-            Collector Crypt made cards tradable. Gradix makes them swappable.
+            Collector Crypt made cards tradable. Tabuline makes them swappable.
           </p>
           <h2 className="tx-display tx-display--xl">
             The card you want is in <em>someone else&apos;s wallet.</em>

@@ -7,7 +7,7 @@ export function Brand({ size = 30 }: { size?: number }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src="/mark.png" alt="" width={size} height={size} />
       <span className="tx-wordmark">
-        gradix<b>.xyz</b>
+        tabuline<b>.top</b>
       </span>
     </span>
   );
@@ -18,7 +18,7 @@ export function Arrow({ children = '→' }: { children?: ReactNode }) {
 }
 
 export function BrandLink({
-  label = 'Gradix home',
+  label = 'Tabuline home',
   size = 30,
 }: {
   label?: string;

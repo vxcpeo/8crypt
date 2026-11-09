@@ -8,7 +8,7 @@ const MARKETING_LINKS = [
   { href: '/app', label: 'Swap' },
   { href: '/offers', label: 'Offers' },
   { href: '/#how', label: 'How it works' },
-  { href: '/#token', label: '$GRADIX' },
+  { href: '/#token', label: '$TABULINE' },
   { href: '/docs', label: 'Docs' },
 ];
 
@@ -51,7 +51,7 @@ export function XIconLink() {
       href={X_URL}
       target="_blank"
       rel="noreferrer"
-      aria-label={`Gradix on X, ${X_HANDLE}`}
+      aria-label={`Tabuline on X, ${X_HANDLE}`}
       title={`${X_HANDLE} on X`}
     >
       <XIcon size={15} />
@@ -60,7 +60,7 @@ export function XIconLink() {
 }
 
 export function BrandBar({
-  label = 'Gradix home',
+  label = 'Tabuline home',
   children,
 }: {
   label?: string;
@@ -117,7 +117,7 @@ export function XFollowChip({ suffix = 'on X' }: { suffix?: string }) {
       href={X_URL}
       target="_blank"
       rel="noreferrer"
-      aria-label={`Gradix on X, ${X_HANDLE}`}
+      aria-label={`Tabuline on X, ${X_HANDLE}`}
     >
       <XIcon size={11} />
       <b>{X_HANDLE}</b>
@@ -154,7 +154,7 @@ export function SiteFooter() {
           <div className="tx-footer-col">
             <b>Elsewhere</b>
             <a href={X_URL} target="_blank" rel="noreferrer">
-              x.com/gradix_xyz ↗
+              x.com/{X_HANDLE.replace('@', '')} ↗
             </a>
             <a
               href="https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6"

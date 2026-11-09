@@ -5,7 +5,7 @@ import { BrandBar, IndexNav, SiteFooter, SplitLayout } from '@/components/Tidal'
 export const metadata: Metadata = {
   title: 'Docs',
   description:
-    'How Gradix swaps graded Collector Crypt cards on Solana: offers, escrow, fees, program instructions and risks.',
+    'How Tabuline swaps graded Collector Crypt cards on Solana: offers, escrow, fees, program instructions and risks.',
 };
 
 export default function DocsPage() {
@@ -23,7 +23,7 @@ export default function DocsPage() {
           <IndexNav active="/docs" />
           <div className="tx-thesis tx-thesis--doc">
             <p className="tx-eyebrow">Docs</p>
-            <p className="tx-eyebrow">Gradix documentation</p>
+            <p className="tx-eyebrow">Tabuline documentation</p>
             <h1 className="tx-display tx-display--doc">
               Swap graded cards on Solana, card for card.
             </h1>
@@ -45,7 +45,7 @@ export default function DocsPage() {
       <section id="overview">
         <h2>Overview</h2>
         <p>
-          Gradix lets Collector Crypt holders swap their tokenized graded Pokémon cards
+          Tabuline lets Collector Crypt holders swap their tokenized graded Pokémon cards
           directly, without selling first. Each card is a Metaplex programmable NFT on Solana
           backed by a graded card in Collector Crypt&apos;s vault.
         </p>
@@ -55,8 +55,8 @@ export default function DocsPage() {
           once, or ignores it, or sends a counteroffer. The bidder can cancel any time for free.
         </p>
         <p>
-          A completed swap costs 1 USDC per side. All swap fees buy back and burn $GRADIX once a
-          day. Wallets holding at least 1,000,000 $GRADIX pay no fee.
+          A completed swap costs 1 USDC per side. All swap fees buy back and burn $TABULINE once a
+          day. Wallets holding at least 1,000,000 $TABULINE pay no fee.
         </p>
       </section>
 
@@ -166,7 +166,7 @@ export default function DocsPage() {
                 <td>Treasury USDC account (set at deploy)</td>
               </tr>
               <tr>
-                <td>Any side holding ≥ 1,000,000 $GRADIX</td>
+                <td>Any side holding ≥ 1,000,000 $TABULINE</td>
                 <td>Bidder checked at make, owner checked at accept</td>
                 <td className="tx-num">0 USDC</td>
                 <td>—</td>
@@ -175,11 +175,11 @@ export default function DocsPage() {
                 <td>Treasury</td>
                 <td>Once a day</td>
                 <td className="tx-num">100% of swap fees</td>
-                <td>Market buy of $GRADIX, then burned (buyback wallet set at deploy)</td>
+                <td>Market buy of $TABULINE, then burned (buyback wallet set at deploy)</td>
               </tr>
               <tr>
-                <td>$GRADIX traders on Pump.fun</td>
-                <td>On every $GRADIX trade, at Pump.fun&apos;s creator-fee rate</td>
+                <td>$TABULINE traders on Pump.fun</td>
+                <td>On every $TABULINE trade, at Pump.fun&apos;s creator-fee rate</td>
                 <td className="tx-num">Pump.fun rate</td>
                 <td>Project wallet, for development (set at deploy)</td>
               </tr>
@@ -291,7 +291,7 @@ export default function DocsPage() {
             </p>
             <p>
               Sets the fee (capped at 10 USDC per side), the treasury, the collection, the
-              $GRADIX waiver and the pause flag. Does not change open offers. Pause blocks new
+              $TABULINE waiver and the pause flag. Does not change open offers. Pause blocks new
               offers only.
             </p>
           </li>
@@ -325,11 +325,11 @@ export default function DocsPage() {
             rule set could block new offers or transfers.
           </li>
           <li>
-            $GRADIX is a token on a bonding curve and can lose all its value. Holding it only
+            $TABULINE is a token on a bonding curve and can lose all its value. Holding it only
             removes your swap fee.
           </li>
           <li>
-            Gradix is not affiliated with Collector Crypt or The Pokémon Company. Nothing
+            Tabuline is not affiliated with Collector Crypt or The Pokémon Company. Nothing
             here is financial advice.
           </li>
         </ul>
@@ -339,7 +339,7 @@ export default function DocsPage() {
         <h2>FAQ</h2>
         <dl className="tx-doc-faq">
           <div>
-            <dt>Where does the money for the $GRADIX buyback come from?</dt>
+            <dt>Where does the money for the $TABULINE buyback come from?</dt>
             <dd>
               Only from swap fees: 1 USDC per side on each completed swap. There are no
               emissions and no outside top-ups. If nobody swaps, nothing is bought. Cancelled
@@ -349,7 +349,7 @@ export default function DocsPage() {
           <div>
             <dt>Who can change the rules after launch?</dt>
             <dd>
-              An admin key sets the fee, the treasury account and the $GRADIX waiver, and can
+              An admin key sets the fee, the treasury account and the $TABULINE waiver, and can
               pause new offers. The program caps the fee at 10 USDC per side, and an open offer
               keeps the fee it was made with. The admin key cannot move escrowed cards or USDC,
               and a pause never blocks cancel or accept.
@@ -370,13 +370,13 @@ export default function DocsPage() {
               values shown are Collector Crypt&apos;s insured value, an estimate, not a price
               anyone will pay. An accepted swap is final. Collector Crypt is a third party and
               could change its collection or transfer rules, which could block new offers.
-              $GRADIX can lose all its value.
+              $TABULINE can lose all its value.
             </dd>
           </div>
           <div>
             <dt>Is there a presale, team allocation or airdrop?</dt>
             <dd>
-              No presale, no team allocation, no airdrop. $GRADIX launches on Pump.fun with the
+              No presale, no team allocation, no airdrop. $TABULINE launches on Pump.fun with the
               standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its
               transaction.
             </dd>
@@ -408,9 +408,9 @@ export default function DocsPage() {
           <div>
             <dt>How do I skip the 1 USDC fee?</dt>
             <dd>
-              Hold at least 1,000,000 $GRADIX in the wallet that signs. The bidder is checked
+              Hold at least 1,000,000 $TABULINE in the wallet that signs. The bidder is checked
               when the offer is made, the owner when they accept. The waiver turns on once
-              $GRADIX exists; until then every side pays 1 USDC.
+              $TABULINE exists; until then every side pays 1 USDC.
             </dd>
           </div>
         </dl>
