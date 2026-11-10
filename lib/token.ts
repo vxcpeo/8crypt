@@ -2,7 +2,7 @@ import { createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
-export const SESSION_COOKIE = 'tabuline_session';
+export const SESSION_COOKIE = 'gemmora_session';
 export const SESSION_TTL_SECONDS = 60 * 60 * 24 * 7;
 
 let cachedSecret: string | null = null;

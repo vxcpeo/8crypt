@@ -7,9 +7,9 @@ import { shortAddress } from '@/lib/format';
 import type { Card, Offer } from '@/lib/types';
 import { previewVault } from '@/lib/vault';
 import { SignInButton, useAuth } from './auth';
+import { CommandLine, Console, IndexPane, StatusBar, StatusFoot, Work } from './Console';
 import { OfferModal } from './OfferModal';
 import { OfferRow } from './OfferRow';
-import { BrandBar, IndexNav, SplitLayout } from './Tidal';
 
 type Tab = 'browse' | 'my-cards' | 'received' | 'sent';
 
@@ -30,27 +30,27 @@ function CardCell({
   onSelect: (card: Card) => void;
 }) {
   return (
-    <div className="tx-card">
-      <button type="button" className="tx-card-main" onClick={() => onSelect(card)}>
-        <span className="tx-card-index" aria-hidden="true">
-          {String(index + 1).padStart(2, '0')}
-        </span>
-        <span className="tx-card-thumb">
+    <li className="gx-cardrow">
+      <span className="gx-row-num" aria-hidden="true">
+        {String(index + 1).padStart(2, '0')}
+      </span>
+      <button type="button" className="gx-cardrow-main" onClick={() => onSelect(card)}>
+        <span className="gx-thumb">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img alt={card.name} loading="lazy" src={card.image} />
         </span>
-        <span className="tx-card-copy">
-          <span className="tx-card-name">{card.name}</span>
-          <span className="tx-card-meta">
+        <span className="gx-cardrow-copy">
+          <span className="gx-cardrow-name">{card.name}</span>
+          <span className="gx-cardrow-meta">
             <span>{card.grade}</span>
             <span>${card.insuredValue.toLocaleString('en-US')}</span>
           </span>
         </span>
       </button>
-      <Link className="tx-card-link" href={`/card/${card.mint}`}>
+      <Link className="gx-cardrow-link" href={`/card/${card.mint}`}>
         Details &amp; offers
       </Link>
-    </div>
+    </li>
   );
 }
 
@@ -167,31 +167,40 @@ export function AppBrowser() {
   };
 
   return (
-    <SplitLayout
-      variant="product"
-      narrative={
-        <>
-          <BrandBar label="Home">
-            <SignInButton className="tx-btn tx-btn--solid tx-btn--sm" />
-          </BrandBar>
-          <IndexNav variant="product" active="/app" />
-          <div className="tx-thesis">
-            <p className="tx-eyebrow">Collector Crypt · Solana</p>
-            <h1 className="tx-display tx-display--doc">Swap cards.</h1>
-            <p className="tx-lede">
-              Find the card you want, offer one of yours, add or ask for USDC. One signature,
-              settled on-chain.
-            </p>
-            <SignInButton className="tx-btn tx-btn--solid tx-btn--sm" />
-          </div>
-          <div className="tx-tabs" role="tablist" aria-label="Swap views">
+    <Console>
+      <StatusBar
+        variant="product"
+        active="/app"
+        label="Home"
+        action={<SignInButton className="gx-btn gx-btn--primary gx-btn--xs" />}
+      />
+      <CommandLine
+        label={
+          <>
+            <span className="gx-dot" aria-hidden="true" />
+            Collector Crypt · Solana
+          </>
+        }
+        title={<>Swap cards.</>}
+        lede={
+          <>
+            Find the card you want, offer one of yours, add or ask for USDC. One signature,
+            settled on-chain.
+          </>
+        }
+        actions={<SignInButton className="gx-btn gx-btn--primary gx-btn--sm" />}
+      />
+
+      <Work layout="two">
+        <IndexPane>
+          <div className="gx-views" role="tablist" aria-label="Swap views">
             {TABS.map((item) => (
               <button
                 key={item.id}
                 type="button"
                 role="tab"
                 aria-selected={tab === item.id}
-                className={`tx-tab${tab === item.id ? ' tx-tab--active' : ''}`}
+                className={`gx-view${tab === item.id ? ' gx-view--active' : ''}`}
                 onClick={() => setTab(item.id)}
               >
                 {item.label}
@@ -202,170 +211,207 @@ export function AppBrowser() {
               </button>
             ))}
           </div>
-        </>
-      }
-    >
-      {tab === 'browse' ? (
-        <section className="tx-band tx-band--first">
-          <form
-            className="tx-search"
-            onSubmit={(event) => {
-              event.preventDefault();
-              setQuery(searchInput);
-            }}
-          >
-            <input
-              className="tx-input"
-              aria-label="Search cards"
-              placeholder="Search Charizard, PSA 10, Base Set… or paste a card address"
-              value={searchInput}
-              onChange={(event) => {
-                setSearchInput(event.target.value);
-                setQuery(event.target.value);
-              }}
-            />
-            <button className="tx-btn tx-btn--ghost tx-btn--sm" type="submit">
-              Search
-            </button>
-          </form>
-          <p className="tx-hint">Pick the card you want, then offer one of yours for it.</p>
-          <div className="tx-catalog">
-            {filtered.map((card, index) => (
-              <CardCell key={card.mint} card={card} index={index} onSelect={setSelected} />
-            ))}
-          </div>
-          {!filtered.length ? (
-            <div className="tx-empty">
-              <h3>No cards match that search.</h3>
-              <p>Try a card name, a grade such as PSA 10, a set, or clear the search.</p>
-              <button
-                className="tx-btn tx-btn--ghost tx-btn--sm"
-                type="button"
-                onClick={() => {
-                  setSearchInput('');
-                  setQuery('');
+        </IndexPane>
+
+        <main className="gx-pane gx-pane--data" id="content">
+          {tab === 'browse' ? (
+            <section>
+              <form
+                className="gx-search"
+                onSubmit={(event) => {
+                  event.preventDefault();
+                  setQuery(searchInput);
                 }}
               >
-                Clear search
-              </button>
-            </div>
-          ) : null}
-        </section>
-      ) : null}
-
-      {tab === 'my-cards' ? (
-        <section className="tx-band tx-band--first">
-          {!address ? (
-            <div className="tx-empty">
-              <h3>Sign in to load your cards.</h3>
-              <p>
-                Your Collector Crypt cards are read from the wallet you sign with. No account, no
-                email.
-              </p>
-              <button className="tx-btn tx-btn--solid tx-btn--sm" type="button" onClick={openSignIn}>
-                Sign in with a wallet
-              </button>
-            </div>
-          ) : (
-            <>
-              <p className="tx-tab-note">
-                {shortAddress(address)} · {vault.length} cards in your wallet · ready to offer
-              </p>
-              <div className="tx-catalog">
-                {vault.map((card, index) => (
+                <input
+                  className="gx-input"
+                  aria-label="Search cards"
+                  placeholder="Search Charizard, PSA 10, Base Set… or paste a card address"
+                  value={searchInput}
+                  onChange={(event) => {
+                    setSearchInput(event.target.value);
+                    setQuery(event.target.value);
+                  }}
+                />
+                <button className="gx-btn gx-btn--ghost gx-btn--sm" type="submit">
+                  Search
+                </button>
+              </form>
+              <p className="gx-hint">Pick the card you want, then offer one of yours for it.</p>
+              <ul className="gx-catalog">
+                {filtered.map((card, index) => (
                   <CardCell key={card.mint} card={card} index={index} onSelect={setSelected} />
                 ))}
-              </div>
-            </>
-          )}
-        </section>
-      ) : null}
+              </ul>
+              {!filtered.length ? (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>No cards match that search.</h3>
+                    <p>Try a card name, a grade such as PSA 10, a set, or clear the search.</p>
+                    <button
+                      className="gx-btn gx-btn--ghost gx-btn--sm"
+                      type="button"
+                      onClick={() => {
+                        setSearchInput('');
+                        setQuery('');
+                      }}
+                    >
+                      Clear search
+                    </button>
+                  </div>
+                </div>
+              ) : null}
+            </section>
+          ) : null}
 
-      {tab === 'received' ? (
-        <section className="tx-band tx-band--first">
-          {!address ? (
-            <div className="tx-empty">
-              <h3>Sign in to see offers for your cards.</h3>
-              <p>Offers addressed to any card in your wallet land here.</p>
-              <button className="tx-btn tx-btn--solid tx-btn--sm" type="button" onClick={openSignIn}>
-                Sign in
-              </button>
-            </div>
-          ) : received.length ? (
-            <div className="tx-offer-list">
-              {received.map((offer) => (
-                <OfferRow
-                  key={offer.id}
-                  offer={offer}
-                  mode="received"
-                  address={address}
-                  busy={busyId === offer.id}
-                  onAccept={handleAccept}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="tx-empty">
-              <h3>No offers for your cards yet.</h3>
-              <p>
-                When a collector wants one of your cards they will lock their card and USDC in
-                escrow. You will see the offer here.
-              </p>
-              <Link className="tx-btn tx-btn--ghost tx-btn--sm" href="/offers">
-                Browse open offers
-              </Link>
-            </div>
-          )}
-        </section>
-      ) : null}
+          {tab === 'my-cards' ? (
+            <section>
+              {!address ? (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>Sign in to load your cards.</h3>
+                    <p>
+                      Your Collector Crypt cards are read from the wallet you sign with. No
+                      account, no email.
+                    </p>
+                    <button
+                      className="gx-btn gx-btn--primary gx-btn--sm"
+                      type="button"
+                      onClick={openSignIn}
+                    >
+                      Sign in with a wallet
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <p className="gx-tabnote">
+                    {shortAddress(address)} · {vault.length} cards in your wallet · ready to offer
+                  </p>
+                  <ul className="gx-catalog">
+                    {vault.map((card, index) => (
+                      <CardCell key={card.mint} card={card} index={index} onSelect={setSelected} />
+                    ))}
+                  </ul>
+                </>
+              )}
+            </section>
+          ) : null}
 
-      {tab === 'sent' ? (
-        <section className="tx-band tx-band--first">
-          {!address ? (
-            <div className="tx-empty">
-              <h3>Sign in to see the offers you sent.</h3>
-              <p>Everything you lock in escrow stays visible here until it settles or is cancelled.</p>
-              <button className="tx-btn tx-btn--solid tx-btn--sm" type="button" onClick={openSignIn}>
-                Sign in
-              </button>
-            </div>
-          ) : sent.length ? (
-            <div className="tx-offer-list">
-              {sent.map((offer) => (
-                <OfferRow
-                  key={offer.id}
-                  offer={offer}
-                  mode="sent"
-                  address={address}
-                  busy={busyId === offer.id}
-                  onCancel={handleCancel}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="tx-empty">
-              <h3>You have not sent an offer yet.</h3>
-              <p>Pick a card in Browse, choose one of yours and lock the offer.</p>
-              <button
-                className="tx-btn tx-btn--ghost tx-btn--sm"
-                type="button"
-                onClick={() => setTab('browse')}
-              >
-                Browse cards
-              </button>
-            </div>
-          )}
-        </section>
-      ) : null}
+          {tab === 'received' ? (
+            <section>
+              {!address ? (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>Sign in to see offers for your cards.</h3>
+                    <p>Offers addressed to any card in your wallet land here.</p>
+                    <button
+                      className="gx-btn gx-btn--primary gx-btn--sm"
+                      type="button"
+                      onClick={openSignIn}
+                    >
+                      Sign in
+                    </button>
+                  </div>
+                </div>
+              ) : received.length ? (
+                <div className="gx-offerlist">
+                  {received.map((offer) => (
+                    <OfferRow
+                      key={offer.id}
+                      offer={offer}
+                      mode="received"
+                      address={address}
+                      busy={busyId === offer.id}
+                      onAccept={handleAccept}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>No offers for your cards yet.</h3>
+                    <p>
+                      When a collector wants one of your cards they will lock their card and USDC
+                      in escrow. You will see the offer here.
+                    </p>
+                    <Link className="gx-btn gx-btn--ghost gx-btn--sm" href="/offers">
+                      Browse open offers
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </section>
+          ) : null}
 
-      <OfferModal card={selected} onClose={() => setSelected(null)} onCreated={handleCreated} />
+          {tab === 'sent' ? (
+            <section>
+              {!address ? (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>Sign in to see the offers you sent.</h3>
+                    <p>
+                      Everything you lock in escrow stays visible here until it settles or is
+                      cancelled.
+                    </p>
+                    <button
+                      className="gx-btn gx-btn--primary gx-btn--sm"
+                      type="button"
+                      onClick={openSignIn}
+                    >
+                      Sign in
+                    </button>
+                  </div>
+                </div>
+              ) : sent.length ? (
+                <div className="gx-offerlist">
+                  {sent.map((offer) => (
+                    <OfferRow
+                      key={offer.id}
+                      offer={offer}
+                      mode="sent"
+                      address={address}
+                      busy={busyId === offer.id}
+                      onCancel={handleCancel}
+                    />
+                  ))}
+                </div>
+              ) : (
+                <div className="gx-empty">
+                  <span className="gx-empty-art" aria-hidden="true" />
+                  <div>
+                    <h3>You have not sent an offer yet.</h3>
+                    <p>Pick a card in Browse, choose one of yours and lock the offer.</p>
+                    <button
+                      className="gx-btn gx-btn--ghost gx-btn--sm"
+                      type="button"
+                      onClick={() => setTab('browse')}
+                    >
+                      Browse cards
+                    </button>
+                  </div>
+                </div>
+              )}
+            </section>
+          ) : null}
 
-      {toast ? (
-        <div className={`tx-toast${toast.error ? ' tx-toast--error' : ''}`} role="status">
-          <span className="tx-dot" />
-          {toast.text}
-        </div>
-      ) : null}
-    </SplitLayout>
+          <OfferModal card={selected} onClose={() => setSelected(null)} onCreated={handleCreated} />
+
+          {toast ? (
+            <div className={`gx-toast${toast.error ? ' gx-toast--error' : ''}`} role="status">
+              <span className="gx-dot" aria-hidden="true" />
+              {toast.text}
+            </div>
+          ) : null}
+        </main>
+      </Work>
+
+      <StatusFoot />
+    </Console>
   );
 }

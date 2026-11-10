@@ -185,19 +185,31 @@ function extractRoutes(files) {
 }
 
 function detectArchetype(sources, cssTexts) {
-  const all = [...sources.values()].join('\n').toLowerCase();
+  const all = [...sources.values()].join('\n');
+  const lower = all.toLowerCase();
   const css = cssTexts.join('\n').toLowerCase();
   const split = /tx-aside/.test(all) && /position:\s*sticky/.test(css) && /tx-shell/.test(all);
+  // Console skeleton: a sticky status bar + hairline pane grid + mono chrome.
+  const consoleShell =
+    /gx-console/.test(all)
+    && /gx-status/.test(all)
+    && /gx-pane/.test(all)
+    && /grid-template-columns:\s*220px/.test(css);
   const traits = {
     split,
+    statusbar: /gx-status/.test(all),
+    console: /gx-console/.test(all),
+    panes: /gx-pane/.test(all),
     sticky: /position:\s*sticky/.test(css),
     sidebar: split,
-    hero: /\bhero\b|\bplate\b|\btx-display\b/.test(all),
-    cards: /\bcard\b|\btile\b|\bpanel\b/.test(all),
-    ledger: /tx-index|tx-step|tx-band/.test(all),
+    hero: /\bhero\b|\bplate\b|\bgx-title\b/.test(lower),
+    cards: /\bcard\b|\btile\b|\bpanel\b/.test(lower),
+    ledger: /gx-band|gx-table|gx-spec/.test(all),
     table: /<table\b/.test(all),
     grid: /display\s*:\s*grid|grid-template/.test(css),
+    monoChrome: /--gx-mono/.test(all) && /letter-spacing:\s*0\.1em/.test(css),
   };
+  if (consoleShell) return { id: 'terminal-console', family: 'linear', traits };
   if (split) return { id: 'split-stage', family: 'spatial', traits };
   return { id: 'topnav-marketing', family: 'marketing', traits };
 }

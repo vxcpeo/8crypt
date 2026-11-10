@@ -212,10 +212,20 @@ async function prepareServer({ projectRoot, outDir, port, externalUrl, build }) 
   if (build) await buildProject(projectRoot, outDir);
   const pkg = await readPackage(projectRoot);
   const vite = path.join(projectRoot, 'node_modules', 'vite', 'bin', 'vite.js');
+  const nextBin = path.join(projectRoot, 'node_modules', 'next', 'dist', 'bin', 'next');
   const chosenPort = await findFreePort(port);
   const logPath = path.join(outDir, 'logs', 'server.log');
   let child;
-  if (await exists(vite)) {
+  if (await exists(nextBin)) {
+    // Next.js: `next start` serves the production build on an explicit port.
+    const fd = await fs.open(logPath, 'w');
+    child = spawn(process.execPath, [nextBin, 'start', '-p', String(chosenPort), '-H', '127.0.0.1'], {
+      cwd: projectRoot,
+      stdio: ['ignore', fd.fd, fd.fd],
+      windowsHide: true,
+      env: { ...process.env, NODE_ENV: 'production' },
+    });
+  } else if (await exists(vite)) {
     child = spawn(process.execPath, [vite, 'preview', '--host', '127.0.0.1', '--port', String(chosenPort), '--strictPort'], {
       cwd: projectRoot,
       stdio: ['ignore', 'ignore', 'ignore'],

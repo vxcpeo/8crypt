@@ -29,8 +29,8 @@ export function OfferRow({
   const canCancel = Boolean(address) && isMaker && offer.status === 'open';
 
   return (
-    <article className="tx-offer">
-      <Link href={`/card/${offered.mint}`} className="tx-offer-side">
+    <article className="gx-offer">
+      <Link href={`/card/${offered.mint}`} className="gx-offerside">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={offered.image} alt={offered.name} />
         <div>
@@ -39,10 +39,10 @@ export function OfferRow({
           <small>${offered.insuredValue.toLocaleString('en-US')}</small>
         </div>
       </Link>
-      <div className="tx-offer-swap" aria-hidden="true">
+      <div className="gx-offerswap" aria-hidden="true">
         ⇄
       </div>
-      <Link href={`/card/${wanted.mint}`} className="tx-offer-side tx-offer-side--right">
+      <Link href={`/card/${wanted.mint}`} className="gx-offerside">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={wanted.image} alt={wanted.name} />
         <div>
@@ -52,9 +52,9 @@ export function OfferRow({
         </div>
       </Link>
 
-      <div className="tx-offer-bottom">
-        <div className="tx-offer-meta">
-          <span className={`tx-pill${offer.status === 'open' ? '' : ' tx-pill--muted'}`}>
+      <div className="gx-offerbottom">
+        <div className="gx-offermeta">
+          <span className={`gx-pill${offer.status === 'open' ? '' : ' gx-pill--muted'}`}>
             {offer.status === 'open' ? 'Open' : offer.status === 'accepted' ? 'Settled' : 'Cancelled'}
           </span>
           <span>by {shortAddress(offer.maker)}</span>
@@ -81,13 +81,13 @@ export function OfferRow({
             </>
           ) : null}
         </div>
-        <div className="tx-offer-actions">
+        <div className="gx-offeracts">
           {offer.status === 'open' ? (
             <>
               {canAccept && onAccept ? (
                 <button
                   type="button"
-                  className="tx-mini tx-mini--solid"
+                  className="gx-mini gx-mini--solid"
                   disabled={busy}
                   onClick={() => onAccept(offer)}
                 >
@@ -97,19 +97,17 @@ export function OfferRow({
               {canCancel && onCancel ? (
                 <button
                   type="button"
-                  className="tx-mini"
+                  className="gx-mini"
                   disabled={busy}
                   onClick={() => onCancel(offer)}
                 >
                   {busy ? 'Cancelling…' : 'Cancel offer'}
                 </button>
               ) : null}
-              {!address ? (
-                <span className="tx-offer-meta">Connect a wallet to answer</span>
-              ) : null}
+              {!address ? <span className="gx-offermeta">Connect a wallet to answer</span> : null}
             </>
           ) : (
-            <Link href={`/card/${wanted.mint}`} className="tx-mini">
+            <Link href={`/card/${wanted.mint}`} className="gx-mini">
               View card
             </Link>
           )}

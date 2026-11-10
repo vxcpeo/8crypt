@@ -1,13 +1,17 @@
-import Link from 'next/link';
 import type { ReactNode } from 'react';
 
-export function Brand({ size = 30 }: { size?: number }) {
+/**
+ * Content component: the brand lockup. The wordmark is deliberately split into
+ * two text nodes (`gemmora` + `.xyz`) so the product name and the domain stay
+ * separate tokens, exactly as in the content contract.
+ */
+export function Brand({ size = 24 }: { size?: number }) {
   return (
-    <span className="tx-brandmark">
+    <span className="gx-brand">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/mark.png" alt="" width={size} height={size} />
-      <span className="tx-wordmark">
-        tabuline<b>.top</b>
+      <img className="gx-brandmark" src="/mark.png" alt="" width={size} height={size} />
+      <span className="gx-wordmark">
+        gemmora<b>.xyz</b>
       </span>
     </span>
   );
@@ -15,18 +19,4 @@ export function Brand({ size = 30 }: { size?: number }) {
 
 export function Arrow({ children = '→' }: { children?: ReactNode }) {
   return <span aria-hidden="true">{children}</span>;
-}
-
-export function BrandLink({
-  label = 'Tabuline home',
-  size = 30,
-}: {
-  label?: string;
-  size?: number;
-}) {
-  return (
-    <Link href="/" className="tx-brandlink" aria-label={label}>
-      <Brand size={size} />
-    </Link>
-  );
 }

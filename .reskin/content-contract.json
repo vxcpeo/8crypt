@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "meta": {
-    "projectName": "gradix-website",
+    "projectName": "gemmora-website",
     "title": "Gradix — swap graded Pokémon cards, no selling first",
     "lang": "en"
   },
@@ -70,11 +70,15 @@
       "count": 1
     },
     {
+      "value": "Launch app",
+      "count": 3
+    },
+    {
       "value": "Docs",
       "count": 3
     },
     {
-      "value": "Gradix documentation",
+      "value": "Gemmora documentation",
       "count": 1
     },
     {
@@ -102,11 +106,11 @@
       "count": 2
     },
     {
-      "value": "Gradix lets Collector Crypt holders swap their tokenized graded Pokémon cards directly, without selling first. Each card is a Metaplex programmable NFT on Solana backed by a graded card in Collector Crypt's vault.",
+      "value": "Gemmora lets Collector Crypt holders swap their tokenized graded Pokémon cards directly, without selling first. Each card is a Metaplex programmable NFT on Solana backed by a graded card in Collector Crypt's vault.",
       "count": 1
     },
     {
-      "value": "A completed swap costs 1 USDC per side. All swap fees buy back and burn $GRADIX once a day. Wallets holding at least 1,000,000 $GRADIX pay no fee.",
+      "value": "A completed swap costs 1 USDC per side. All swap fees buy back and burn $GEMMORA once a day. Wallets holding at least 1,000,000 $GEMMORA pay no fee.",
       "count": 1
     },
     {
@@ -206,7 +210,7 @@
       "count": 1
     },
     {
-      "value": "Any side holding ≥ 1,000,000 $GRADIX",
+      "value": "Any side holding ≥ 1,000,000 $GEMMORA",
       "count": 1
     },
     {
@@ -226,11 +230,11 @@
       "count": 3
     },
     {
-      "value": "$GRADIX traders on Pump.fun",
+      "value": "$GEMMORA traders on Pump.fun",
       "count": 1
     },
     {
-      "value": "On every $GRADIX trade, at Pump.fun's creator-fee rate",
+      "value": "On every $GEMMORA trade, at Pump.fun's creator-fee rate",
       "count": 1
     },
     {
@@ -362,15 +366,15 @@
       "count": 1
     },
     {
-      "value": "$GRADIX is a token on a bonding curve and can lose all its value. Holding it only removes your swap fee.",
+      "value": "$GEMMORA is a token on a bonding curve and can lose all its value. Holding it only removes your swap fee.",
       "count": 1
     },
     {
-      "value": "Gradix is not affiliated with Collector Crypt or The Pokémon Company. Nothing here is financial advice.",
+      "value": "Gemmora is not affiliated with Collector Crypt or The Pokémon Company. Nothing here is financial advice.",
       "count": 1
     },
     {
-      "value": "Where does the money for the $GRADIX buyback come from?",
+      "value": "Where does the money for the $GEMMORA buyback come from?",
       "count": 2
     },
     {
@@ -382,7 +386,7 @@
       "count": 2
     },
     {
-      "value": "An admin key sets the fee, the treasury account and the $GRADIX waiver, and can pause new offers. The program caps the fee at 10 USDC per side, and an open offer keeps the fee it was made with. The admin key cannot move escrowed cards or USDC, and a pause never blocks cancel or accept.",
+      "value": "An admin key sets the fee, the treasury account and the $GEMMORA waiver, and can pause new offers. The program caps the fee at 10 USDC per side, and an open offer keeps the fee it was made with. The admin key cannot move escrowed cards or USDC, and a pause never blocks cancel or accept.",
       "count": 2
     },
     {
@@ -398,7 +402,7 @@
       "count": 2
     },
     {
-      "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt's insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GRADIX can lose all its value.",
+      "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt's insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GEMMORA can lose all its value.",
       "count": 1
     },
     {
@@ -406,7 +410,7 @@
       "count": 2
     },
     {
-      "value": "No presale, no team allocation, no airdrop. $GRADIX launches on Pump.fun with the standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its transaction.",
+      "value": "No presale, no team allocation, no airdrop. $GEMMORA launches on Pump.fun with the standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its transaction.",
       "count": 2
     },
     {
@@ -430,15 +434,15 @@
       "count": 2
     },
     {
-      "value": "How Gradix swaps graded Collector Crypt cards on Solana: offers, escrow, fees, program instructions and risks.",
+      "value": "How Gemmora swaps graded Collector Crypt cards on Solana: offers, escrow, fees, program instructions and risks.",
       "count": 1
     },
     {
-      "value": "Gradix lets Collector Crypt holders swap tokenized graded Pokémon cards directly on Solana: card for card, with optional USDC to balance, settled in one atomic transaction.",
+      "value": "Gemmora lets Collector Crypt holders swap tokenized graded Pokémon cards directly on Solana: card for card, with optional USDC to balance, settled in one atomic transaction.",
       "count": 2
     },
     {
-      "value": "Gradix — swap graded Pokémon cards, no selling first",
+      "value": "Gemmora — swap graded Pokémon cards, no selling first",
       "count": 3
     },
     {
@@ -474,7 +478,7 @@
       "count": 2
     },
     {
-      "value": "Live offers on Gradix: cards locked in escrow on Solana, waiting for the holder of the card they ask for.",
+      "value": "Live offers on Gemmora: cards locked in escrow on Solana, waiting for the holder of the card they ask for.",
       "count": 1
     },
     {
@@ -594,7 +598,7 @@
       "count": 1
     },
     {
-      "value": "To $GRADIX buyback",
+      "value": "To $GEMMORA buyback",
       "count": 1
     },
     {
@@ -626,11 +630,11 @@
       "count": 1
     },
     {
-      "value": "buys $GRADIX.",
+      "value": "buys $GEMMORA.",
       "count": 1
     },
     {
-      "value": "A completed swap costs 1 USDC per side. All of it goes to the treasury, and once a day the treasury buys $GRADIX on the market and burns it. Cancelled and expired offers pay nothing.",
+      "value": "A completed swap costs 1 USDC per side. All of it goes to the treasury, and once a day the treasury buys $GEMMORA on the market and burns it. Cancelled and expired offers pay nothing.",
       "count": 1
     },
     {
@@ -650,11 +654,11 @@
       "count": 1
     },
     {
-      "value": "$GRADIX, daily",
+      "value": "$GEMMORA, daily",
       "count": 1
     },
     {
-      "value": "Hold 1,000,000 $GRADIX.",
+      "value": "Hold 1,000,000 $GEMMORA.",
       "count": 1
     },
     {
@@ -726,15 +730,11 @@
       "count": 1
     },
     {
-      "value": "Collector Crypt made cards tradable. Gradix makes them swappable.",
+      "value": "Collector Crypt made cards tradable. Gemmora makes them swappable.",
       "count": 1
     },
     {
       "value": "The card you want is in",
-      "count": 1
-    },
-    {
-      "value": "Launch app",
       "count": 1
     },
     {
@@ -794,7 +794,7 @@
       "count": 1
     },
     {
-      "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt’s insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GRADIX can lose all its value.",
+      "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt’s insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GEMMORA can lose all its value.",
       "count": 1
     },
     {
@@ -894,7 +894,7 @@
       "count": 4
     },
     {
-      "value": "gradix",
+      "value": "gemmora",
       "count": 2
     },
     {
@@ -1071,14 +1071,6 @@
     },
     {
       "value": "swaps.",
-      "count": 1
-    },
-    {
-      "value": "$GRADIX",
-      "count": 1
-    },
-    {
-      "value": "CA soon",
       "count": 1
     },
     {

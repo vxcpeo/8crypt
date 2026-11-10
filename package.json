@@ -1,8 +1,8 @@
 {
-  "name": "tabuline-website",
+  "name": "gemmora-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Tabuline — card-for-card graded collectible swaps on Solana, with wallet-native on-chain authentication.",
+  "description": "Gemmora — card-for-card graded collectible swaps on Solana, with wallet-native on-chain authentication.",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",

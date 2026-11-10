@@ -1,15 +1,15 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/logout/route": "app/api/auth/logout/route.js",
-  "/api/auth/session/route": "app/api/auth/session/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/nonce/route": "app/api/auth/nonce/route.js",
   "/api/auth/verify/route": "app/api/auth/verify/route.js",
+  "/api/auth/session/route": "app/api/auth/session/route.js",
   "/api/offers/[id]/accept/route": "app/api/offers/[id]/accept/route.js",
   "/api/offers/[id]/cancel/route": "app/api/offers/[id]/cancel/route.js",
   "/api/offers/route": "app/api/offers/route.js",
   "/app/page": "app/app/page.js",
-  "/offers/page": "app/offers/page.js",
   "/card/[mint]/page": "app/card/[mint]/page.js",
+  "/offers/page": "app/offers/page.js",
   "/docs/page": "app/docs/page.js",
   "/page": "app/page.js"
 }

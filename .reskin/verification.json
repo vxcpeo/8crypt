@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T19:26:52.484Z",
+  "generatedAt": "2026-11-09T18:13:12.764Z",
   "project": {
     "root": "E:/workspace/chuangye/solana/8crypt/website",
-    "name": "gradix-website",
-    "baseUrl": "http://127.0.0.1:3000/"
+    "name": "gemmora-website",
+    "baseUrl": "http://127.0.0.1:4317/"
   },
   "passed": true,
   "thresholds": {
@@ -20,23 +20,11 @@
       "passed": true,
       "issues": [],
       "warnings": [],
-      "hash": "82f8ea197f7bc849e28dc85233262000d6123136aa6e2ee755dec74bc6ac39eb"
+      "hash": "092563533e7e6c035b83fa5dd9232e7819ebc04661b6e8cf5bf77b2c54341fff"
     },
     "skeleton": {
       "passed": true,
       "original": {
-        "id": "topnav-marketing",
-        "family": "marketing",
-        "traits": {
-          "topbar": true,
-          "hero": true,
-          "cards": true,
-          "sidebar": true,
-          "table": true,
-          "grid": true
-        }
-      },
-      "current": {
         "id": "split-stage",
         "family": "spatial",
         "traits": {
@@ -50,10 +38,28 @@
           "grid": true
         }
       },
+      "current": {
+        "id": "terminal-console",
+        "family": "linear",
+        "traits": {
+          "split": false,
+          "statusbar": true,
+          "console": true,
+          "panes": true,
+          "sticky": true,
+          "sidebar": false,
+          "hero": true,
+          "cards": true,
+          "ledger": true,
+          "table": true,
+          "grid": true,
+          "monoChrome": true
+        }
+      },
       "accent": {
-        "original": "#e5293f",
-        "current": "#1e7be8",
-        "deltaE": 112.84,
+        "original": "#1e7be8",
+        "current": "#ff3b30",
+        "deltaE": 128.41,
         "min": 30
       }
     },
@@ -64,10 +70,10 @@
         "skipped": false,
         "failures": [],
         "warnings": [
-          "numeric token count changed: 93 -> 98 (dynamic values may differ)"
+          "aria attribute added: aria-label=Footer"
         ],
         "structure": {
-          "fingerprintSimilarity": 0.261,
+          "fingerprintSimilarity": 0.397,
           "landmarkSimilarity": 0.6,
           "classOverlap": 0
         },
@@ -76,12 +82,12 @@
           "extra": [],
           "numeric": {
             "baseline": {
-              "tokens": 31,
-              "total": 93
+              "tokens": 36,
+              "total": 100
             },
             "current": {
               "tokens": 36,
-              "total": 98
+              "total": 100
             }
           }
         },
@@ -105,12 +111,11 @@
         "skipped": false,
         "failures": [],
         "warnings": [
-          "numeric token count changed: 170 -> 221 (dynamic values may differ)",
-          "aria attribute added: aria-label=Search cards"
+          "aria attribute added: aria-label=Status"
         ],
         "structure": {
-          "fingerprintSimilarity": 0.388,
-          "landmarkSimilarity": 0.333,
+          "fingerprintSimilarity": 0.242,
+          "landmarkSimilarity": 0.5,
           "classOverlap": 0
         },
         "content": {
@@ -118,8 +123,8 @@
           "extra": [],
           "numeric": {
             "baseline": {
-              "tokens": 76,
-              "total": 170
+              "tokens": 122,
+              "total": 221
             },
             "current": {
               "tokens": 122,
@@ -147,11 +152,12 @@
         "skipped": false,
         "failures": [],
         "warnings": [
-          "numeric token count changed: 0 -> 6 (dynamic values may differ)"
+          "numeric token count changed: 6 -> 3 (dynamic values may differ)",
+          "aria attribute added: aria-label=Status"
         ],
         "structure": {
-          "fingerprintSimilarity": 0.255,
-          "landmarkSimilarity": 0.667,
+          "fingerprintSimilarity": 0.206,
+          "landmarkSimilarity": 0.5,
           "classOverlap": 0
         },
         "content": {
@@ -159,12 +165,12 @@
           "extra": [],
           "numeric": {
             "baseline": {
-              "tokens": 0,
-              "total": 0
+              "tokens": 3,
+              "total": 6
             },
             "current": {
               "tokens": 3,
-              "total": 6
+              "total": 3
             }
           }
         },
@@ -188,11 +194,12 @@
         "skipped": false,
         "failures": [],
         "warnings": [
-          "numeric token count changed: 44 -> 49 (dynamic values may differ)"
+          "aria attribute changed/removed: aria-label=On this page",
+          "aria attribute added: aria-label=Footer"
         ],
         "structure": {
-          "fingerprintSimilarity": 0.087,
-          "landmarkSimilarity": 0.375,
+          "fingerprintSimilarity": 0.393,
+          "landmarkSimilarity": 0.6,
           "classOverlap": 0
         },
         "content": {
@@ -200,8 +207,8 @@
           "extra": [],
           "numeric": {
             "baseline": {
-              "tokens": 19,
-              "total": 44
+              "tokens": 24,
+              "total": 49
             },
             "current": {
               "tokens": 24,
@@ -241,14 +248,15 @@
   },
   "failures": [],
   "warnings": [
-    "/: numeric token count changed: 93 -> 98 (dynamic values may differ)",
-    "/app: numeric token count changed: 170 -> 221 (dynamic values may differ)",
-    "/app: aria attribute added: aria-label=Search cards",
-    "/offers: numeric token count changed: 0 -> 6 (dynamic values may differ)",
-    "/docs: numeric token count changed: 44 -> 49 (dynamic values may differ)"
+    "/: aria attribute added: aria-label=Footer",
+    "/app: aria attribute added: aria-label=Status",
+    "/offers: numeric token count changed: 6 -> 3 (dynamic values may differ)",
+    "/offers: aria attribute added: aria-label=Status",
+    "/docs: aria attribute changed/removed: aria-label=On this page",
+    "/docs: aria attribute added: aria-label=Footer"
   ],
   "baseline": {
-    "generatedAt": "2026-10-21T19:00:07.194Z",
+    "generatedAt": "2026-11-09T16:48:30.544Z",
     "routes": [
       "/",
       "/app",

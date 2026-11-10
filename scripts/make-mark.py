@@ -1,4 +1,4 @@
-﻿"""Generate the Tabuline app mark, favicon and Apple touch icon.
+"""Generate the Gemmora app mark, favicon and Apple touch icon.
 
 The mark is the product's identity tile: a deep-cobalt rounded square with a
 vertical tide gradient, a white monogram, a single accent dot and three
@@ -87,7 +87,7 @@ def build_master() -> Image.Image:
     draw = ImageDraw.Draw(tile)
     draw.text(
         (size / 2, size * 0.652),
-        "T",
+        "G",
         font=font,
         fill=LETTER,
         anchor="ms",

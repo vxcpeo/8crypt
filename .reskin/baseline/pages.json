@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "baseline",
-  "generatedAt": "2026-10-21T19:00:07.194Z",
-  "baseUrl": "http://127.0.0.1:3000/",
+  "generatedAt": "2026-11-09T16:48:30.544Z",
+  "baseUrl": "http://127.0.0.1:4317/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
     "playwrightSource": "reskin-tools",
@@ -11,17 +11,17 @@
   "pages": {
     "/": {
       "route": "/",
-      "url": "http://127.0.0.1:3000/",
+      "url": "http://127.0.0.1:4317/",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Gradix — swap graded Pokémon cards, no selling first",
+          "title": "Gemmora — swap graded Pokémon cards, no selling first",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4300,
+          "bodyTextLength": 4332,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 47
+          "focusableCount": 53
         },
         "words": [
           {
@@ -37,20 +37,40 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 16
+            "word": "$GEMMORA",
+            "count": 13
           },
           {
             "word": "0",
             "count": 7
           },
           {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
             "word": "1",
-            "count": 7
+            "count": 8
           },
           {
             "word": "1,000,000",
-            "count": 2
+            "count": 3
           },
           {
             "word": "1,000,000,000",
@@ -190,7 +210,7 @@
           },
           {
             "word": "address",
-            "count": 3
+            "count": 1
           },
           {
             "word": "admin",
@@ -254,7 +274,7 @@
           },
           {
             "word": "any",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Any",
@@ -275,10 +295,6 @@
           {
             "word": "app",
             "count": 3
-          },
-          {
-            "word": "appear",
-            "count": 1
           },
           {
             "word": "applies",
@@ -405,10 +421,6 @@
             "count": 2
           },
           {
-            "word": "CA",
-            "count": 3
-          },
-          {
             "word": "can",
             "count": 9
           },
@@ -513,10 +525,6 @@
             "count": 1
           },
           {
-            "word": "contract",
-            "count": 1
-          },
-          {
             "word": "controls",
             "count": 1
           },
@@ -546,7 +554,7 @@
           },
           {
             "word": "day",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Delist",
@@ -654,7 +662,7 @@
           },
           {
             "word": "fee",
-            "count": 8
+            "count": 9
           },
           {
             "word": "Fee",
@@ -689,6 +697,10 @@
             "count": 2
           },
           {
+            "word": "follow",
+            "count": 1
+          },
+          {
             "word": "for",
             "count": 6
           },
@@ -709,6 +721,14 @@
             "count": 17
           },
           {
+            "word": "gemmora",
+            "count": 7
+          },
+          {
+            "word": "Gemmora",
+            "count": 1
+          },
+          {
             "word": "go",
             "count": 5
           },
@@ -722,14 +742,6 @@
           },
           {
             "word": "graded",
-            "count": 1
-          },
-          {
-            "word": "gradix",
-            "count": 3
-          },
-          {
-            "word": "Gradix",
             "count": 1
           },
           {
@@ -750,11 +762,15 @@
           },
           {
             "word": "here",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Hold",
             "count": 2
+          },
+          {
+            "word": "holding",
+            "count": 1
           },
           {
             "word": "How",
@@ -786,7 +802,7 @@
           },
           {
             "word": "is",
-            "count": 19
+            "count": 18
           },
           {
             "word": "Is",
@@ -794,7 +810,7 @@
           },
           {
             "word": "it",
-            "count": 16
+            "count": 15
           },
           {
             "word": "its",
@@ -818,7 +834,7 @@
           },
           {
             "word": "land",
-            "count": 1
+            "count": 2
           },
           {
             "word": "launch",
@@ -826,11 +842,11 @@
           },
           {
             "word": "Launch",
-            "count": 3
+            "count": 4
           },
           {
             "word": "launches",
-            "count": 2
+            "count": 1
           },
           {
             "word": "least",
@@ -978,7 +994,7 @@
           },
           {
             "word": "not",
-            "count": 7
+            "count": 6
           },
           {
             "word": "Not",
@@ -1014,7 +1030,7 @@
           },
           {
             "word": "on",
-            "count": 10
+            "count": 13
           },
           {
             "word": "On",
@@ -1058,14 +1074,6 @@
           },
           {
             "word": "Or",
-            "count": 1
-          },
-          {
-            "word": "other",
-            "count": 1
-          },
-          {
-            "word": "ours",
             "count": 1
           },
           {
@@ -1345,10 +1353,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 3
-          },
-          {
             "word": "standard",
             "count": 1
           },
@@ -1438,7 +1442,7 @@
           },
           {
             "word": "The",
-            "count": 13
+            "count": 12
           },
           {
             "word": "them",
@@ -1541,8 +1545,12 @@
             "count": 1
           },
           {
+            "word": "updates",
+            "count": 1
+          },
+          {
             "word": "USDC",
-            "count": 20
+            "count": 21
           },
           {
             "word": "value",
@@ -1571,6 +1579,10 @@
           {
             "word": "waiver",
             "count": 2
+          },
+          {
+            "word": "waives",
+            "count": 1
           },
           {
             "word": "wallet",
@@ -1626,7 +1638,7 @@
           },
           {
             "word": "will",
-            "count": 3
+            "count": 2
           },
           {
             "word": "with",
@@ -1647,6 +1659,14 @@
           {
             "word": "wrong",
             "count": 2
+          },
+          {
+            "word": "X",
+            "count": 3
+          },
+          {
+            "word": "x.com",
+            "count": 1
           },
           {
             "word": "xyz",
@@ -1735,8 +1755,12 @@
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
+            "key": "aria-label=Gemmora home",
             "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 4
           },
           {
             "key": "aria-label=Primary",
@@ -1745,6 +1769,10 @@
           {
             "key": "aria-label=Two Collector Crypt cards being swapped",
             "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
+            "count": 2
           }
         ],
         "links": [
@@ -1843,6 +1871,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 6
           }
         ],
         "forms": [],
@@ -1850,420 +1882,267 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "_cEqKa_soonChip",
-          "oe3DtG_badge",
-          "oe3DtG_body",
-          "oe3DtG_btnGlass",
-          "oe3DtG_btnRed",
-          "oe3DtG_container",
-          "oe3DtG_ctas",
-          "oe3DtG_faq",
-          "oe3DtG_faqItem",
-          "oe3DtG_faqWrap",
-          "oe3DtG_featureIcon",
-          "oe3DtG_features",
-          "oe3DtG_final",
-          "oe3DtG_finalCard",
-          "oe3DtG_finalCardL",
-          "oe3DtG_finalCardR",
-          "oe3DtG_finalInner",
-          "oe3DtG_finalSlabs",
-          "oe3DtG_flow",
-          "oe3DtG_flowHot",
-          "oe3DtG_flowLine",
-          "oe3DtG_flowNode",
-          "oe3DtG_footer",
-          "oe3DtG_footerBrand",
-          "oe3DtG_footerCols",
-          "oe3DtG_footerInner",
-          "oe3DtG_glass",
-          "oe3DtG_h1",
-          "oe3DtG_h2",
-          "oe3DtG_h2Big",
-          "oe3DtG_hero",
-          "oe3DtG_heroInner",
-          "oe3DtG_heroMeta",
-          "oe3DtG_heroShade",
-          "oe3DtG_how",
-          "oe3DtG_kicker",
-          "oe3DtG_lead",
-          "oe3DtG_legal",
-          "oe3DtG_marquee",
-          "oe3DtG_nav",
-          "oe3DtG_navInner",
-          "oe3DtG_navLinks",
-          "oe3DtG_note",
-          "oe3DtG_secGrid",
-          "oe3DtG_secIcon",
-          "oe3DtG_section",
-          "oe3DtG_showCard",
-          "oe3DtG_showMeta",
-          "oe3DtG_showcase",
-          "oe3DtG_slab",
-          "oe3DtG_slabLeft",
-          "oe3DtG_slabRight",
-          "oe3DtG_split",
-          "oe3DtG_stage",
-          "oe3DtG_stageCaption",
-          "oe3DtG_stageWrap",
-          "oe3DtG_stat",
-          "oe3DtG_stats",
-          "oe3DtG_statsWrap",
-          "oe3DtG_stepIcon",
-          "oe3DtG_stepNum",
-          "oe3DtG_steps",
-          "oe3DtG_swapDot",
-          "oe3DtG_tokenCard",
-          "oe3DtG_tokenHead",
-          "oe3DtG_tokenRows",
-          "oe3DtG_tokenTitle",
-          "oe3DtG_track",
-          "wordmark"
+          "tx-actions",
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-badge",
+          "tx-badge-dot",
+          "tx-band",
+          "tx-band--showcase",
+          "tx-band--stats",
+          "tx-band-head",
+          "tx-band-head--split",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--ghost",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-chip",
+          "tx-chip--x",
+          "tx-chip-arrow",
+          "tx-copy",
+          "tx-display",
+          "tx-display--xl",
+          "tx-eyebrow",
+          "tx-faq",
+          "tx-faq-item",
+          "tx-feature-icon",
+          "tx-feature-label",
+          "tx-features",
+          "tx-final",
+          "tx-final-card",
+          "tx-final-card--l",
+          "tx-final-card--r",
+          "tx-final-inner",
+          "tx-final-slabs",
+          "tx-flow",
+          "tx-flow-line",
+          "tx-flow-node",
+          "tx-flow-node--hot",
+          "tx-footer",
+          "tx-footer-brand",
+          "tx-footer-col",
+          "tx-footer-cols",
+          "tx-footer-grid",
+          "tx-h2",
+          "tx-index",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-index-num",
+          "tx-kicker",
+          "tx-lede",
+          "tx-legal",
+          "tx-main",
+          "tx-metarow",
+          "tx-note",
+          "tx-plate",
+          "tx-plate-caption",
+          "tx-plate-cards",
+          "tx-plate-slab",
+          "tx-plate-slab--a",
+          "tx-plate-slab--b",
+          "tx-plate-swap",
+          "tx-rail",
+          "tx-rail-card",
+          "tx-rail-meta",
+          "tx-rail-track",
+          "tx-secgrid",
+          "tx-secicon",
+          "tx-secitem",
+          "tx-shell",
+          "tx-shell--marketing",
+          "tx-split",
+          "tx-stage",
+          "tx-stat",
+          "tx-stats",
+          "tx-step",
+          "tx-step-copy",
+          "tx-step-icon",
+          "tx-step-num",
+          "tx-steps",
+          "tx-thesis",
+          "tx-token",
+          "tx-token-head",
+          "tx-token-rows",
+          "tx-token-title",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
-          "a@5:0",
-          "a@5:1",
-          "a@6:0",
-          "a@7:0",
+          "a@10:0",
+          "a@10:1",
+          "a@11:0",
           "a@7:1",
-          "a@7:2",
           "a@8:0",
           "a@8:1",
+          "a@8:4+",
           "a@9:0",
+          "a@9:1",
+          "a@9:2",
+          "a@9:3",
+          "aside@4:1",
+          "b@10:0",
           "b@11:0",
-          "b@7:0",
-          "b@8:0",
+          "b@12:0",
           "b@9:0",
-          "circle@10:0",
           "circle@11:0",
-          "code@9:0",
-          "dd@9:0",
-          "details@7:2",
+          "circle@12:0",
+          "code@11:0",
+          "dd@11:0",
+          "details@9:2",
+          "div@10:0",
+          "div@10:2",
+          "div@10:3",
+          "div@3:2",
           "div@4:2",
-          "div@4:3",
-          "div@5:0",
-          "div@5:1",
-          "div@5:2",
           "div@5:3",
-          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
+          "div@7:1",
           "div@7:2",
           "div@7:3",
           "div@7:4+",
-          "div@8:0",
           "div@8:1",
           "div@8:2",
           "div@8:3",
-          "dl@7:4+",
-          "dt@9:0",
-          "em@7:0",
+          "div@8:4+",
+          "div@9:2",
+          "div@9:4+",
+          "dl@9:4+",
+          "dt@11:0",
+          "em@10:0",
           "em@8:0",
-          "footer@3:2",
+          "em@9:0",
+          "footer@5:2",
           "h1@7:2",
-          "h2@6:1",
-          "h2@7:1",
-          "h3@7:2",
-          "h3@8:0",
-          "header@3:1",
-          "i@8:0",
-          "i@9:0",
+          "h2@8:1",
+          "h2@9:1",
+          "h3@10:0",
+          "h3@9:2",
+          "i@11:0",
           "img@10:0",
-          "img@6:0",
-          "img@7:0",
+          "img@11:0",
           "img@8:0",
           "img@9:0",
-          "li@7:4+",
+          "li@8:1",
           "li@8:2",
-          "main@3:4+",
-          "nav@5:3",
-          "nav@5:4+",
-          "ol@6:4+",
-          "p@4:0",
+          "li@8:3",
+          "main@5:4+",
+          "nav@6:1",
+          "ol@7:4+",
+          "p@10:0",
+          "p@10:1",
+          "p@10:2",
           "p@6:0",
           "p@7:0",
+          "p@7:1",
           "p@8:0",
-          "p@8:1",
-          "p@8:2",
+          "p@9:0",
+          "p@9:1",
           "path@10:0",
           "path@11:0",
-          "rect@10:0",
-          "section@4:1",
-          "section@4:2",
-          "small@7:0",
+          "path@12:0",
+          "rect@11:0",
+          "section@6:1",
+          "section@6:2",
+          "small@11:0",
           "small@9:0",
-          "span@10:1",
-          "span@6:2",
-          "span@7:0",
-          "span@7:1",
+          "span@10:0",
+          "span@10:2",
+          "span@11:0",
+          "span@11:1",
           "span@8:0",
-          "span@8:1",
           "span@8:2",
           "span@9:0",
           "span@9:1",
           "span@9:2",
-          "summary@8:1",
+          "summary@10:1",
+          "svg@10:1",
           "svg@10:2",
           "svg@10:3",
+          "svg@11:1",
+          "svg@11:2",
           "svg@9:1",
-          "svg@9:2",
-          "svg@9:3",
           "ul@7:4+"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
-            "width": 1440,
-            "height": 92
+            "width": 547,
+            "height": 900
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 38,
-            "left": 539,
-            "width": 392,
-            "height": 17
+            "top": 130,
+            "left": 43,
+            "width": 460,
+            "height": 211
           },
           {
             "tag": "main",
             "role": "",
-            "top": -40,
-            "left": 0,
-            "width": 1440,
-            "height": 5812
+            "top": -15,
+            "left": 613,
+            "width": 760,
+            "height": 4404
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 5772,
-            "left": 0,
-            "width": 1440,
-            "height": 315
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 5842,
-            "left": 910,
-            "width": 410,
-            "height": 137
+            "top": 4458,
+            "left": 613,
+            "width": 760,
+            "height": 291
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 145
+            "hex": "#081b2b",
+            "count": 296
           },
           {
-            "hex": "#f4efe8",
-            "count": 103
+            "hex": "#0b5fc0",
+            "count": 96
           },
           {
-            "hex": "#f6f2ec",
-            "count": 72
-          },
-          {
-            "hex": "#ff4258",
-            "count": 50
-          },
-          {
-            "hex": "#e5293f",
-            "count": 45
-          },
-          {
-            "hex": "#ff5a6e",
-            "count": 29
+            "hex": "#4e6577",
+            "count": 91
           },
           {
             "hex": "#ffffff",
-            "count": 12
+            "count": 47
           },
           {
-            "hex": "#9898a3",
-            "count": 6
+            "hex": "#5b7082",
+            "count": 20
           },
           {
-            "hex": "#111114",
-            "count": 3
+            "hex": "#d7ebff",
+            "count": 14
           },
           {
-            "hex": "#f4f1ec",
-            "count": 3
-          },
-          {
-            "hex": "#050304",
+            "hex": "#b42318",
             "count": 2
           },
           {
-            "hex": "#060506",
-            "count": 1
+            "hex": "#b7d2e8",
+            "count": 2
           },
           {
-            "hex": "#0a080a",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
+            "hex": "#1e7be8",
             "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "cards in escrow now",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "on Solana",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "Collector Crypt insured value",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "100% of swap fees",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section.oe3DtG_showcase > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "Real slabs, vaulted by Collector Crypt",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#how > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "How it works",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 1",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 2",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 3",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 4",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_container.oe3DtG_split > div > p.oe3DtG_kicker",
-            "text": "Where the fees go",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div#token > h3.oe3DtG_tokenTitle > em",
-            "text": "Swap for free.",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 19,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#security > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "Security",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_container.oe3DtG_faqWrap > div > p.oe3DtG_kicker",
-            "text": "Before you swap",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "body.min-h-dvh > footer.oe3DtG_footer > p.oe3DtG_container.oe3DtG_legal",
-            "text": "Not affiliated with Collector Crypt or The Pokémon Company. Not financial advice. The program is not",
-            "ratio": 2.83,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.35)",
-            "background": "#060506"
-          }
-        ],
-        "contrastChecked": 198,
+        "contrast": [],
+        "contrastChecked": 207,
         "headings": [
           {
             "tag": "h1",
@@ -2295,11 +2174,11 @@
           },
           {
             "tag": "h2",
-            "text": "Every swap fee buys $GRADIX."
+            "text": "Every swap fee buys $GEMMORA."
           },
           {
             "tag": "h3",
-            "text": "Hold 1,000,000 $GRADIX. Swap for free."
+            "text": "Hold 1,000,000 $GEMMORA. Swap for free."
           },
           {
             "tag": "h2",
@@ -2339,6 +2218,7 @@
           }
         ],
         "navTargets": [
+          "",
           "/",
           "/app",
           "/docs",
@@ -2348,44 +2228,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "section.oe3DtG_showcase > div.oe3DtG_marquee > div.oe3DtG_track",
-              "right": 6236,
-              "width": 6302
+              "selector": "section.tx-band.tx-band--showcase > div.tx-rail > div.tx-rail-track",
+              "right": 6413,
+              "width": 5866
             },
             {
-              "selector": "div.oe3DtG_marquee > div.oe3DtG_track > a.oe3DtG_showCard",
-              "right": 1499,
-              "width": 219
+              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
+              "right": 1583,
+              "width": 196
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > img",
-              "right": 1498,
-              "width": 218
+              "selector": "div.tx-rail-track > a.tx-rail-card > img",
+              "right": 1583,
+              "width": 196
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > span.oe3DtG_showMeta",
-              "right": 1499,
-              "width": 201
+              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
+              "right": 1583,
+              "width": 196
             },
             {
-              "selector": "a.oe3DtG_showCard > span.oe3DtG_showMeta > i",
-              "right": 1495,
-              "width": 32
+              "selector": "a.tx-rail-card > span.tx-rail-meta > b",
+              "right": 1449,
+              "width": 62
             },
             {
-              "selector": "div.oe3DtG_marquee > div.oe3DtG_track > a.oe3DtG_showCard",
-              "right": 1725,
-              "width": 219
+              "selector": "a.tx-rail-card > span.tx-rail-meta > i",
+              "right": 1583,
+              "width": 25
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > img",
-              "right": 1725,
-              "width": 217
+              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
+              "right": 1793,
+              "width": 196
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > span.oe3DtG_showMeta",
-              "right": 1706,
-              "width": 201
+              "selector": "div.tx-rail-track > a.tx-rail-card > img",
+              "right": 1793,
+              "width": 196
             }
           ]
         }
@@ -2404,13 +2284,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Gradix — swap graded Pokémon cards, no selling first",
+          "title": "Gemmora — swap graded Pokémon cards, no selling first",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4262,
+          "bodyTextLength": 4307,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 42
+          "focusableCount": 53
         },
         "words": [
           {
@@ -2426,8 +2306,8 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 15
+            "word": "$GEMMORA",
+            "count": 13
           },
           {
             "word": "0",
@@ -2435,11 +2315,11 @@
           },
           {
             "word": "1",
-            "count": 7
+            "count": 8
           },
           {
             "word": "1,000,000",
-            "count": 2
+            "count": 3
           },
           {
             "word": "1,000,000,000",
@@ -2579,7 +2459,7 @@
           },
           {
             "word": "address",
-            "count": 3
+            "count": 1
           },
           {
             "word": "admin",
@@ -2643,7 +2523,7 @@
           },
           {
             "word": "any",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Any",
@@ -2664,10 +2544,6 @@
           {
             "word": "app",
             "count": 3
-          },
-          {
-            "word": "appear",
-            "count": 1
           },
           {
             "word": "applies",
@@ -2794,10 +2670,6 @@
             "count": 2
           },
           {
-            "word": "CA",
-            "count": 3
-          },
-          {
             "word": "can",
             "count": 9
           },
@@ -2902,10 +2774,6 @@
             "count": 1
           },
           {
-            "word": "contract",
-            "count": 1
-          },
-          {
             "word": "controls",
             "count": 1
           },
@@ -2935,7 +2803,7 @@
           },
           {
             "word": "day",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Delist",
@@ -2967,7 +2835,7 @@
           },
           {
             "word": "Docs",
-            "count": 1
+            "count": 2
           },
           {
             "word": "does",
@@ -3043,7 +2911,7 @@
           },
           {
             "word": "fee",
-            "count": 8
+            "count": 9
           },
           {
             "word": "Fee",
@@ -3078,6 +2946,10 @@
             "count": 2
           },
           {
+            "word": "follow",
+            "count": 1
+          },
+          {
             "word": "for",
             "count": 6
           },
@@ -3098,6 +2970,14 @@
             "count": 17
           },
           {
+            "word": "gemmora",
+            "count": 7
+          },
+          {
+            "word": "Gemmora",
+            "count": 1
+          },
+          {
             "word": "go",
             "count": 5
           },
@@ -3111,14 +2991,6 @@
           },
           {
             "word": "graded",
-            "count": 1
-          },
-          {
-            "word": "gradix",
-            "count": 3
-          },
-          {
-            "word": "Gradix",
             "count": 1
           },
           {
@@ -3139,15 +3011,19 @@
           },
           {
             "word": "here",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Hold",
             "count": 2
           },
           {
+            "word": "holding",
+            "count": 1
+          },
+          {
             "word": "How",
-            "count": 4
+            "count": 5
           },
           {
             "word": "I",
@@ -3175,7 +3051,7 @@
           },
           {
             "word": "is",
-            "count": 19
+            "count": 18
           },
           {
             "word": "Is",
@@ -3207,7 +3083,7 @@
           },
           {
             "word": "land",
-            "count": 1
+            "count": 2
           },
           {
             "word": "launch",
@@ -3215,11 +3091,11 @@
           },
           {
             "word": "Launch",
-            "count": 3
+            "count": 4
           },
           {
             "word": "launches",
-            "count": 2
+            "count": 1
           },
           {
             "word": "least",
@@ -3367,7 +3243,7 @@
           },
           {
             "word": "not",
-            "count": 7
+            "count": 6
           },
           {
             "word": "Not",
@@ -3399,11 +3275,11 @@
           },
           {
             "word": "Offers",
-            "count": 1
+            "count": 2
           },
           {
             "word": "on",
-            "count": 10
+            "count": 13
           },
           {
             "word": "On",
@@ -3447,14 +3323,6 @@
           },
           {
             "word": "Or",
-            "count": 1
-          },
-          {
-            "word": "other",
-            "count": 1
-          },
-          {
-            "word": "ours",
             "count": 1
           },
           {
@@ -3734,10 +3602,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 3
-          },
-          {
             "word": "standard",
             "count": 1
           },
@@ -3779,7 +3643,7 @@
           },
           {
             "word": "Swap",
-            "count": 5
+            "count": 6
           },
           {
             "word": "swappable",
@@ -3827,7 +3691,7 @@
           },
           {
             "word": "The",
-            "count": 13
+            "count": 12
           },
           {
             "word": "them",
@@ -3930,8 +3794,12 @@
             "count": 1
           },
           {
+            "word": "updates",
+            "count": 1
+          },
+          {
             "word": "USDC",
-            "count": 20
+            "count": 21
           },
           {
             "word": "value",
@@ -3960,6 +3828,10 @@
           {
             "word": "waiver",
             "count": 2
+          },
+          {
+            "word": "waives",
+            "count": 1
           },
           {
             "word": "wallet",
@@ -4015,7 +3887,7 @@
           },
           {
             "word": "will",
-            "count": 3
+            "count": 2
           },
           {
             "word": "with",
@@ -4023,7 +3895,7 @@
           },
           {
             "word": "works",
-            "count": 3
+            "count": 4
           },
           {
             "word": "worth",
@@ -4036,6 +3908,14 @@
           {
             "word": "wrong",
             "count": 2
+          },
+          {
+            "word": "X",
+            "count": 3
+          },
+          {
+            "word": "x.com",
+            "count": 1
           },
           {
             "word": "xyz",
@@ -4124,12 +4004,24 @@
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
+            "key": "aria-label=Gemmora home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 4
+          },
+          {
+            "key": "aria-label=Primary",
             "count": 1
           },
           {
             "key": "aria-label=Two Collector Crypt cards being swapped",
             "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
+            "count": 2
           }
         ],
         "links": [
@@ -4143,15 +4035,19 @@
           },
           {
             "href": "/#how",
-            "count": 1
+            "count": 2
           },
           {
             "href": "/#risks",
             "count": 1
           },
           {
+            "href": "/#token",
+            "count": 1
+          },
+          {
             "href": "/app",
-            "count": 4
+            "count": 5
           },
           {
             "href": "/card/2qPZKRo2DG9QPr3Hmqog9MGWqma1FCS7XY53HpCzXAWP",
@@ -4211,11 +4107,11 @@
           },
           {
             "href": "/docs",
-            "count": 1
+            "count": 2
           },
           {
             "href": "/offers",
-            "count": 2
+            "count": 3
           },
           {
             "href": "#how",
@@ -4224,6 +4120,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 6
           }
         ],
         "forms": [],
@@ -4231,404 +4131,265 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "_cEqKa_soonChip",
-          "oe3DtG_badge",
-          "oe3DtG_body",
-          "oe3DtG_btnGlass",
-          "oe3DtG_btnRed",
-          "oe3DtG_container",
-          "oe3DtG_ctas",
-          "oe3DtG_faq",
-          "oe3DtG_faqItem",
-          "oe3DtG_faqWrap",
-          "oe3DtG_featureIcon",
-          "oe3DtG_features",
-          "oe3DtG_final",
-          "oe3DtG_finalInner",
-          "oe3DtG_flow",
-          "oe3DtG_flowHot",
-          "oe3DtG_flowLine",
-          "oe3DtG_flowNode",
-          "oe3DtG_footer",
-          "oe3DtG_footerBrand",
-          "oe3DtG_footerCols",
-          "oe3DtG_footerInner",
-          "oe3DtG_glass",
-          "oe3DtG_h1",
-          "oe3DtG_h2",
-          "oe3DtG_h2Big",
-          "oe3DtG_hero",
-          "oe3DtG_heroInner",
-          "oe3DtG_heroMeta",
-          "oe3DtG_heroShade",
-          "oe3DtG_how",
-          "oe3DtG_kicker",
-          "oe3DtG_lead",
-          "oe3DtG_legal",
-          "oe3DtG_marquee",
-          "oe3DtG_nav",
-          "oe3DtG_navInner",
-          "oe3DtG_note",
-          "oe3DtG_secGrid",
-          "oe3DtG_secIcon",
-          "oe3DtG_section",
-          "oe3DtG_showCard",
-          "oe3DtG_showMeta",
-          "oe3DtG_showcase",
-          "oe3DtG_slab",
-          "oe3DtG_slabLeft",
-          "oe3DtG_slabRight",
-          "oe3DtG_split",
-          "oe3DtG_stage",
-          "oe3DtG_stageCaption",
-          "oe3DtG_stageWrap",
-          "oe3DtG_stat",
-          "oe3DtG_stats",
-          "oe3DtG_statsWrap",
-          "oe3DtG_stepIcon",
-          "oe3DtG_stepNum",
-          "oe3DtG_steps",
-          "oe3DtG_swapDot",
-          "oe3DtG_tokenCard",
-          "oe3DtG_tokenHead",
-          "oe3DtG_tokenRows",
-          "oe3DtG_tokenTitle",
-          "oe3DtG_track",
-          "wordmark"
+          "tx-actions",
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-badge",
+          "tx-badge-dot",
+          "tx-band",
+          "tx-band--showcase",
+          "tx-band--stats",
+          "tx-band-head",
+          "tx-band-head--split",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--ghost",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-chip",
+          "tx-chip--x",
+          "tx-chip-arrow",
+          "tx-copy",
+          "tx-display",
+          "tx-display--xl",
+          "tx-eyebrow",
+          "tx-faq",
+          "tx-faq-item",
+          "tx-feature-icon",
+          "tx-feature-label",
+          "tx-features",
+          "tx-final",
+          "tx-final-card",
+          "tx-final-card--l",
+          "tx-final-card--r",
+          "tx-final-inner",
+          "tx-final-slabs",
+          "tx-flow",
+          "tx-flow-line",
+          "tx-flow-node",
+          "tx-flow-node--hot",
+          "tx-footer",
+          "tx-footer-brand",
+          "tx-footer-col",
+          "tx-footer-cols",
+          "tx-footer-grid",
+          "tx-h2",
+          "tx-index",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-kicker",
+          "tx-lede",
+          "tx-legal",
+          "tx-main",
+          "tx-metarow",
+          "tx-note",
+          "tx-plate",
+          "tx-plate-caption",
+          "tx-plate-cards",
+          "tx-plate-slab",
+          "tx-plate-slab--a",
+          "tx-plate-slab--b",
+          "tx-plate-swap",
+          "tx-rail",
+          "tx-rail-card",
+          "tx-rail-meta",
+          "tx-rail-track",
+          "tx-secgrid",
+          "tx-secicon",
+          "tx-secitem",
+          "tx-shell",
+          "tx-shell--marketing",
+          "tx-split",
+          "tx-stage",
+          "tx-stat",
+          "tx-stats",
+          "tx-step",
+          "tx-step-copy",
+          "tx-step-num",
+          "tx-steps",
+          "tx-thesis",
+          "tx-token",
+          "tx-token-head",
+          "tx-token-rows",
+          "tx-token-title",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
-          "a@5:0",
-          "a@5:1",
-          "a@7:0",
+          "a@10:0",
+          "a@10:1",
+          "a@11:0",
           "a@7:1",
-          "a@7:2",
           "a@8:0",
           "a@8:1",
+          "a@8:4+",
           "a@9:0",
+          "a@9:1",
+          "a@9:2",
+          "a@9:3",
+          "aside@4:1",
+          "b@10:0",
           "b@11:0",
-          "b@7:0",
-          "b@8:0",
+          "b@12:0",
           "b@9:0",
-          "circle@10:0",
           "circle@11:0",
-          "code@9:0",
-          "dd@9:0",
-          "details@7:2",
+          "circle@12:0",
+          "code@11:0",
+          "dd@11:0",
+          "details@9:2",
+          "div@10:0",
+          "div@10:2",
+          "div@10:3",
+          "div@3:2",
           "div@4:2",
-          "div@4:3",
-          "div@5:0",
-          "div@5:1",
-          "div@5:2",
           "div@5:3",
-          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
+          "div@7:1",
           "div@7:2",
           "div@7:3",
           "div@7:4+",
-          "div@8:0",
           "div@8:1",
           "div@8:2",
           "div@8:3",
-          "dl@7:4+",
-          "dt@9:0",
-          "em@7:0",
+          "div@8:4+",
+          "div@9:2",
+          "div@9:4+",
+          "dl@9:4+",
+          "dt@11:0",
+          "em@10:0",
           "em@8:0",
-          "footer@3:2",
+          "em@9:0",
+          "footer@5:2",
           "h1@7:2",
-          "h2@6:1",
-          "h2@7:1",
-          "h3@7:2",
-          "h3@8:0",
-          "header@3:1",
-          "i@8:0",
-          "i@9:0",
+          "h2@8:1",
+          "h2@9:1",
+          "h3@10:0",
+          "h3@9:2",
+          "i@11:0",
           "img@10:0",
-          "img@7:0",
+          "img@11:0",
           "img@8:0",
           "img@9:0",
-          "li@7:4+",
+          "li@8:1",
           "li@8:2",
-          "main@3:4+",
-          "nav@5:3",
-          "ol@6:4+",
-          "p@4:0",
+          "li@8:3",
+          "main@5:4+",
+          "nav@6:1",
+          "ol@7:4+",
+          "p@10:0",
+          "p@10:1",
+          "p@10:2",
           "p@6:0",
           "p@7:0",
+          "p@7:1",
           "p@8:0",
-          "p@8:1",
-          "p@8:2",
+          "p@9:0",
+          "p@9:1",
           "path@10:0",
           "path@11:0",
-          "rect@10:0",
-          "section@4:1",
-          "section@4:2",
-          "small@7:0",
+          "path@12:0",
+          "rect@11:0",
+          "section@6:1",
+          "section@6:2",
+          "small@11:0",
           "small@9:0",
-          "span@10:1",
-          "span@6:2",
-          "span@7:0",
-          "span@7:1",
+          "span@10:0",
+          "span@10:2",
+          "span@11:0",
+          "span@11:1",
           "span@8:0",
-          "span@8:1",
           "span@8:2",
           "span@9:0",
           "span@9:1",
           "span@9:2",
-          "summary@8:1",
+          "summary@10:1",
+          "svg@10:1",
           "svg@10:2",
           "svg@10:3",
+          "svg@11:1",
+          "svg@11:2",
           "svg@9:1",
-          "svg@9:2",
-          "svg@9:3",
           "ul@7:4+"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
             "width": 390,
-            "height": 76
-          },
-          {
-            "tag": "main",
-            "role": "",
-            "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 8454
-          },
-          {
-            "tag": "footer",
-            "role": "",
-            "top": 8454,
-            "left": 0,
-            "width": 390,
-            "height": 500
+            "height": 764
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 8700,
-            "left": 16,
-            "width": 354,
-            "height": 105
+            "top": 99,
+            "left": 20,
+            "width": 350,
+            "height": 74
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 786,
+            "left": 20,
+            "width": 350,
+            "height": 4561
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 5381,
+            "left": 20,
+            "width": 350,
+            "height": 450
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 142
+            "hex": "#081b2b",
+            "count": 296
           },
           {
-            "hex": "#f4efe8",
-            "count": 97
+            "hex": "#4e6577",
+            "count": 91
           },
           {
-            "hex": "#f6f2ec",
-            "count": 72
-          },
-          {
-            "hex": "#ff4258",
-            "count": 50
-          },
-          {
-            "hex": "#e5293f",
-            "count": 45
-          },
-          {
-            "hex": "#ff5a6e",
-            "count": 29
+            "hex": "#0b5fc0",
+            "count": 81
           },
           {
             "hex": "#ffffff",
-            "count": 12
+            "count": 47
           },
           {
-            "hex": "#9898a3",
-            "count": 6
+            "hex": "#5b7082",
+            "count": 15
           },
           {
-            "hex": "#111114",
-            "count": 3
+            "hex": "#d7ebff",
+            "count": 10
           },
           {
-            "hex": "#f4f1ec",
-            "count": 3
-          },
-          {
-            "hex": "#050304",
+            "hex": "#b42318",
             "count": 2
           },
           {
-            "hex": "#060506",
-            "count": 1
+            "hex": "#b7d2e8",
+            "count": 2
           },
           {
-            "hex": "#0a080a",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
+            "hex": "#1e7be8",
             "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "cards in escrow now",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "on Solana",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "Collector Crypt insured value",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_stats > div.oe3DtG_stat > small",
-            "text": "100% of swap fees",
-            "ratio": 4.07,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.45)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section.oe3DtG_showcase > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "Real slabs, vaulted by Collector Crypt",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#how > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "How it works",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 1",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 2",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 3",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "ol.oe3DtG_steps > li.oe3DtG_glass > span.oe3DtG_stepNum",
-            "text": "0 4",
-            "ratio": 1.12,
-            "required": 3,
-            "fontSize": 44,
-            "weight": 800,
-            "color": "rgba(255, 255, 255, 0.06)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_container.oe3DtG_split > div > p.oe3DtG_kicker",
-            "text": "Where the fees go",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div#token > h3.oe3DtG_tokenTitle > em",
-            "text": "Swap for free.",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 19,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#security > div.oe3DtG_container > p.oe3DtG_kicker",
-            "text": "Security",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.oe3DtG_container.oe3DtG_faqWrap > div > p.oe3DtG_kicker",
-            "text": "Before you swap",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "body.min-h-dvh > footer.oe3DtG_footer > p.oe3DtG_container.oe3DtG_legal",
-            "text": "Not affiliated with Collector Crypt or The Pokémon Company. Not financial advice. The program is not",
-            "ratio": 2.83,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.35)",
-            "background": "#060506"
-          }
-        ],
-        "contrastChecked": 193,
+        "contrast": [],
+        "contrastChecked": 202,
         "headings": [
           {
             "tag": "h1",
@@ -4660,11 +4421,11 @@
           },
           {
             "tag": "h2",
-            "text": "Every swap fee buys $GRADIX."
+            "text": "Every swap fee buys $GEMMORA."
           },
           {
             "tag": "h3",
-            "text": "Hold 1,000,000 $GRADIX. Swap for free."
+            "text": "Hold 1,000,000 $GEMMORA. Swap for free."
           },
           {
             "tag": "h2",
@@ -4704,6 +4465,7 @@
           }
         ],
         "navTargets": [
+          "",
           "/",
           "/app",
           "/docs",
@@ -4713,44 +4475,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "section.oe3DtG_showcase > div.oe3DtG_marquee > div.oe3DtG_track",
-              "right": 4759,
-              "width": 4902
+              "selector": "section.tx-band.tx-band--showcase > div.tx-rail > div.tx-rail-track",
+              "right": 4298,
+              "width": 4298
             },
             {
-              "selector": "div.oe3DtG_marquee > div.oe3DtG_track > a.oe3DtG_showCard",
-              "right": 542,
-              "width": 165
+              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
+              "right": 448,
+              "width": 140
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > img",
-              "right": 542,
-              "width": 163
+              "selector": "div.tx-rail-track > a.tx-rail-card > img",
+              "right": 448,
+              "width": 140
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > span.oe3DtG_showMeta",
-              "right": 528,
-              "width": 151
+              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
+              "right": 448,
+              "width": 140
             },
             {
-              "selector": "a.oe3DtG_showCard > span.oe3DtG_showMeta > b",
-              "right": 475,
-              "width": 94
+              "selector": "a.tx-rail-card > span.tx-rail-meta > i",
+              "right": 448,
+              "width": 37
             },
             {
-              "selector": "a.oe3DtG_showCard > span.oe3DtG_showMeta > i",
-              "right": 524,
-              "width": 41
+              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
+              "right": 602,
+              "width": 140
             },
             {
-              "selector": "div.oe3DtG_marquee > div.oe3DtG_track > a.oe3DtG_showCard",
-              "right": 719,
-              "width": 165
+              "selector": "div.tx-rail-track > a.tx-rail-card > img",
+              "right": 602,
+              "width": 140
             },
             {
-              "selector": "div.oe3DtG_track > a.oe3DtG_showCard > img",
-              "right": 717,
-              "width": 163
+              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
+              "right": 602,
+              "width": 140
             }
           ]
         }
@@ -4760,6 +4522,8 @@
         "targets": [
           "/",
           "/app",
+          "/offers",
+          "/docs",
           "",
           "/card/yp4bu9WtYvLqJibqxLxLkr5E3FdN98LcS7XPuAMu2M9",
           "/card/GaQ9fW22K9rVzDzG4aXq11VBSHPeK8fx5cBwcoJYJr2U",
@@ -4774,9 +4538,7 @@
           "/card/6nwA7DQB5DbCGgcd1MRETdEX6oVXaaSRZYBR3sYgSMDf",
           "/card/E1ugz1AhcWYyJwvBEUc6R5LJNYgc8dTmvQkg12KUxGJM",
           "/card/HF87PDfAVMecmJqRkrZxCheZKfpGrv9KccbyhtZ8dRNV",
-          "/card/7Kk1dQg7LMcH4WvmAAkMBqoSFiecuiAQdftZNgmW7kwx",
-          "/offers",
-          "/docs"
+          "/card/7Kk1dQg7LMcH4WvmAAkMBqoSFiecuiAQdftZNgmW7kwx"
         ],
         "reachable": true
       },
@@ -4784,82 +4546,82 @@
         "samples": [
           {
             "tag": "a",
-            "text": "Gradix home",
+            "text": "Gemmora home",
             "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
             "boxShadow": "none",
-            "borderColor": "rgb(237, 237, 240)",
+            "borderColor": "rgb(8, 27, 43)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "a",
-            "text": "Swap",
+            "text": "Gemmora on X, @gemmora",
             "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
             "boxShadow": "none",
-            "borderColor": "rgba(244, 239, 232, 0.72)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Offers",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "none",
-            "borderColor": "rgba(244, 239, 232, 0.72)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "How it works",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "none",
-            "borderColor": "rgba(244, 239, 232, 0.72)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "$GRADIX",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "none",
-            "borderColor": "rgba(244, 239, 232, 0.72)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Docs",
-            "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "none",
-            "borderColor": "rgba(244, 239, 232, 0.72)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
+            "borderColor": "rgb(183, 210, 232)",
+            "backgroundColor": "rgb(255, 255, 255)"
           },
           {
             "tag": "a",
             "text": "Launch app",
             "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "rgba(229, 41, 63, 0.75) 0px 10px 30px -8px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset",
-            "borderColor": "rgb(255, 255, 255)",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "rgba(11, 95, 192, 0.65) 0px 14px 30px -12px",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgb(11, 95, 192)"
+          },
+          {
+            "tag": "a",
+            "text": "01 Swap →",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "a",
-            "text": "Start a swap →",
+            "text": "02 Offers →",
             "outlineStyle": "solid",
-            "outlineWidth": "2px",
-            "outlineColor": "rgb(229, 41, 63)",
-            "boxShadow": "rgba(229, 41, 63, 0.75) 0px 10px 30px -8px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset",
-            "borderColor": "rgb(255, 255, 255)",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "03 How it works →",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "04 $GEMMORA →",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "05 Docs →",
+            "outlineStyle": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(11, 95, 192)",
+            "boxShadow": "none",
+            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           }
         ],
@@ -4869,17 +4631,17 @@
     },
     "/app": {
       "route": "/app",
-      "url": "http://127.0.0.1:3000/app",
+      "url": "http://127.0.0.1:4317/app",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Swap — Gradix",
+          "title": "Swap — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4476,
+          "bodyTextLength": 4636,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 108
+          "focusableCount": 109
         },
         "words": [
           {
@@ -4983,6 +4745,42 @@
             "count": 1
           },
           {
+            "word": "01",
+            "count": 2
+          },
+          {
+            "word": "02",
+            "count": 2
+          },
+          {
+            "word": "03",
+            "count": 2
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
+            "word": "06",
+            "count": 1
+          },
+          {
+            "word": "07",
+            "count": 1
+          },
+          {
+            "word": "08",
+            "count": 1
+          },
+          {
+            "word": "09",
+            "count": 1
+          },
+          {
             "word": "1,090",
             "count": 1
           },
@@ -5000,14 +4798,46 @@
           },
           {
             "word": "10",
-            "count": 31
+            "count": 32
+          },
+          {
+            "word": "11",
+            "count": 1
           },
           {
             "word": "12",
-            "count": 3
+            "count": 4
+          },
+          {
+            "word": "13",
+            "count": 1
+          },
+          {
+            "word": "14",
+            "count": 1
+          },
+          {
+            "word": "15",
+            "count": 1
           },
           {
             "word": "151",
+            "count": 1
+          },
+          {
+            "word": "16",
+            "count": 1
+          },
+          {
+            "word": "17",
+            "count": 1
+          },
+          {
+            "word": "18",
+            "count": 1
+          },
+          {
+            "word": "19",
             "count": 1
           },
           {
@@ -5029,6 +4859,10 @@
           {
             "word": "1ST",
             "count": 5
+          },
+          {
+            "word": "20",
+            "count": 1
           },
           {
             "word": "2000",
@@ -5079,11 +4913,51 @@
             "count": 1
           },
           {
+            "word": "21",
+            "count": 1
+          },
+          {
+            "word": "22",
+            "count": 1
+          },
+          {
+            "word": "23",
+            "count": 1
+          },
+          {
+            "word": "24",
+            "count": 1
+          },
+          {
+            "word": "25",
+            "count": 1
+          },
+          {
+            "word": "26",
+            "count": 1
+          },
+          {
+            "word": "27",
+            "count": 1
+          },
+          {
+            "word": "28",
+            "count": 1
+          },
+          {
+            "word": "29",
+            "count": 1
+          },
+          {
             "word": "2nd",
             "count": 1
           },
           {
             "word": "3",
+            "count": 1
+          },
+          {
+            "word": "30",
             "count": 1
           },
           {
@@ -5095,11 +4969,19 @@
             "count": 3
           },
           {
+            "word": "31",
+            "count": 1
+          },
+          {
             "word": "310",
             "count": 1
           },
           {
             "word": "315",
+            "count": 1
+          },
+          {
+            "word": "32",
             "count": 1
           },
           {
@@ -5115,6 +4997,10 @@
             "count": 1
           },
           {
+            "word": "33",
+            "count": 1
+          },
+          {
             "word": "330",
             "count": 6
           },
@@ -5123,8 +5009,16 @@
             "count": 2
           },
           {
+            "word": "34",
+            "count": 1
+          },
+          {
             "word": "348",
             "count": 3
+          },
+          {
+            "word": "35",
+            "count": 1
           },
           {
             "word": "350",
@@ -5135,7 +5029,15 @@
             "count": 1
           },
           {
+            "word": "36",
+            "count": 1
+          },
+          {
             "word": "360",
+            "count": 1
+          },
+          {
+            "word": "37",
             "count": 1
           },
           {
@@ -5143,11 +5045,31 @@
             "count": 1
           },
           {
+            "word": "38",
+            "count": 1
+          },
+          {
+            "word": "39",
+            "count": 1
+          },
+          {
             "word": "4",
             "count": 2
           },
           {
+            "word": "40",
+            "count": 1
+          },
+          {
             "word": "400",
+            "count": 1
+          },
+          {
+            "word": "41",
+            "count": 1
+          },
+          {
+            "word": "42",
             "count": 1
           },
           {
@@ -5155,7 +5077,31 @@
             "count": 1
           },
           {
+            "word": "43",
+            "count": 1
+          },
+          {
+            "word": "44",
+            "count": 1
+          },
+          {
             "word": "445",
+            "count": 1
+          },
+          {
+            "word": "45",
+            "count": 1
+          },
+          {
+            "word": "46",
+            "count": 1
+          },
+          {
+            "word": "47",
+            "count": 1
+          },
+          {
+            "word": "48",
             "count": 1
           },
           {
@@ -5495,6 +5441,10 @@
             "count": 15
           },
           {
+            "word": "gemmora",
+            "count": 1
+          },
+          {
             "word": "Gengar",
             "count": 2
           },
@@ -5509,10 +5459,6 @@
           {
             "word": "Graded",
             "count": 18
-          },
-          {
-            "word": "gradix",
-            "count": 1
           },
           {
             "word": "Greninja",
@@ -6133,7 +6079,15 @@
             "count": 1
           },
           {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search cards",
             "count": 1
           },
           {
@@ -6142,6 +6096,10 @@
           },
           {
             "key": "placeholder=Search Charizard, PSA 10, Base Set… or paste a card address",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -6353,6 +6311,10 @@
           {
             "href": "/offers",
             "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [
@@ -6361,185 +6323,149 @@
             "count": 1
           }
         ],
-        "fieldIssues": [
-          {
-            "tag": "input",
-            "name": "",
-            "type": "text",
-            "issue": "no programmatic label"
-          }
-        ],
+        "fieldIssues": [],
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "-p15RG_backdrop",
-          "-p15RG_page",
-          "card-tile",
-          "cf-app-shell",
-          "cf-app-sub",
-          "cf-app-tab",
-          "cf-app-tabs",
-          "cf-app-title",
-          "cf-card-cell",
-          "cf-card-detail-link",
-          "cf-card-grid",
-          "cf-card-meta",
-          "cf-card-name",
-          "cf-hero-split",
-          "cf-search-hint",
-          "cf-search-row",
-          "eyebrow",
-          "group",
-          "input",
-          "is-active",
-          "kit-btn",
-          "kit-btn--ghost",
-          "kit-btn--primary",
-          "min-h-0",
-          "mt-5",
-          "oe3DtG_appNav",
-          "oe3DtG_btnRed",
-          "oe3DtG_navInner",
-          "oe3DtG_navLinks",
-          "pb-1",
-          "px-1",
-          "relative",
-          "slab",
-          "truncate",
-          "w-full",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-band",
+          "tx-band--first",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--ghost",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-card",
+          "tx-card-copy",
+          "tx-card-index",
+          "tx-card-link",
+          "tx-card-main",
+          "tx-card-meta",
+          "tx-card-name",
+          "tx-card-thumb",
+          "tx-catalog",
+          "tx-display",
+          "tx-display--doc",
+          "tx-eyebrow",
+          "tx-hint",
+          "tx-index",
+          "tx-index-arrow",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-index-num",
+          "tx-input",
+          "tx-lede",
+          "tx-main",
+          "tx-search",
+          "tx-shell",
+          "tx-shell--product",
+          "tx-stage",
+          "tx-tab",
+          "tx-tab--active",
+          "tx-tabs",
+          "tx-thesis",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
           "a@7:1",
-          "a@8:0",
+          "a@8:1",
           "a@9:0",
+          "a@9:3",
+          "aside@4:1",
           "b@10:0",
           "button@7:0",
           "button@8:0",
-          "button@9:2",
-          "div@10:1",
-          "div@10:2",
-          "div@11:0",
-          "div@11:2",
+          "button@9:3",
+          "div@3:2",
           "div@4:1",
-          "div@4:2",
-          "div@5:3",
+          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
-          "div@7:3",
+          "div@7:2",
           "div@7:4+",
-          "div@8:0",
           "div@8:2",
           "form@7:2",
-          "h1@8:0",
-          "header@5:1",
+          "h1@7:0",
           "img@11:0",
           "img@9:0",
           "input@8:0",
-          "nav@7:3",
+          "li@8:1",
+          "main@5:1",
+          "nav@6:1",
+          "ol@7:3",
           "p@7:0",
-          "p@8:0",
+          "path@10:0",
           "section@6:3",
+          "span@10:0",
+          "span@10:1",
+          "span@10:2",
+          "span@11:0",
+          "span@11:2",
           "span@12:0",
           "span@8:2",
-          "span@9:1"
+          "span@9:1",
+          "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
-            "width": 1440,
-            "height": 88
+            "width": 547,
+            "height": 900
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 36,
-            "left": 663,
-            "width": 177,
-            "height": 17
+            "top": 130,
+            "left": 43,
+            "width": 460,
+            "height": 127
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": -95,
+            "left": 613,
+            "width": 760,
+            "height": 2192
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 352
+            "hex": "#081b2b",
+            "count": 319
           },
           {
-            "hex": "#9898a3",
-            "count": 144
+            "hex": "#4e6577",
+            "count": 197
           },
           {
-            "hex": "#111114",
+            "hex": "#5b7082",
+            "count": 50
+          },
+          {
+            "hex": "#e8f3ff",
             "count": 48
           },
           {
-            "hex": "#f4efe8",
+            "hex": "#0b5fc0",
             "count": 9
           },
           {
-            "hex": "#f6f2ec",
-            "count": 2
-          },
-          {
-            "hex": "#0b0b0d",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
-            "hex": "#0d0d10",
-            "count": 1
-          },
-          {
-            "hex": "#62627a",
-            "count": 1
-          },
-          {
-            "hex": "#e5293f",
-            "count": 1
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 1
-          },
-          {
-            "hex": "#f6ecdc",
-            "count": 1
-          },
-          {
             "hex": "#ffffff",
-            "count": 1
+            "count": 5
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.cf-hero-split > div > div.eyebrow",
-            "text": "Collector Crypt · Solana",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.cf-app-shell > section.mt-5 > p.cf-search-hint",
-            "text": "Pick the card you want, then offer one of yours for it.",
-            "ratio": 3.8,
-            "required": 4.5,
-            "fontSize": 11.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.43)",
-            "background": "#09090b"
-          }
-        ],
-        "contrastChecked": 208,
+        "contrast": [],
+        "contrastChecked": 211,
         "headings": [
           {
             "tag": "h1",
@@ -6571,13 +6497,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Swap — Gradix",
+          "title": "Swap — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4459,
+          "bodyTextLength": 4621,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 105
+          "focusableCount": 109
         },
         "words": [
           {
@@ -6681,6 +6607,42 @@
             "count": 1
           },
           {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
+            "word": "06",
+            "count": 1
+          },
+          {
+            "word": "07",
+            "count": 1
+          },
+          {
+            "word": "08",
+            "count": 1
+          },
+          {
+            "word": "09",
+            "count": 1
+          },
+          {
             "word": "1,090",
             "count": 1
           },
@@ -6698,14 +6660,46 @@
           },
           {
             "word": "10",
-            "count": 31
+            "count": 32
+          },
+          {
+            "word": "11",
+            "count": 1
           },
           {
             "word": "12",
-            "count": 3
+            "count": 4
+          },
+          {
+            "word": "13",
+            "count": 1
+          },
+          {
+            "word": "14",
+            "count": 1
+          },
+          {
+            "word": "15",
+            "count": 1
           },
           {
             "word": "151",
+            "count": 1
+          },
+          {
+            "word": "16",
+            "count": 1
+          },
+          {
+            "word": "17",
+            "count": 1
+          },
+          {
+            "word": "18",
+            "count": 1
+          },
+          {
+            "word": "19",
             "count": 1
           },
           {
@@ -6727,6 +6721,10 @@
           {
             "word": "1ST",
             "count": 5
+          },
+          {
+            "word": "20",
+            "count": 1
           },
           {
             "word": "2000",
@@ -6777,11 +6775,51 @@
             "count": 1
           },
           {
+            "word": "21",
+            "count": 1
+          },
+          {
+            "word": "22",
+            "count": 1
+          },
+          {
+            "word": "23",
+            "count": 1
+          },
+          {
+            "word": "24",
+            "count": 1
+          },
+          {
+            "word": "25",
+            "count": 1
+          },
+          {
+            "word": "26",
+            "count": 1
+          },
+          {
+            "word": "27",
+            "count": 1
+          },
+          {
+            "word": "28",
+            "count": 1
+          },
+          {
+            "word": "29",
+            "count": 1
+          },
+          {
             "word": "2nd",
             "count": 1
           },
           {
             "word": "3",
+            "count": 1
+          },
+          {
+            "word": "30",
             "count": 1
           },
           {
@@ -6793,11 +6831,19 @@
             "count": 3
           },
           {
+            "word": "31",
+            "count": 1
+          },
+          {
             "word": "310",
             "count": 1
           },
           {
             "word": "315",
+            "count": 1
+          },
+          {
+            "word": "32",
             "count": 1
           },
           {
@@ -6813,6 +6859,10 @@
             "count": 1
           },
           {
+            "word": "33",
+            "count": 1
+          },
+          {
             "word": "330",
             "count": 6
           },
@@ -6821,8 +6871,16 @@
             "count": 2
           },
           {
+            "word": "34",
+            "count": 1
+          },
+          {
             "word": "348",
             "count": 3
+          },
+          {
+            "word": "35",
+            "count": 1
           },
           {
             "word": "350",
@@ -6833,7 +6891,15 @@
             "count": 1
           },
           {
+            "word": "36",
+            "count": 1
+          },
+          {
             "word": "360",
+            "count": 1
+          },
+          {
+            "word": "37",
             "count": 1
           },
           {
@@ -6841,11 +6907,31 @@
             "count": 1
           },
           {
+            "word": "38",
+            "count": 1
+          },
+          {
+            "word": "39",
+            "count": 1
+          },
+          {
             "word": "4",
             "count": 2
           },
           {
+            "word": "40",
+            "count": 1
+          },
+          {
             "word": "400",
+            "count": 1
+          },
+          {
+            "word": "41",
+            "count": 1
+          },
+          {
+            "word": "42",
             "count": 1
           },
           {
@@ -6853,7 +6939,31 @@
             "count": 1
           },
           {
+            "word": "43",
+            "count": 1
+          },
+          {
+            "word": "44",
+            "count": 1
+          },
+          {
             "word": "445",
+            "count": 1
+          },
+          {
+            "word": "45",
+            "count": 1
+          },
+          {
+            "word": "46",
+            "count": 1
+          },
+          {
+            "word": "47",
+            "count": 1
+          },
+          {
+            "word": "48",
             "count": 1
           },
           {
@@ -7081,6 +7191,10 @@
             "count": 48
           },
           {
+            "word": "Docs",
+            "count": 1
+          },
+          {
             "word": "Doll",
             "count": 1
           },
@@ -7189,6 +7303,10 @@
             "count": 15
           },
           {
+            "word": "gemmora",
+            "count": 1
+          },
+          {
             "word": "Gengar",
             "count": 2
           },
@@ -7203,10 +7321,6 @@
           {
             "word": "Graded",
             "count": 18
-          },
-          {
-            "word": "gradix",
-            "count": 1
           },
           {
             "word": "Greninja",
@@ -7375,6 +7489,10 @@
           {
             "word": "offers",
             "count": 48
+          },
+          {
+            "word": "Offers",
+            "count": 1
           },
           {
             "word": "on-chain",
@@ -7590,7 +7708,7 @@
           },
           {
             "word": "Swap",
-            "count": 1
+            "count": 2
           },
           {
             "word": "Team",
@@ -7819,7 +7937,19 @@
             "count": 6
           },
           {
+            "key": "aria-label=App",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Search cards",
             "count": 1
           },
           {
@@ -7829,11 +7959,19 @@
           {
             "key": "placeholder=Search Charizard, PSA 10, Base Set… or paste a card address",
             "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
+            "count": 1
           }
         ],
         "links": [
           {
             "href": "/",
+            "count": 1
+          },
+          {
+            "href": "/app",
             "count": 1
           },
           {
@@ -8027,6 +8165,18 @@
           {
             "href": "/card/yp4bu9WtYvLqJibqxLxLkr5E3FdN98LcS7XPuAMu2M9",
             "count": 1
+          },
+          {
+            "href": "/docs",
+            "count": 1
+          },
+          {
+            "href": "/offers",
+            "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [
@@ -8035,174 +8185,147 @@
             "count": 1
           }
         ],
-        "fieldIssues": [
-          {
-            "tag": "input",
-            "name": "",
-            "type": "text",
-            "issue": "no programmatic label"
-          }
-        ],
+        "fieldIssues": [],
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "-p15RG_backdrop",
-          "-p15RG_page",
-          "card-tile",
-          "cf-app-shell",
-          "cf-app-sub",
-          "cf-app-tab",
-          "cf-app-tabs",
-          "cf-app-title",
-          "cf-card-cell",
-          "cf-card-detail-link",
-          "cf-card-grid",
-          "cf-card-meta",
-          "cf-card-name",
-          "cf-hero-split",
-          "cf-search-hint",
-          "cf-search-row",
-          "eyebrow",
-          "group",
-          "input",
-          "is-active",
-          "kit-btn",
-          "kit-btn--ghost",
-          "kit-btn--primary",
-          "min-h-0",
-          "mt-5",
-          "oe3DtG_appNav",
-          "oe3DtG_btnRed",
-          "oe3DtG_navInner",
-          "pb-1",
-          "px-1",
-          "relative",
-          "slab",
-          "truncate",
-          "w-full",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-band",
+          "tx-band--first",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--ghost",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-card",
+          "tx-card-copy",
+          "tx-card-index",
+          "tx-card-link",
+          "tx-card-main",
+          "tx-card-meta",
+          "tx-card-name",
+          "tx-card-thumb",
+          "tx-catalog",
+          "tx-display",
+          "tx-display--doc",
+          "tx-eyebrow",
+          "tx-hint",
+          "tx-index",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-input",
+          "tx-lede",
+          "tx-main",
+          "tx-search",
+          "tx-shell",
+          "tx-shell--product",
+          "tx-stage",
+          "tx-tab",
+          "tx-tab--active",
+          "tx-tabs",
+          "tx-thesis",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
           "a@7:1",
+          "a@8:1",
           "a@9:0",
+          "a@9:3",
+          "aside@4:1",
           "b@10:0",
           "button@7:0",
           "button@8:0",
-          "button@9:2",
-          "div@10:1",
-          "div@10:2",
-          "div@11:0",
-          "div@11:2",
+          "button@9:3",
+          "div@3:2",
           "div@4:1",
-          "div@4:2",
-          "div@5:3",
+          "div@5:4+",
           "div@6:2",
-          "div@6:3",
           "div@6:4+",
-          "div@7:3",
+          "div@7:2",
           "div@7:4+",
-          "div@8:0",
           "div@8:2",
           "form@7:2",
-          "h1@8:0",
-          "header@5:1",
+          "h1@7:0",
           "img@11:0",
           "img@9:0",
           "input@8:0",
+          "li@8:1",
+          "main@5:1",
+          "nav@6:1",
+          "ol@7:3",
           "p@7:0",
-          "p@8:0",
+          "path@10:0",
           "section@6:3",
+          "span@10:0",
+          "span@10:1",
+          "span@10:2",
+          "span@11:0",
+          "span@11:2",
           "span@12:0",
           "span@8:2",
-          "span@9:1"
+          "span@9:1",
+          "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
             "width": 390,
-            "height": 80
+            "height": 406
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 95,
+            "left": 20,
+            "width": 350,
+            "height": 34
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 428,
+            "left": 20,
+            "width": 350,
+            "height": 3877
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 352
+            "hex": "#081b2b",
+            "count": 319
           },
           {
-            "hex": "#9898a3",
-            "count": 144
+            "hex": "#4e6577",
+            "count": 197
           },
           {
-            "hex": "#111114",
+            "hex": "#5b7082",
             "count": 48
           },
           {
-            "hex": "#f4efe8",
-            "count": 5
+            "hex": "#e8f3ff",
+            "count": 48
           },
           {
-            "hex": "#f6f2ec",
-            "count": 2
-          },
-          {
-            "hex": "#0b0b0d",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
-            "hex": "#0d0d10",
-            "count": 1
-          },
-          {
-            "hex": "#62627a",
-            "count": 1
-          },
-          {
-            "hex": "#e5293f",
-            "count": 1
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 1
-          },
-          {
-            "hex": "#f6ecdc",
-            "count": 1
+            "hex": "#0b5fc0",
+            "count": 7
           },
           {
             "hex": "#ffffff",
-            "count": 1
+            "count": 5
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.cf-hero-split > div > div.eyebrow",
-            "text": "Collector Crypt · Solana",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "div.cf-app-shell > section.mt-5 > p.cf-search-hint",
-            "text": "Pick the card you want, then offer one of yours for it.",
-            "ratio": 3.8,
-            "required": 4.5,
-            "fontSize": 11.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.43)",
-            "background": "#09090b"
-          }
-        ],
-        "contrastChecked": 205,
+        "contrast": [],
+        "contrastChecked": 208,
         "headings": [
           {
             "tag": "h1",
@@ -8210,7 +8333,10 @@
           }
         ],
         "navTargets": [
-          "/"
+          "/",
+          "/app",
+          "/docs",
+          "/offers"
         ],
         "overflow": {
           "documentOverflow": false,
@@ -8221,6 +8347,9 @@
         "opened": false,
         "targets": [
           "/",
+          "/app",
+          "/offers",
+          "/docs",
           "/card/yp4bu9WtYvLqJibqxLxLkr5E3FdN98LcS7XPuAMu2M9",
           "/card/GaQ9fW22K9rVzDzG4aXq11VBSHPeK8fx5cBwcoJYJr2U",
           "/card/GavuhFKoi35sg6dy14mEBs8FGcw6GJRYQckJUtJqufT1",
@@ -8275,19 +8404,31 @@
     },
     "/offers": {
       "route": "/offers",
-      "url": "http://127.0.0.1:3000/offers",
+      "url": "http://127.0.0.1:4317/offers",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Open offers — Gradix",
+          "title": "Open offers — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 614,
+          "bodyTextLength": 639,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 7
+          "focusableCount": 8
         },
         "words": [
+          {
+            "word": "01",
+            "count": 2
+          },
+          {
+            "word": "02",
+            "count": 2
+          },
+          {
+            "word": "03",
+            "count": 2
+          },
           {
             "word": "a",
             "count": 2
@@ -8385,7 +8526,7 @@
             "count": 1
           },
           {
-            "word": "gradix",
+            "word": "gemmora",
             "count": 1
           },
           {
@@ -8591,7 +8732,15 @@
             "count": 1
           },
           {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -8611,6 +8760,10 @@
           {
             "href": "/offers",
             "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [],
@@ -8618,133 +8771,130 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "-p15RG_backdrop",
-          "-p15RG_btnRed",
-          "-p15RG_emptyBox",
-          "-p15RG_glass",
-          "-p15RG_kicker",
-          "-p15RG_page",
-          "font-bold",
-          "max-w-6xl",
-          "mt-1",
-          "mt-16",
-          "mt-2",
-          "mx-auto",
-          "oe3DtG_appNav",
-          "oe3DtG_btnRed",
-          "oe3DtG_navInner",
-          "oe3DtG_navLinks",
-          "pb-24",
-          "pt-14",
-          "px-4",
-          "text-2xl",
-          "text-4xl",
-          "text-accent",
-          "text-dim",
-          "text-sm",
-          "tracking-tight",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-band",
+          "tx-band--first",
+          "tx-band-head",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-copy",
+          "tx-display",
+          "tx-display--doc",
+          "tx-empty",
+          "tx-empty-art",
+          "tx-eyebrow",
+          "tx-index",
+          "tx-index-arrow",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-index-num",
+          "tx-kicker",
+          "tx-kicker-num",
+          "tx-lede",
+          "tx-main",
+          "tx-shell",
+          "tx-shell--product",
+          "tx-stage",
+          "tx-thesis",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
           "a@7:1",
-          "a@8:0",
           "a@8:1",
+          "a@9:1",
+          "a@9:3",
+          "aside@4:1",
           "b@10:0",
-          "button@7:0",
+          "button@8:0",
+          "div@3:2",
           "div@4:1",
-          "div@4:2",
-          "div@6:0",
+          "div@5:3",
           "div@6:2",
           "div@6:3",
+          "div@7:1",
           "div@7:2",
-          "div@7:3",
-          "h1@6:1",
-          "h2@6:1",
-          "h3@8:0",
-          "header@5:1",
+          "div@8:2",
+          "div@8:3",
+          "em@8:0",
+          "em@9:0",
+          "h1@7:1",
+          "h2@8:2",
+          "h3@9:0",
           "img@9:0",
-          "main@5:4+",
-          "nav@7:3",
-          "p@6:0",
+          "li@8:1",
+          "main@5:3",
+          "nav@6:1",
+          "ol@7:3",
+          "p@7:0",
           "p@8:0",
-          "span@7:0",
+          "p@9:0",
+          "path@10:0",
+          "section@6:2",
+          "span@10:0",
+          "span@8:0",
           "span@8:2",
           "span@9:0",
-          "span@9:1"
+          "span@9:1",
+          "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
-            "width": 1440,
-            "height": 88
+            "width": 547,
+            "height": 900
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 36,
-            "left": 663,
-            "width": 177,
-            "height": 17
+            "top": 130,
+            "left": 43,
+            "width": 460,
+            "height": 127
           },
           {
             "tag": "main",
             "role": "",
-            "top": 84,
-            "left": 144,
-            "width": 1152,
-            "height": 937
+            "top": 47,
+            "left": 613,
+            "width": 760,
+            "height": 1026
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 17
+            "hex": "#081b2b",
+            "count": 45
           },
           {
-            "hex": "#f4efe8",
-            "count": 7
-          },
-          {
-            "hex": "#e5293f",
-            "count": 5
+            "hex": "#0b5fc0",
+            "count": 13
           },
           {
             "hex": "#ffffff",
+            "count": 9
+          },
+          {
+            "hex": "#4e6577",
             "count": 5
           },
           {
-            "hex": "#f6f2ec",
-            "count": 3
-          },
-          {
-            "hex": "#9898a3",
-            "count": 2
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 1
+            "hex": "#5b7082",
+            "count": 4
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.-p15RG_page > main.mx-auto.max-w-6xl > div.-p15RG_kicker",
-            "text": "Read live from the program",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          }
-        ],
-        "contrastChecked": 23,
+        "contrast": [],
+        "contrastChecked": 28,
         "headings": [
           {
             "tag": "h1",
@@ -8756,7 +8906,7 @@
           },
           {
             "tag": "h2",
-            "text": "Open to swap."
+            "text": "02 OPEN to swap."
           },
           {
             "tag": "h3",
@@ -8764,7 +8914,7 @@
           },
           {
             "tag": "h2",
-            "text": "Completed swaps."
+            "text": "03 COMPLETED swaps."
           },
           {
             "tag": "h3",
@@ -8796,15 +8946,27 @@
       },
       "mobile": {
         "meta": {
-          "title": "Open offers — Gradix",
+          "title": "Open offers — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 597,
+          "bodyTextLength": 624,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 4
+          "focusableCount": 8
         },
         "words": [
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
           {
             "word": "a",
             "count": 2
@@ -8874,6 +9036,10 @@
             "count": 1
           },
           {
+            "word": "Docs",
+            "count": 1
+          },
+          {
             "word": "escrow",
             "count": 1
           },
@@ -8898,7 +9064,7 @@
             "count": 1
           },
           {
-            "word": "gradix",
+            "word": "gemmora",
             "count": 1
           },
           {
@@ -8990,6 +9156,10 @@
             "count": 3
           },
           {
+            "word": "Offers",
+            "count": 1
+          },
+          {
             "word": "one",
             "count": 1
           },
@@ -9042,6 +9212,10 @@
             "count": 4
           },
           {
+            "word": "Swap",
+            "count": 1
+          },
+          {
             "word": "swaps",
             "count": 1
           },
@@ -9092,7 +9266,19 @@
         ],
         "attrs": [
           {
+            "key": "aria-label=App",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -9103,7 +9289,19 @@
           },
           {
             "href": "/app",
-            "count": 2
+            "count": 3
+          },
+          {
+            "href": "/docs",
+            "count": 1
+          },
+          {
+            "href": "/offers",
+            "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [],
@@ -9111,122 +9309,128 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "-p15RG_backdrop",
-          "-p15RG_btnRed",
-          "-p15RG_emptyBox",
-          "-p15RG_glass",
-          "-p15RG_kicker",
-          "-p15RG_page",
-          "font-bold",
-          "max-w-6xl",
-          "mt-1",
-          "mt-16",
-          "mt-2",
-          "mx-auto",
-          "oe3DtG_appNav",
-          "oe3DtG_btnRed",
-          "oe3DtG_navInner",
-          "pb-24",
-          "pt-14",
-          "px-4",
-          "text-2xl",
-          "text-4xl",
-          "text-accent",
-          "text-dim",
-          "text-sm",
-          "tracking-tight",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-band",
+          "tx-band--first",
+          "tx-band-head",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-copy",
+          "tx-display",
+          "tx-display--doc",
+          "tx-empty",
+          "tx-empty-art",
+          "tx-eyebrow",
+          "tx-index",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-kicker",
+          "tx-kicker-num",
+          "tx-lede",
+          "tx-main",
+          "tx-shell",
+          "tx-shell--product",
+          "tx-stage",
+          "tx-thesis",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
           "a@7:1",
           "a@8:1",
+          "a@9:1",
+          "a@9:3",
+          "aside@4:1",
           "b@10:0",
-          "button@7:0",
+          "button@8:0",
+          "div@3:2",
           "div@4:1",
-          "div@4:2",
-          "div@6:0",
+          "div@5:3",
           "div@6:2",
           "div@6:3",
+          "div@7:1",
           "div@7:2",
-          "div@7:3",
-          "h1@6:1",
-          "h2@6:1",
-          "h3@8:0",
-          "header@5:1",
+          "div@8:2",
+          "div@8:3",
+          "em@8:0",
+          "em@9:0",
+          "h1@7:1",
+          "h2@8:2",
+          "h3@9:0",
           "img@9:0",
-          "main@5:4+",
-          "p@6:0",
+          "li@8:1",
+          "main@5:3",
+          "nav@6:1",
+          "ol@7:3",
+          "p@7:0",
           "p@8:0",
-          "span@7:0",
+          "p@9:0",
+          "path@10:0",
+          "section@6:2",
+          "span@10:0",
+          "span@8:0",
           "span@8:2",
           "span@9:0",
-          "span@9:1"
+          "span@9:1",
+          "svg@9:1"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
             "width": 390,
-            "height": 80
+            "height": 295
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 95,
+            "left": 20,
+            "width": 350,
+            "height": 34
           },
           {
             "tag": "main",
             "role": "",
-            "top": 80,
-            "left": 0,
-            "width": 390,
-            "height": 1125
+            "top": 317,
+            "left": 20,
+            "width": 350,
+            "height": 991
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 17
+            "hex": "#081b2b",
+            "count": 45
           },
           {
-            "hex": "#e5293f",
-            "count": 5
+            "hex": "#0b5fc0",
+            "count": 11
           },
           {
             "hex": "#ffffff",
+            "count": 9
+          },
+          {
+            "hex": "#4e6577",
             "count": 5
           },
           {
-            "hex": "#f4efe8",
-            "count": 3
-          },
-          {
-            "hex": "#f6f2ec",
-            "count": 3
-          },
-          {
-            "hex": "#9898a3",
+            "hex": "#5b7082",
             "count": 2
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 1
           }
         ],
-        "contrast": [
-          {
-            "selector": "div.-p15RG_page > main.mx-auto.max-w-6xl > div.-p15RG_kicker",
-            "text": "Read live from the program",
-            "ratio": 4.47,
-            "required": 4.5,
-            "fontSize": 13,
-            "weight": 600,
-            "color": "rgb(229, 41, 63)",
-            "background": "#09090b"
-          }
-        ],
-        "contrastChecked": 20,
+        "contrast": [],
+        "contrastChecked": 25,
         "headings": [
           {
             "tag": "h1",
@@ -9238,7 +9442,7 @@
           },
           {
             "tag": "h2",
-            "text": "Open to swap."
+            "text": "02 OPEN to swap."
           },
           {
             "tag": "h3",
@@ -9246,7 +9450,7 @@
           },
           {
             "tag": "h2",
-            "text": "Completed swaps."
+            "text": "03 COMPLETED swaps."
           },
           {
             "tag": "h3",
@@ -9254,7 +9458,10 @@
           }
         ],
         "navTargets": [
-          "/"
+          "/",
+          "/app",
+          "/docs",
+          "/offers"
         ],
         "overflow": {
           "documentOverflow": false,
@@ -9265,24 +9472,26 @@
         "opened": false,
         "targets": [
           "/",
-          "/app"
+          "/app",
+          "/offers",
+          "/docs"
         ],
         "reachable": true
       }
     },
     "/docs": {
       "route": "/docs",
-      "url": "http://127.0.0.1:3000/docs",
+      "url": "http://127.0.0.1:4317/docs",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Docs — Gradix",
+          "title": "Docs — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 8838,
+          "bodyTextLength": 8899,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 21
+          "focusableCount": 24
         },
         "words": [
           {
@@ -9294,12 +9503,32 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 16
+            "word": "$GEMMORA",
+            "count": 15
           },
           {
             "word": "0",
             "count": 5
+          },
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
           },
           {
             "word": "1",
@@ -9660,10 +9889,6 @@
           {
             "word": "by",
             "count": 7
-          },
-          {
-            "word": "CA",
-            "count": 1
           },
           {
             "word": "can",
@@ -10046,6 +10271,14 @@
             "count": 5
           },
           {
+            "word": "gemmora",
+            "count": 4
+          },
+          {
+            "word": "Gemmora",
+            "count": 3
+          },
+          {
             "word": "Gets",
             "count": 1
           },
@@ -10063,14 +10296,6 @@
           },
           {
             "word": "graded",
-            "count": 3
-          },
-          {
-            "word": "gradix",
-            "count": 2
-          },
-          {
-            "word": "Gradix",
             "count": 3
           },
           {
@@ -10419,7 +10644,7 @@
           },
           {
             "word": "on",
-            "count": 14
+            "count": 15
           },
           {
             "word": "On",
@@ -10774,10 +10999,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 1
-          },
-          {
             "word": "specific",
             "count": 1
           },
@@ -11098,6 +11319,14 @@
             "count": 1
           },
           {
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "x.com",
+            "count": 1
+          },
+          {
             "word": "xyz",
             "count": 2
           },
@@ -11120,8 +11349,12 @@
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
+            "key": "aria-label=Gemmora home",
             "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 2
           },
           {
             "key": "aria-label=On this page",
@@ -11129,6 +11362,10 @@
           },
           {
             "key": "aria-label=Primary",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -11192,6 +11429,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 3
           }
         ],
         "forms": [],
@@ -11199,355 +11440,188 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "_5makga_doc",
-          "_5makga_facts",
-          "_5makga_faq",
-          "_5makga_instr",
-          "_5makga_layout",
-          "_5makga_note",
-          "_5makga_risks",
-          "_5makga_steps",
-          "_5makga_table",
-          "_5makga_tableWrap",
-          "_5makga_toc",
-          "_5makga_top",
-          "_cEqKa_soonChip",
-          "eyebrow",
-          "kit-container",
-          "kit-num",
-          "oe3DtG_btnRed",
-          "oe3DtG_container",
-          "oe3DtG_footer",
-          "oe3DtG_footerBrand",
-          "oe3DtG_footerCols",
-          "oe3DtG_footerInner",
-          "oe3DtG_legal",
-          "oe3DtG_nav",
-          "oe3DtG_navInner",
-          "oe3DtG_navLinks",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-chip",
+          "tx-chip--x",
+          "tx-chip-arrow",
+          "tx-display",
+          "tx-display--doc",
+          "tx-doc-article",
+          "tx-doc-facts",
+          "tx-doc-faq",
+          "tx-doc-instr",
+          "tx-doc-note",
+          "tx-doc-risks",
+          "tx-doc-steps",
+          "tx-doc-toc",
+          "tx-eyebrow",
+          "tx-footer",
+          "tx-footer-brand",
+          "tx-footer-col",
+          "tx-footer-cols",
+          "tx-footer-grid",
+          "tx-index",
+          "tx-index-arrow",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-index-num",
+          "tx-legal",
+          "tx-main",
+          "tx-num",
+          "tx-shell",
+          "tx-shell--marketing",
+          "tx-stage",
+          "tx-table",
+          "tx-table-wrap",
+          "tx-thesis",
+          "tx-thesis--doc",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
-          "a@5:0",
-          "a@5:1",
-          "a@6:0",
-          "a@7:0",
+          "a@11:0",
+          "a@7:1",
+          "a@8:0",
+          "a@8:1",
+          "a@8:4+",
           "a@9:0",
-          "article@4:4+",
-          "aside@4:2",
-          "b@7:0",
-          "b@8:0",
-          "code@9:0",
-          "dd@8:0",
-          "dd@8:1",
-          "dd@8:2",
+          "a@9:3",
+          "article@6:4+",
+          "aside@4:1",
+          "b@10:0",
+          "b@9:0",
+          "code@11:0",
+          "dd@10:0",
+          "dd@10:1",
+          "dd@10:2",
+          "div@3:2",
           "div@4:2",
-          "div@4:3",
           "div@5:3",
-          "div@6:1",
           "div@6:2",
           "div@6:4+",
           "div@7:2",
-          "dl@6:4+",
-          "dt@8:0",
-          "footer@3:2",
-          "h1@6:0",
-          "h2@6:0",
-          "h3@6:0",
-          "header@3:1",
-          "header@5:2",
-          "img@7:0",
-          "li@7:0",
-          "li@7:1",
-          "li@7:2",
-          "main@3:2",
-          "nav@5:3",
-          "nav@5:4+",
-          "ol@6:4+",
-          "p@4:0",
-          "p@5:0",
+          "div@7:3",
+          "div@8:1",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:2",
+          "dl@8:4+",
+          "dt@10:0",
+          "footer@5:2",
+          "h1@7:0",
+          "h2@8:0",
+          "h3@8:0",
+          "img@9:0",
+          "li@8:1",
+          "li@9:0",
+          "li@9:1",
+          "li@9:2",
+          "main@5:1",
+          "nav@6:1",
+          "nav@7:4+",
+          "ol@7:4+",
+          "ol@8:4+",
+          "p@10:0",
+          "p@10:2",
           "p@6:0",
+          "p@7:0",
           "p@8:0",
-          "p@8:2",
-          "section@5:2",
-          "section@5:4+",
-          "span@6:2",
-          "span@7:0",
-          "span@7:1",
+          "path@10:0",
+          "section@7:2",
+          "section@7:4+",
+          "span@10:0",
+          "span@11:0",
+          "span@8:2",
           "span@9:0",
-          "table@7:2",
-          "tbody@8:4+",
-          "td@10:0",
-          "th@10:0",
-          "thead@8:1",
-          "tr@9:4+",
-          "ul@6:4+"
+          "span@9:1",
+          "svg@9:1",
+          "table@9:2",
+          "tbody@10:4+",
+          "td@12:0",
+          "th@12:0",
+          "thead@10:1",
+          "tr@11:4+",
+          "ul@8:4+"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
-            "width": 1440,
-            "height": 92
+            "width": 547,
+            "height": 900
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 38,
-            "left": 539,
-            "width": 392,
-            "height": 17
+            "top": 130,
+            "left": 43,
+            "width": 460,
+            "height": 211
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 534,
+            "left": 43,
+            "width": 460,
+            "height": 224
           },
           {
             "tag": "main",
             "role": "",
-            "top": -146,
-            "left": 80,
-            "width": 1280,
-            "height": 5540
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 110,
-            "left": 120,
-            "width": 200,
-            "height": 239
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 141,
-            "left": 120,
-            "width": 200,
-            "height": 208
-          },
-          {
-            "tag": "header",
-            "role": "",
             "top": -16,
-            "left": 392,
+            "left": 613,
             "width": 760,
-            "height": 171
+            "height": 4295
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 5394,
-            "left": 0,
-            "width": 1440,
-            "height": 315
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 5464,
-            "left": 910,
-            "width": 410,
-            "height": 137
+            "top": 4348,
+            "left": 613,
+            "width": 760,
+            "height": 291
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 111
+            "hex": "#081b2b",
+            "count": 123
           },
           {
-            "hex": "#9898a3",
-            "count": 84
+            "hex": "#4e6577",
+            "count": 105
           },
           {
-            "hex": "#f4efe8",
-            "count": 18
+            "hex": "#5b7082",
+            "count": 20
           },
           {
-            "hex": "#62627a",
+            "hex": "#e8f3ff",
+            "count": 16
+          },
+          {
+            "hex": "#0b5fc0",
             "count": 14
           },
           {
-            "hex": "#111114",
-            "count": 8
-          },
-          {
-            "hex": "#f6f2ec",
-            "count": 3
-          },
-          {
-            "hex": "#e5293f",
-            "count": 2
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 2
-          },
-          {
-            "hex": "#060506",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
             "hex": "#ffffff",
-            "count": 1
+            "count": 3
           }
         ],
-        "contrast": [
-          {
-            "selector": "main.kit-container._5makga_layout > aside._5makga_toc > p.eyebrow",
-            "text": "Docs",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#how > p._5makga_note",
-            "text": "Example names and values.",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Step",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Maya (bidder)",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Leo (owner)",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Treasury",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Who pays",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "When",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Amount",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Where it goes",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Bidder",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Bidder, or anyone after expiry",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Owner of the wanted card",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Admin key only",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "body.min-h-dvh > footer.oe3DtG_footer > p.oe3DtG_container.oe3DtG_legal",
-            "text": "Not affiliated with Collector Crypt or The Pokémon Company. Not financial advice. The program is not",
-            "ratio": 2.83,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.35)",
-            "background": "#060506"
-          }
-        ],
-        "contrastChecked": 158,
+        "contrast": [],
+        "contrastChecked": 164,
         "headings": [
           {
             "tag": "h1",
@@ -11616,13 +11690,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Docs — Gradix",
+          "title": "Docs — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 8800,
+          "bodyTextLength": 8874,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 16
+          "focusableCount": 24
         },
         "words": [
           {
@@ -11634,7 +11708,7 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
+            "word": "$GEMMORA",
             "count": 15
           },
           {
@@ -12002,10 +12076,6 @@
             "count": 7
           },
           {
-            "word": "CA",
-            "count": 1
-          },
-          {
             "word": "can",
             "count": 13
           },
@@ -12227,7 +12297,7 @@
           },
           {
             "word": "Docs",
-            "count": 2
+            "count": 3
           },
           {
             "word": "documentation",
@@ -12386,6 +12456,14 @@
             "count": 5
           },
           {
+            "word": "gemmora",
+            "count": 4
+          },
+          {
+            "word": "Gemmora",
+            "count": 3
+          },
+          {
             "word": "Gets",
             "count": 1
           },
@@ -12403,14 +12481,6 @@
           },
           {
             "word": "graded",
-            "count": 3
-          },
-          {
-            "word": "gradix",
-            "count": 2
-          },
-          {
-            "word": "Gradix",
             "count": 3
           },
           {
@@ -12463,7 +12533,7 @@
           },
           {
             "word": "How",
-            "count": 4
+            "count": 5
           },
           {
             "word": "I",
@@ -12531,7 +12601,7 @@
           },
           {
             "word": "it",
-            "count": 17
+            "count": 18
           },
           {
             "word": "It",
@@ -12755,11 +12825,11 @@
           },
           {
             "word": "Offers",
-            "count": 1
+            "count": 2
           },
           {
             "word": "on",
-            "count": 14
+            "count": 15
           },
           {
             "word": "On",
@@ -13114,10 +13184,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 1
-          },
-          {
             "word": "specific",
             "count": 1
           },
@@ -13159,7 +13225,7 @@
           },
           {
             "word": "Swap",
-            "count": 2
+            "count": 3
           },
           {
             "word": "swaps",
@@ -13427,7 +13493,7 @@
           },
           {
             "word": "works",
-            "count": 3
+            "count": 4
           },
           {
             "word": "written",
@@ -13435,6 +13501,14 @@
           },
           {
             "word": "wrong",
+            "count": 1
+          },
+          {
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "x.com",
             "count": 1
           },
           {
@@ -13460,11 +13534,23 @@
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
+            "key": "aria-label=Gemmora home",
             "count": 1
           },
           {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 2
+          },
+          {
             "key": "aria-label=On this page",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Primary",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -13479,23 +13565,27 @@
           },
           {
             "href": "/#how",
-            "count": 1
+            "count": 2
           },
           {
             "href": "/#risks",
             "count": 1
           },
           {
+            "href": "/#token",
+            "count": 1
+          },
+          {
             "href": "/app",
-            "count": 2
+            "count": 3
           },
           {
             "href": "/docs",
-            "count": 1
+            "count": 2
           },
           {
             "href": "/offers",
-            "count": 1
+            "count": 2
           },
           {
             "href": "#faq",
@@ -13524,6 +13614,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 3
           }
         ],
         "forms": [],
@@ -13531,346 +13625,186 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "_5makga_doc",
-          "_5makga_facts",
-          "_5makga_faq",
-          "_5makga_instr",
-          "_5makga_layout",
-          "_5makga_note",
-          "_5makga_risks",
-          "_5makga_steps",
-          "_5makga_table",
-          "_5makga_tableWrap",
-          "_5makga_toc",
-          "_5makga_top",
-          "_cEqKa_soonChip",
-          "eyebrow",
-          "kit-container",
-          "kit-num",
-          "oe3DtG_btnRed",
-          "oe3DtG_container",
-          "oe3DtG_footer",
-          "oe3DtG_footerBrand",
-          "oe3DtG_footerCols",
-          "oe3DtG_footerInner",
-          "oe3DtG_legal",
-          "oe3DtG_nav",
-          "oe3DtG_navInner",
-          "wordmark"
+          "tx-aside",
+          "tx-aside-inner",
+          "tx-brandbar",
+          "tx-brandbar-actions",
+          "tx-brandlink",
+          "tx-brandmark",
+          "tx-btn",
+          "tx-btn--sm",
+          "tx-btn--solid",
+          "tx-chip",
+          "tx-chip--x",
+          "tx-chip-arrow",
+          "tx-display",
+          "tx-display--doc",
+          "tx-doc-article",
+          "tx-doc-facts",
+          "tx-doc-faq",
+          "tx-doc-instr",
+          "tx-doc-note",
+          "tx-doc-risks",
+          "tx-doc-steps",
+          "tx-doc-toc",
+          "tx-eyebrow",
+          "tx-footer",
+          "tx-footer-brand",
+          "tx-footer-col",
+          "tx-footer-cols",
+          "tx-footer-grid",
+          "tx-index",
+          "tx-index-label",
+          "tx-index-link",
+          "tx-index-list",
+          "tx-legal",
+          "tx-main",
+          "tx-num",
+          "tx-shell",
+          "tx-shell--marketing",
+          "tx-stage",
+          "tx-table",
+          "tx-table-wrap",
+          "tx-thesis",
+          "tx-thesis--doc",
+          "tx-wordmark",
+          "tx-xbtn"
         ],
         "fingerprint": [
-          "a@5:0",
-          "a@5:1",
-          "a@6:0",
-          "a@7:0",
+          "a@11:0",
+          "a@7:1",
+          "a@8:0",
+          "a@8:1",
+          "a@8:4+",
           "a@9:0",
-          "article@4:4+",
-          "aside@4:2",
-          "b@7:0",
-          "b@8:0",
-          "code@9:0",
-          "dd@8:0",
-          "dd@8:1",
-          "dd@8:2",
+          "a@9:3",
+          "article@6:4+",
+          "aside@4:1",
+          "b@10:0",
+          "b@9:0",
+          "code@11:0",
+          "dd@10:0",
+          "dd@10:1",
+          "dd@10:2",
+          "div@3:2",
           "div@4:2",
-          "div@4:3",
           "div@5:3",
-          "div@6:1",
           "div@6:2",
           "div@6:4+",
           "div@7:2",
-          "dl@6:4+",
-          "dt@8:0",
-          "footer@3:2",
-          "h1@6:0",
-          "h2@6:0",
-          "h3@6:0",
-          "header@3:1",
-          "header@5:2",
-          "img@7:0",
-          "li@7:0",
-          "li@7:1",
-          "li@7:2",
-          "main@3:2",
-          "nav@5:3",
-          "nav@5:4+",
-          "ol@6:4+",
-          "p@4:0",
-          "p@5:0",
+          "div@7:3",
+          "div@8:1",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:2",
+          "dl@8:4+",
+          "dt@10:0",
+          "footer@5:2",
+          "h1@7:0",
+          "h2@8:0",
+          "h3@8:0",
+          "img@9:0",
+          "li@8:1",
+          "li@9:0",
+          "li@9:1",
+          "li@9:2",
+          "main@5:1",
+          "nav@6:1",
+          "nav@7:4+",
+          "ol@7:4+",
+          "ol@8:4+",
+          "p@10:0",
+          "p@10:2",
           "p@6:0",
+          "p@7:0",
           "p@8:0",
-          "p@8:2",
-          "section@5:2",
-          "section@5:4+",
-          "span@6:2",
-          "span@7:0",
-          "span@7:1",
+          "path@10:0",
+          "section@7:2",
+          "section@7:4+",
+          "span@10:0",
+          "span@11:0",
+          "span@8:2",
           "span@9:0",
-          "table@7:2",
-          "tbody@8:4+",
-          "td@10:0",
-          "th@10:0",
-          "thead@8:1",
-          "tr@9:4+",
-          "ul@6:4+"
+          "span@9:1",
+          "svg@9:1",
+          "table@9:2",
+          "tbody@10:4+",
+          "td@12:0",
+          "th@12:0",
+          "thead@10:1",
+          "tr@11:4+",
+          "ul@8:4+"
         ],
         "landmarks": [
           {
-            "tag": "header",
+            "tag": "aside",
             "role": "",
             "top": 0,
             "left": 0,
             "width": 390,
-            "height": 76
+            "height": 431
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 99,
+            "left": 20,
+            "width": 350,
+            "height": 74
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 335,
+            "left": 20,
+            "width": 350,
+            "height": 75
           },
           {
             "tag": "main",
             "role": "",
-            "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 8043
-          },
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 130,
-            "left": 16,
-            "width": 358,
-            "height": 104
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 161,
-            "left": 16,
-            "width": 358,
-            "height": 73
-          },
-          {
-            "tag": "header",
-            "role": "",
-            "top": 266,
-            "left": 16,
-            "width": 358,
-            "height": 139
+            "top": 453,
+            "left": 20,
+            "width": 350,
+            "height": 5616
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 8043,
-            "left": 0,
-            "width": 390,
-            "height": 500
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 8290,
-            "left": 16,
-            "width": 354,
-            "height": 105
+            "top": 6104,
+            "left": 20,
+            "width": 350,
+            "height": 450
           }
         ],
         "colors": [
           {
-            "hex": "#ededf0",
-            "count": 111
+            "hex": "#081b2b",
+            "count": 123
           },
           {
-            "hex": "#9898a3",
-            "count": 84
+            "hex": "#4e6577",
+            "count": 105
           },
           {
-            "hex": "#62627a",
-            "count": 14
+            "hex": "#5b7082",
+            "count": 16
           },
           {
-            "hex": "#f4efe8",
+            "hex": "#e8f3ff",
+            "count": 16
+          },
+          {
+            "hex": "#0b5fc0",
             "count": 12
           },
           {
-            "hex": "#111114",
-            "count": 8
-          },
-          {
-            "hex": "#f6f2ec",
-            "count": 3
-          },
-          {
-            "hex": "#e5293f",
-            "count": 2
-          },
-          {
-            "hex": "#f4f1ec",
-            "count": 2
-          },
-          {
-            "hex": "#060506",
-            "count": 1
-          },
-          {
-            "hex": "#0c0a0c",
-            "count": 1
-          },
-          {
             "hex": "#ffffff",
-            "count": 1
+            "count": 3
           }
         ],
-        "contrast": [
-          {
-            "selector": "main.kit-container._5makga_layout > aside._5makga_toc > p.eyebrow",
-            "text": "Docs",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "section#how > p._5makga_note",
-            "text": "Example names and values.",
-            "ratio": 3.36,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#09090b"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Step",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Maya (bidder)",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Leo (owner)",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Treasury",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Who pays",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "When",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Amount",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "thead > tr > th",
-            "text": "Where it goes",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 11,
-            "weight": 500,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Bidder",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Bidder, or anyone after expiry",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Owner of the wanted card",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "li > p > span",
-            "text": "Admin key only",
-            "ratio": 3.18,
-            "required": 4.5,
-            "fontSize": 12,
-            "weight": 400,
-            "color": "rgb(98, 98, 122)",
-            "background": "#111114"
-          },
-          {
-            "selector": "body.min-h-dvh > footer.oe3DtG_footer > p.oe3DtG_container.oe3DtG_legal",
-            "text": "Not affiliated with Collector Crypt or The Pokémon Company. Not financial advice. The program is not",
-            "ratio": 2.83,
-            "required": 4.5,
-            "fontSize": 12.5,
-            "weight": 400,
-            "color": "rgba(244, 239, 232, 0.35)",
-            "background": "#060506"
-          }
-        ],
-        "contrastChecked": 153,
+        "contrast": [],
+        "contrastChecked": 159,
         "headings": [
           {
             "tag": "h1",
@@ -13924,44 +13858,44 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "section#how > div._5makga_tableWrap > table._5makga_table",
-              "right": 617,
-              "width": 600
+              "selector": "section#how > div.tx-table-wrap > table.tx-table",
+              "right": 641,
+              "width": 620
             },
             {
-              "selector": "div._5makga_tableWrap > table._5makga_table > thead",
-              "right": 617,
-              "width": 600
+              "selector": "div.tx-table-wrap > table.tx-table > thead",
+              "right": 641,
+              "width": 620
             },
             {
-              "selector": "table._5makga_table > thead > tr",
-              "right": 617,
-              "width": 600
-            },
-            {
-              "selector": "thead > tr > th",
-              "right": 527,
-              "width": 194
+              "selector": "table.tx-table > thead > tr",
+              "right": 641,
+              "width": 620
             },
             {
               "selector": "thead > tr > th",
-              "right": 617,
-              "width": 90
+              "right": 567,
+              "width": 216
             },
             {
-              "selector": "div._5makga_tableWrap > table._5makga_table > tbody",
-              "right": 617,
-              "width": 600
+              "selector": "thead > tr > th",
+              "right": 641,
+              "width": 74
             },
             {
-              "selector": "table._5makga_table > tbody > tr",
-              "right": 617,
-              "width": 600
+              "selector": "div.tx-table-wrap > table.tx-table > tbody",
+              "right": 641,
+              "width": 620
+            },
+            {
+              "selector": "table.tx-table > tbody > tr",
+              "right": 641,
+              "width": 620
             },
             {
               "selector": "tbody > tr > td",
-              "right": 527,
-              "width": 194
+              "right": 567,
+              "width": 216
             }
           ]
         }
@@ -13971,9 +13905,9 @@
         "targets": [
           "/",
           "/app",
-          "",
           "/offers",
-          "/docs"
+          "/docs",
+          ""
         ],
         "reachable": true
       }
@@ -13983,5 +13917,5 @@
       "skipped": "dynamic route — needs a concrete fixture path"
     }
   },
-  "inventoryHash": "69edb50e2423181d6dda519888a778cc414557fe72a90d7e05483e0c94dc5836"
+  "inventoryHash": "8d0dfc6a2ac7dd7ead8669edfefd6bf232536c12d3a25e00dc1a5a89b51a5462"
 }

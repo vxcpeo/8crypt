@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
 import type { Offer } from '@/lib/types';
 import { SignInButton, useAuth } from './auth';
-import { BrandBar, IndexNav, SplitLayout } from './Tidal';
+import { CommandLine, Console, IndexPane, StatusBar, StatusFoot, Work } from './Console';
 import { OfferRow } from './OfferRow';
 
 function EmptyBox({
@@ -19,13 +19,13 @@ function EmptyBox({
   href?: string;
 }) {
   return (
-    <div className="tx-empty">
-      <span className="tx-empty-art" aria-hidden="true" />
+    <div className="gx-empty">
+      <span className="gx-empty-art" aria-hidden="true" />
       <div>
         <h3>{title}</h3>
         <p>{body}</p>
         {cta && href ? (
-          <Link className="tx-btn tx-btn--solid tx-btn--sm" href={href}>
+          <Link className="gx-btn gx-btn--primary gx-btn--sm" href={href}>
             {cta} <span aria-hidden="true">→</span>
           </Link>
         ) : null}
@@ -88,103 +88,124 @@ export function OffersBoard() {
   }
 
   return (
-    <SplitLayout
-      variant="product"
-      narrative={
-        <>
-          <BrandBar label="Home">
-            <SignInButton className="tx-btn tx-btn--solid tx-btn--sm" />
-          </BrandBar>
-          <IndexNav variant="product" active="/offers" />
-          <div className="tx-thesis">
-            <p className="tx-eyebrow">Read live from the program</p>
-            <h1 className="tx-display tx-display--doc">
-              Open <em>offers.</em>
-            </h1>
-            <p className="tx-lede">
-              Every card below is locked in escrow right now, waiting for the holder of the card it
-              asks for.
-            </p>
-          </div>
-        </>
-      }
-    >
-      <section className="tx-band tx-band--first">
-        <div className="tx-band-head">
-          <p className="tx-kicker" aria-hidden="true">
-            01
+    <Console>
+      <StatusBar
+        variant="product"
+        active="/offers"
+        label="Home"
+        action={<SignInButton className="gx-btn gx-btn--primary gx-btn--xs" />}
+      />
+      <CommandLine
+        title={
+          <>
+            Open <em>offers.</em>
+          </>
+        }
+        lede={
+          <>
+            Every card below is locked in escrow right now, waiting for the holder of the card it
+            asks for.
+          </>
+        }
+      />
+
+      <Work layout="two">
+        <IndexPane>
+          <p className="gx-eyebrow gx-eyebrow--index">
+            <span className="gx-dot" aria-hidden="true" />
+            Read live from the program
           </p>
-        </div>
-        {openOffers.length ? (
-          <div className="tx-offer-list">
-            {openOffers.map((offer) => (
-              <OfferRow
-                key={offer.id}
-                offer={offer}
-                mode="open"
-                address={address}
-                busy={busyId === offer.id}
-                onAccept={accept}
-              />
-            ))}
+          <div className="gx-ticks" aria-hidden="true">
+            <span />
+            <span />
+            <span />
           </div>
-        ) : (
-          <EmptyBox
-            title="No open offer yet."
-            body="Pick any Collector Crypt card, lock one of yours for it and it shows up here for everyone."
-            cta="Make the first offer"
-            href="/app"
-          />
-        )}
-      </section>
+        </IndexPane>
 
-      <section className="tx-band">
-        <div className="tx-band-head">
-          <h2 className="tx-kicker">
-            <span className="tx-kicker-num">02</span>Open <em>to swap.</em>
-          </h2>
-          <p className="tx-copy">Cards their holders listed as available for offers.</p>
-        </div>
-        <EmptyBox
-          title="Nothing listed yet."
-          body="In the app, open My cards and mark a card as open to swap: collectors will see it here and send offers."
-          cta="List a card"
-          href="/app"
-        />
-      </section>
-
-      <section className="tx-band">
-        <div className="tx-band-head">
-          <h2 className="tx-kicker">
-            <span className="tx-kicker-num">03</span>Completed <em>swaps.</em>
-          </h2>
-        </div>
-        {completed.length ? (
-          <div className="tx-offer-list">
-            {completed.map((offer) => (
-              <OfferRow
-                key={offer.id}
-                offer={offer}
-                mode="completed"
-                address={address}
-                busy={false}
+        <main className="gx-pane gx-pane--data" id="content">
+          <section className="gx-band">
+            <div className="gx-bandhead">
+              <span className="gx-bandnum" aria-hidden="true" />
+              <span className="gx-rule" aria-hidden="true" />
+            </div>
+            {openOffers.length ? (
+              <div className="gx-offerlist">
+                {openOffers.map((offer) => (
+                  <OfferRow
+                    key={offer.id}
+                    offer={offer}
+                    mode="open"
+                    address={address}
+                    busy={busyId === offer.id}
+                    onAccept={accept}
+                  />
+                ))}
+              </div>
+            ) : (
+              <EmptyBox
+                title="No open offer yet."
+                body="Pick any Collector Crypt card, lock one of yours for it and it shows up here for everyone."
+                cta="Make the first offer"
+                href="/app"
               />
-            ))}
-          </div>
-        ) : (
-          <EmptyBox
-            title="No swap yet."
-            body="Every completed swap shows here with both cards and its Solana transaction."
-          />
-        )}
-      </section>
+            )}
+          </section>
 
-      {toast ? (
-        <div className={`tx-toast${toast.error ? ' tx-toast--error' : ''}`} role="status">
-          <span className="tx-dot" />
-          {toast.text}
-        </div>
-      ) : null}
-    </SplitLayout>
+          <section className="gx-band">
+            <div className="gx-bandhead">
+              <span className="gx-bandnum" aria-hidden="true" />
+              <span className="gx-rule" aria-hidden="true" />
+              <h2 className="gx-h2">
+                Open <em>to swap.</em>
+              </h2>
+              <p className="gx-copy">Cards their holders listed as available for offers.</p>
+            </div>
+            <EmptyBox
+              title="Nothing listed yet."
+              body="In the app, open My cards and mark a card as open to swap: collectors will see it here and send offers."
+              cta="List a card"
+              href="/app"
+            />
+          </section>
+
+          <section className="gx-band">
+            <div className="gx-bandhead">
+              <span className="gx-bandnum" aria-hidden="true" />
+              <span className="gx-rule" aria-hidden="true" />
+              <h2 className="gx-h2">
+                Completed <em>swaps.</em>
+              </h2>
+            </div>
+            {completed.length ? (
+              <div className="gx-offerlist">
+                {completed.map((offer) => (
+                  <OfferRow
+                    key={offer.id}
+                    offer={offer}
+                    mode="completed"
+                    address={address}
+                    busy={false}
+                  />
+                ))}
+              </div>
+            ) : (
+              <EmptyBox
+                title="No swap yet."
+                body="Every completed swap shows here with both cards and its Solana transaction."
+              />
+            )}
+          </section>
+
+          {toast ? (
+            <div className={`gx-toast${toast.error ? ' gx-toast--error' : ''}`} role="status">
+              <span className="gx-dot" aria-hidden="true" />
+              {toast.text}
+            </div>
+          ) : null}
+        </main>
+      </Work>
+
+      <StatusFoot />
+    </Console>
   );
 }

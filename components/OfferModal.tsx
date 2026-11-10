@@ -127,20 +127,15 @@ export function OfferModal({
 
   return (
     <div
-      className="tx-backdrop"
+      className="gx-veil"
       role="presentation"
       onMouseDown={(event) => {
         if (event.target === event.currentTarget && !busy) onClose();
       }}
     >
-      <div
-        className="tx-modal tx-modal--offer"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="offer-title"
-      >
+      <div className="gx-modal gx-modal--offer" role="dialog" aria-modal="true" aria-labelledby="offer-title">
         <button
-          className="tx-modal-close"
+          className="gx-modal-close"
           onClick={onClose}
           aria-label="Close offer"
           type="button"
@@ -149,11 +144,11 @@ export function OfferModal({
           ×
         </button>
 
-        <div className="tx-offer-head">
+        <div className="gx-offerhead">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={card.image} alt={card.name} />
           <div>
-            <p className="tx-eyebrow">Offer for this card</p>
+            <p className="gx-eyebrow">Offer for this card</p>
             <h2 id="offer-title">{card.name}</h2>
             <p>
               {card.grade} · {formatUsd(card.insuredValue)} insured value
@@ -161,21 +156,21 @@ export function OfferModal({
           </div>
         </div>
 
-        <div className="tx-modal-body">
+        <div className="gx-modalbody">
           {address ? (
             <>
               <div>
-                <div className="tx-field-label">
+                <div className="gx-fieldlabel">
                   <span>Card you give</span>
                   <small>from your wallet · escrowed</small>
                 </div>
                 {vault.length ? (
-                  <div className="tx-vault">
+                  <div className="gx-vault">
                     {vault.map((vaultCard) => (
                       <button
                         key={vaultCard.mint}
                         type="button"
-                        className={`tx-vault-pick${vaultCard.mint === offeredMint ? ' tx-vault-pick--selected' : ''}`}
+                        className={`gx-pick${vaultCard.mint === offeredMint ? ' gx-pick--selected' : ''}`}
                         onClick={() => pickCard(vaultCard)}
                         title={vaultCard.name}
                       >
@@ -186,7 +181,7 @@ export function OfferModal({
                     ))}
                   </div>
                 ) : (
-                  <p className="tx-fine">
+                  <p className="gx-fine">
                     No Collector Crypt cards found in this wallet. This preview build assigns a
                     deterministic vault to every wallet on sign-in.
                   </p>
@@ -194,14 +189,14 @@ export function OfferModal({
               </div>
 
               <div>
-                <div className="tx-field-label">
+                <div className="gx-fieldlabel">
                   <span>USDC to balance</span>
                   <small>only moves if both sides accept</small>
                 </div>
-                <div className="tx-seg">
+                <div className="gx-seg">
                   <button
                     type="button"
-                    className={direction === 'even' ? 'tx-seg-btn tx-seg-btn--active' : 'tx-seg-btn'}
+                    className={direction === 'even' ? 'gx-segbtn gx-segbtn--active' : 'gx-segbtn'}
                     onClick={() => {
                       setDirection('even');
                       setAmount('');
@@ -211,7 +206,7 @@ export function OfferModal({
                   </button>
                   <button
                     type="button"
-                    className={direction === 'add' ? 'tx-seg-btn tx-seg-btn--active' : 'tx-seg-btn'}
+                    className={direction === 'add' ? 'gx-segbtn gx-segbtn--active' : 'gx-segbtn'}
                     onClick={() => {
                       setDirection('add');
                       if (!amount) setAmount('1');
@@ -222,7 +217,7 @@ export function OfferModal({
                   <button
                     type="button"
                     className={
-                      direction === 'request' ? 'tx-seg-btn tx-seg-btn--active' : 'tx-seg-btn'
+                      direction === 'request' ? 'gx-segbtn gx-segbtn--active' : 'gx-segbtn'
                     }
                     onClick={() => {
                       setDirection('request');
@@ -233,7 +228,7 @@ export function OfferModal({
                   </button>
                 </div>
                 {direction !== 'even' ? (
-                  <div className="tx-amount">
+                  <div className="gx-amount">
                     <input
                       inputMode="decimal"
                       placeholder="0"
@@ -244,18 +239,18 @@ export function OfferModal({
                       }}
                       aria-label="USDC amount"
                     />
-                    <span className="tx-mono">USDC</span>
+                    <span className="gx-mono">USDC</span>
                   </div>
                 ) : null}
               </div>
 
               <div>
-                <div className="tx-field-label">
+                <div className="gx-fieldlabel">
                   <span>Expiry</span>
                   <small>after this anyone can return the escrow</small>
                 </div>
                 <select
-                  className="tx-select"
+                  className="gx-select"
                   value={expiry}
                   onChange={(event) => setExpiry(event.target.value)}
                 >
@@ -267,14 +262,14 @@ export function OfferModal({
                 </select>
               </div>
 
-              <div className="tx-summary">
+              <div className="gx-summary">
                 <div>
                   <small>You give</small>
                   <b>
                     {offered?.grade ?? 'Card'} {usdcAdded ? `+ ${usdcAdded} USDC` : ''}
                   </b>
                 </div>
-                <span className="tx-offer-swap">⇄</span>
+                <span className="gx-offerswap">⇄</span>
                 <div>
                   <small>You receive</small>
                   <b>
@@ -283,7 +278,7 @@ export function OfferModal({
                 </div>
               </div>
 
-              <p className="tx-fine">
+              <p className="gx-fine">
                 Card value: you give <b>{formatUsd(offered?.insuredValue ?? 0)}</b>, you receive{' '}
                 <b>{formatUsd(card.insuredValue)}</b>.{' '}
                 {usdcAdded || usdcRequested
@@ -299,18 +294,23 @@ export function OfferModal({
               </p>
 
               {error ? (
-                <div className="tx-error" role="alert">
+                <div className="gx-alert" role="alert">
                   {error}
                 </div>
               ) : null}
 
-              <div className="tx-modal-actions">
-                <button type="button" className="tx-btn tx-btn--ghost tx-btn--sm" onClick={onClose} disabled={busy}>
+              <div className="gx-modalacts">
+                <button
+                  type="button"
+                  className="gx-btn gx-btn--ghost gx-btn--sm"
+                  onClick={onClose}
+                  disabled={busy}
+                >
                   Cancel
                 </button>
                 <button
                   type="button"
-                  className="tx-btn tx-btn--solid tx-btn--sm"
+                  className="gx-btn gx-btn--primary gx-btn--sm"
                   onClick={submit}
                   disabled={busy || !vault.length}
                 >
@@ -320,17 +320,17 @@ export function OfferModal({
             </>
           ) : (
             <>
-              <p className="tx-fine">
+              <p className="gx-fine">
                 Sign in with the Solana wallet that holds your card. The wallet signs a message to
                 authenticate; the offer itself is escrowed by the swap program.
               </p>
-              <div className="tx-modal-actions">
-                <button type="button" className="tx-btn tx-btn--ghost tx-btn--sm" onClick={onClose}>
+              <div className="gx-modalacts">
+                <button type="button" className="gx-btn gx-btn--ghost gx-btn--sm" onClick={onClose}>
                   Cancel
                 </button>
                 <button
                   type="button"
-                  className="tx-btn tx-btn--solid tx-btn--sm"
+                  className="gx-btn gx-btn--primary gx-btn--sm"
                   onClick={openSignIn}
                 >
                   Sign in to continue

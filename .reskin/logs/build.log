@@ -1,0 +1,42 @@
+
+> gemmora-website@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.28
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.3s
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/11) ...
+   Generating static pages (2/11) 
+   Generating static pages (5/11) 
+   Generating static pages (8/11) 
+ ✓ Generating static pages (11/11)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                      166 B         106 kB
+├ ○ /_not-found                            142 B         103 kB
+├ ƒ /api/auth/logout                       142 B         103 kB
+├ ƒ /api/auth/nonce                        142 B         103 kB
+├ ƒ /api/auth/session                      142 B         103 kB
+├ ƒ /api/auth/verify                       142 B         103 kB
+├ ƒ /api/offers                            142 B         103 kB
+├ ƒ /api/offers/[id]/accept                142 B         103 kB
+├ ƒ /api/offers/[id]/cancel                142 B         103 kB
+├ ○ /app                                 72.2 kB         189 kB
+├ ƒ /card/[mint]                           992 B         117 kB
+├ ○ /docs                                  166 B         106 kB
+└ ○ /offers                              1.63 kB         118 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/255-b1e2483a7e02feee.js       46.6 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          2.04 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "current",
-  "generatedAt": "2026-10-21T19:26:41.256Z",
-  "baseUrl": "http://127.0.0.1:3000/",
+  "generatedAt": "2026-11-09T18:13:00.363Z",
+  "baseUrl": "http://127.0.0.1:4317/",
   "browser": {
     "executablePath": "C:\\Users\\Administrator\\AppData\\Local\\ms-playwright\\chromium-1247\\chrome-win64\\chrome.exe",
     "playwrightSource": "reskin-tools",
@@ -11,17 +11,17 @@
   "pages": {
     "/": {
       "route": "/",
-      "url": "http://127.0.0.1:3000/",
+      "url": "http://127.0.0.1:4317/",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Gradix — swap graded Pokémon cards, no selling first",
+          "title": "Gemmora — swap graded Pokémon cards, no selling first",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4325,
+          "bodyTextLength": 4322,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 47
+          "focusableCount": 53
         },
         "words": [
           {
@@ -37,8 +37,8 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 16
+            "word": "$GEMMORA",
+            "count": 13
           },
           {
             "word": "0",
@@ -66,11 +66,11 @@
           },
           {
             "word": "1",
-            "count": 7
+            "count": 8
           },
           {
             "word": "1,000,000",
-            "count": 2
+            "count": 3
           },
           {
             "word": "1,000,000,000",
@@ -210,7 +210,7 @@
           },
           {
             "word": "address",
-            "count": 3
+            "count": 1
           },
           {
             "word": "admin",
@@ -274,7 +274,7 @@
           },
           {
             "word": "any",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Any",
@@ -295,10 +295,6 @@
           {
             "word": "app",
             "count": 3
-          },
-          {
-            "word": "appear",
-            "count": 1
           },
           {
             "word": "applies",
@@ -425,10 +421,6 @@
             "count": 2
           },
           {
-            "word": "CA",
-            "count": 3
-          },
-          {
             "word": "can",
             "count": 9
           },
@@ -533,10 +525,6 @@
             "count": 1
           },
           {
-            "word": "contract",
-            "count": 1
-          },
-          {
             "word": "controls",
             "count": 1
           },
@@ -566,7 +554,7 @@
           },
           {
             "word": "day",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Delist",
@@ -674,7 +662,7 @@
           },
           {
             "word": "fee",
-            "count": 8
+            "count": 9
           },
           {
             "word": "Fee",
@@ -709,6 +697,10 @@
             "count": 2
           },
           {
+            "word": "follow",
+            "count": 1
+          },
+          {
             "word": "for",
             "count": 6
           },
@@ -729,6 +721,14 @@
             "count": 17
           },
           {
+            "word": "gemmora",
+            "count": 7
+          },
+          {
+            "word": "Gemmora",
+            "count": 1
+          },
+          {
             "word": "go",
             "count": 5
           },
@@ -742,14 +742,6 @@
           },
           {
             "word": "graded",
-            "count": 1
-          },
-          {
-            "word": "gradix",
-            "count": 3
-          },
-          {
-            "word": "Gradix",
             "count": 1
           },
           {
@@ -770,11 +762,15 @@
           },
           {
             "word": "here",
-            "count": 2
+            "count": 1
           },
           {
             "word": "Hold",
             "count": 2
+          },
+          {
+            "word": "holding",
+            "count": 1
           },
           {
             "word": "How",
@@ -806,7 +802,7 @@
           },
           {
             "word": "is",
-            "count": 19
+            "count": 18
           },
           {
             "word": "Is",
@@ -814,7 +810,7 @@
           },
           {
             "word": "it",
-            "count": 16
+            "count": 15
           },
           {
             "word": "its",
@@ -838,7 +834,7 @@
           },
           {
             "word": "land",
-            "count": 1
+            "count": 2
           },
           {
             "word": "launch",
@@ -846,11 +842,11 @@
           },
           {
             "word": "Launch",
-            "count": 3
+            "count": 4
           },
           {
             "word": "launches",
-            "count": 2
+            "count": 1
           },
           {
             "word": "least",
@@ -998,7 +994,7 @@
           },
           {
             "word": "not",
-            "count": 7
+            "count": 6
           },
           {
             "word": "Not",
@@ -1034,7 +1030,7 @@
           },
           {
             "word": "on",
-            "count": 10
+            "count": 13
           },
           {
             "word": "On",
@@ -1078,14 +1074,6 @@
           },
           {
             "word": "Or",
-            "count": 1
-          },
-          {
-            "word": "other",
-            "count": 1
-          },
-          {
-            "word": "ours",
             "count": 1
           },
           {
@@ -1365,10 +1353,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 3
-          },
-          {
             "word": "standard",
             "count": 1
           },
@@ -1458,7 +1442,7 @@
           },
           {
             "word": "The",
-            "count": 13
+            "count": 12
           },
           {
             "word": "them",
@@ -1561,2238 +1545,14 @@
             "count": 1
           },
           {
+            "word": "updates",
+            "count": 1
+          },
+          {
             "word": "USDC",
-            "count": 20
-          },
-          {
-            "word": "value",
-            "count": 4
-          },
-          {
-            "word": "values",
-            "count": 3
-          },
-          {
-            "word": "vault",
-            "count": 1
-          },
-          {
-            "word": "vaulted",
-            "count": 1
-          },
-          {
-            "word": "verified",
-            "count": 1
-          },
-          {
-            "word": "Verified",
-            "count": 1
-          },
-          {
-            "word": "waiver",
-            "count": 2
-          },
-          {
-            "word": "wallet",
-            "count": 5
-          },
-          {
-            "word": "wallets",
-            "count": 1
-          },
-          {
-            "word": "want",
-            "count": 2
-          },
-          {
-            "word": "was",
-            "count": 1
-          },
-          {
-            "word": "what",
-            "count": 1
-          },
-          {
-            "word": "What",
-            "count": 3
-          },
-          {
-            "word": "when",
-            "count": 3
-          },
-          {
-            "word": "where",
-            "count": 1
-          },
-          {
-            "word": "Where",
-            "count": 2
-          },
-          {
-            "word": "which",
-            "count": 1
-          },
-          {
-            "word": "while",
-            "count": 1
-          },
-          {
-            "word": "who",
-            "count": 2
-          },
-          {
-            "word": "Who",
-            "count": 1
-          },
-          {
-            "word": "will",
-            "count": 3
-          },
-          {
-            "word": "with",
-            "count": 6
-          },
-          {
-            "word": "works",
-            "count": 4
-          },
-          {
-            "word": "worth",
-            "count": 2
-          },
-          {
-            "word": "Written",
-            "count": 1
-          },
-          {
-            "word": "wrong",
-            "count": 2
-          },
-          {
-            "word": "xyz",
-            "count": 3
-          },
-          {
-            "word": "yet",
-            "count": 1
-          },
-          {
-            "word": "you",
-            "count": 5
-          },
-          {
-            "word": "your",
-            "count": 9
-          },
-          {
-            "word": "Your",
-            "count": 2
-          },
-          {
-            "word": "yours",
-            "count": 2
-          }
-        ],
-        "attrs": [
-          {
-            "key": "alt=1996 #9 Blastoise-Holo PSA 9 Japanese Basic Pokemon",
-            "count": 2
-          },
-          {
-            "key": "alt=1999 #5 Gengar CGC 8 Fossil - 1st Edition - English",
-            "count": 2
-          },
-          {
-            "key": "alt=1999 #70 Clefairy Doll 1st Edition PSA 10 Game Pokemon",
-            "count": 3
-          },
-          {
-            "key": "alt=2000 POKEMON GYM CHALLENGE 1ST EDITION HOLO BLAINE'S CHARIZARD #2 PSA 7 NM",
-            "count": 3
-          },
-          {
-            "key": "alt=2001 #123 JAPANESE EXPEDITION 1ST EDITION HOLO PIDGEOT PSA 10 POKEMON",
-            "count": 2
-          },
-          {
-            "key": "alt=2001 #176 LIGHT TOGETIC-HOLO PSA 10 POKEMON JAPANESE NEO 4",
-            "count": 2
-          },
-          {
-            "key": "alt=2001 #94 Dark Gengar-Holo PSA 8 Japanese Neo 4 Pokemon",
-            "count": 2
-          },
-          {
-            "key": "alt=2004 #54 JAPANESE FLIGHT OF LEGENDS 1ST ED. HOLO MR. MIME EX PSA 10 POKEMON",
-            "count": 2
-          },
-          {
-            "key": "alt=2013 #137 BLACK AND WHITE PLASMA STORM BLASTOISE PSA 8 POKEMON",
-            "count": 2
-          },
-          {
-            "key": "alt=2017 #XY150A XY BLACK STAR PROMO PREMIUM FULL ART YVELTAL EX PSA 9 POKEMON",
-            "count": 2
-          },
-          {
-            "key": "alt=2019 #33 Pikachu & Zekrom GX PSA 10 Sun & Moon Team Up Pokemon",
-            "count": 2
-          },
-          {
-            "key": "alt=2019 YU-GI-OH! RISING RAMPAGE | 1ST EDITION-STARLIGHT RARE #EN077 STORM DRAGON'S RETURN PSA 10",
-            "count": 2
-          },
-          {
-            "key": "alt=2023 #94 Gengar Master Ball Reverse Holo PSA 10 Japanese Sv2a- 151 Pokemon",
-            "count": 2
-          },
-          {
-            "key": "alt=2024 #150 GIRATINA V PSA 10 POKEMON SIMPLIFIED CHINESE CS6b C-SHADOW OF THE BLUE SEA | SUPER RARE",
-            "count": 2
-          },
-          {
-            "key": "aria-label=Footer",
-            "count": 1
-          },
-          {
-            "key": "aria-label=Gradix home",
-            "count": 1
-          },
-          {
-            "key": "aria-label=Primary",
-            "count": 1
-          },
-          {
-            "key": "aria-label=Two Collector Crypt cards being swapped",
-            "count": 1
-          }
-        ],
-        "links": [
-          {
-            "href": "/",
-            "count": 1
-          },
-          {
-            "href": "/#fees",
-            "count": 1
-          },
-          {
-            "href": "/#how",
-            "count": 2
-          },
-          {
-            "href": "/#risks",
-            "count": 1
-          },
-          {
-            "href": "/#token",
-            "count": 1
-          },
-          {
-            "href": "/app",
-            "count": 5
-          },
-          {
-            "href": "/card/2qPZKRo2DG9QPr3Hmqog9MGWqma1FCS7XY53HpCzXAWP",
-            "count": 2
-          },
-          {
-            "href": "/card/2Wf7wBEFdjoiEwUBXsa9qwuSD1fXdXjbE34XPo6AH69G",
-            "count": 2
-          },
-          {
-            "href": "/card/33G1UP7sC6qwDxk9ipLGZesFCAhWxWfMUSC1Dp3TMFDd",
-            "count": 2
-          },
-          {
-            "href": "/card/3LzCMMduoPhP3jkAYERNAJtZHscsdsEqRrKkpUVcyeXn",
-            "count": 2
-          },
-          {
-            "href": "/card/6nwA7DQB5DbCGgcd1MRETdEX6oVXaaSRZYBR3sYgSMDf",
-            "count": 2
-          },
-          {
-            "href": "/card/7Kk1dQg7LMcH4WvmAAkMBqoSFiecuiAQdftZNgmW7kwx",
-            "count": 2
-          },
-          {
-            "href": "/card/9qBfj4G6BAwMmb5tT2PgVqzTZA7pU9NAaPHzEMRbjvYT",
-            "count": 2
-          },
-          {
-            "href": "/card/Bq4phDSSxtVXRmH9qrLH9eKJrxfazmEaZNHsb1G3PhiS",
-            "count": 2
-          },
-          {
-            "href": "/card/E1ugz1AhcWYyJwvBEUc6R5LJNYgc8dTmvQkg12KUxGJM",
-            "count": 2
-          },
-          {
-            "href": "/card/GaQ9fW22K9rVzDzG4aXq11VBSHPeK8fx5cBwcoJYJr2U",
-            "count": 2
-          },
-          {
-            "href": "/card/GavuhFKoi35sg6dy14mEBs8FGcw6GJRYQckJUtJqufT1",
-            "count": 2
-          },
-          {
-            "href": "/card/HF87PDfAVMecmJqRkrZxCheZKfpGrv9KccbyhtZ8dRNV",
-            "count": 2
-          },
-          {
-            "href": "/card/krgW7j4XxdX6xbSe9wuZh5ZYkFBkNM7SRbXjJkvW4PL",
-            "count": 2
-          },
-          {
-            "href": "/card/yp4bu9WtYvLqJibqxLxLkr5E3FdN98LcS7XPuAMu2M9",
-            "count": 2
-          },
-          {
-            "href": "/docs",
-            "count": 2
-          },
-          {
-            "href": "/offers",
-            "count": 3
-          },
-          {
-            "href": "#how",
-            "count": 1
-          },
-          {
-            "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
-            "count": 2
-          }
-        ],
-        "forms": [],
-        "fieldIssues": [],
-        "imageIssues": [],
-        "interactiveIssues": [],
-        "classTokens": [
-          "tx-actions",
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-badge",
-          "tx-badge-dot",
-          "tx-band",
-          "tx-band--showcase",
-          "tx-band--stats",
-          "tx-band-head",
-          "tx-band-head--split",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--ghost",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-chip",
-          "tx-copy",
-          "tx-display",
-          "tx-display--xl",
-          "tx-eyebrow",
-          "tx-faq",
-          "tx-faq-item",
-          "tx-feature-icon",
-          "tx-feature-label",
-          "tx-features",
-          "tx-final",
-          "tx-final-card",
-          "tx-final-card--l",
-          "tx-final-card--r",
-          "tx-final-inner",
-          "tx-final-slabs",
-          "tx-flow",
-          "tx-flow-line",
-          "tx-flow-node",
-          "tx-flow-node--hot",
-          "tx-footer",
-          "tx-footer-brand",
-          "tx-footer-col",
-          "tx-footer-cols",
-          "tx-footer-grid",
-          "tx-h2",
-          "tx-index",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-index-num",
-          "tx-kicker",
-          "tx-lede",
-          "tx-legal",
-          "tx-main",
-          "tx-metarow",
-          "tx-note",
-          "tx-plate",
-          "tx-plate-caption",
-          "tx-plate-cards",
-          "tx-plate-slab",
-          "tx-plate-slab--a",
-          "tx-plate-slab--b",
-          "tx-plate-swap",
-          "tx-rail",
-          "tx-rail-card",
-          "tx-rail-meta",
-          "tx-rail-track",
-          "tx-secgrid",
-          "tx-secicon",
-          "tx-secitem",
-          "tx-shell",
-          "tx-shell--marketing",
-          "tx-split",
-          "tx-stage",
-          "tx-stat",
-          "tx-stats",
-          "tx-step",
-          "tx-step-copy",
-          "tx-step-icon",
-          "tx-step-num",
-          "tx-steps",
-          "tx-thesis",
-          "tx-token",
-          "tx-token-head",
-          "tx-token-rows",
-          "tx-token-title",
-          "tx-wordmark"
-        ],
-        "fingerprint": [
-          "a@11:0",
-          "a@7:0",
-          "a@7:1",
-          "a@8:0",
-          "a@8:1",
-          "a@9:0",
-          "a@9:1",
-          "a@9:2",
-          "a@9:3",
-          "aside@4:1",
-          "b@10:0",
-          "b@11:0",
-          "b@12:0",
-          "b@9:0",
-          "circle@11:0",
-          "circle@12:0",
-          "code@11:0",
-          "dd@11:0",
-          "details@9:2",
-          "div@10:0",
-          "div@10:2",
-          "div@10:3",
-          "div@3:2",
-          "div@4:2",
-          "div@5:3",
-          "div@6:2",
-          "div@6:4+",
-          "div@7:1",
-          "div@7:2",
-          "div@7:3",
-          "div@7:4+",
-          "div@8:1",
-          "div@8:2",
-          "div@8:3",
-          "div@8:4+",
-          "div@9:2",
-          "div@9:4+",
-          "dl@9:4+",
-          "dt@11:0",
-          "em@10:0",
-          "em@8:0",
-          "em@9:0",
-          "footer@5:2",
-          "h1@7:2",
-          "h2@8:1",
-          "h2@9:1",
-          "h3@10:0",
-          "h3@9:2",
-          "i@11:0",
-          "img@10:0",
-          "img@11:0",
-          "img@8:0",
-          "img@9:0",
-          "li@8:1",
-          "li@8:2",
-          "li@8:3",
-          "main@5:4+",
-          "nav@6:1",
-          "ol@7:4+",
-          "p@10:0",
-          "p@10:1",
-          "p@10:2",
-          "p@6:0",
-          "p@7:0",
-          "p@7:1",
-          "p@8:0",
-          "p@9:0",
-          "path@11:0",
-          "path@12:0",
-          "rect@11:0",
-          "section@6:1",
-          "section@6:2",
-          "small@11:0",
-          "small@9:0",
-          "span@10:0",
-          "span@10:2",
-          "span@11:0",
-          "span@11:1",
-          "span@8:0",
-          "span@8:2",
-          "span@9:0",
-          "span@9:1",
-          "span@9:2",
-          "summary@10:1",
-          "svg@10:1",
-          "svg@10:2",
-          "svg@10:3",
-          "svg@11:1",
-          "svg@11:2",
-          "ul@7:4+"
-        ],
-        "landmarks": [
-          {
-            "tag": "aside",
-            "role": "",
-            "top": 0,
-            "left": 0,
-            "width": 547,
-            "height": 900
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 130,
-            "left": 43,
-            "width": 460,
-            "height": 211
-          },
-          {
-            "tag": "main",
-            "role": "",
-            "top": -35,
-            "left": 613,
-            "width": 760,
-            "height": 4377
-          },
-          {
-            "tag": "footer",
-            "role": "",
-            "top": 4411,
-            "left": 613,
-            "width": 760,
-            "height": 291
-          }
-        ],
-        "colors": [
-          {
-            "hex": "#081b2b",
-            "count": 286
-          },
-          {
-            "hex": "#0b5fc0",
-            "count": 95
-          },
-          {
-            "hex": "#4e6577",
-            "count": 89
-          },
-          {
-            "hex": "#ffffff",
-            "count": 46
-          },
-          {
-            "hex": "#5b7082",
             "count": 21
           },
           {
-            "hex": "#d7ebff",
-            "count": 14
-          },
-          {
-            "hex": "#b42318",
-            "count": 2
-          },
-          {
-            "hex": "#b7d2e8",
-            "count": 2
-          },
-          {
-            "hex": "#1e7be8",
-            "count": 1
-          }
-        ],
-        "contrast": [],
-        "contrastChecked": 207,
-        "headings": [
-          {
-            "tag": "h1",
-            "text": "Trade collectibles directly onchain."
-          },
-          {
-            "tag": "h2",
-            "text": "Any card in the vault can be your next one."
-          },
-          {
-            "tag": "h2",
-            "text": "Four steps. Both cards move together."
-          },
-          {
-            "tag": "h3",
-            "text": "Find the card you want"
-          },
-          {
-            "tag": "h3",
-            "text": "Lock your offer"
-          },
-          {
-            "tag": "h3",
-            "text": "They accept, it settles"
-          },
-          {
-            "tag": "h3",
-            "text": "Or cancel for free"
-          },
-          {
-            "tag": "h2",
-            "text": "Every swap fee buys $GRADIX."
-          },
-          {
-            "tag": "h3",
-            "text": "Hold 1,000,000 $GRADIX. Swap for free."
-          },
-          {
-            "tag": "h2",
-            "text": "Receipts, not promises."
-          },
-          {
-            "tag": "h3",
-            "text": "Program on Solana"
-          },
-          {
-            "tag": "h3",
-            "text": "One escrow per offer"
-          },
-          {
-            "tag": "h3",
-            "text": "Verified cards only"
-          },
-          {
-            "tag": "h3",
-            "text": "Three exits only"
-          },
-          {
-            "tag": "h3",
-            "text": "20 tests, real programs"
-          },
-          {
-            "tag": "h3",
-            "text": "Your keys, your signature"
-          },
-          {
-            "tag": "h2",
-            "text": "Questions, answered straight."
-          },
-          {
-            "tag": "h2",
-            "text": "The card you want is in someone else's wallet."
-          }
-        ],
-        "navTargets": [
-          "",
-          "/",
-          "/app",
-          "/docs",
-          "/offers"
-        ],
-        "overflow": {
-          "documentOverflow": false,
-          "offenders": [
-            {
-              "selector": "section.tx-band.tx-band--showcase > div.tx-rail > div.tx-rail-track",
-              "right": 6413,
-              "width": 5866
-            },
-            {
-              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
-              "right": 1583,
-              "width": 196
-            },
-            {
-              "selector": "div.tx-rail-track > a.tx-rail-card > img",
-              "right": 1583,
-              "width": 196
-            },
-            {
-              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
-              "right": 1583,
-              "width": 196
-            },
-            {
-              "selector": "a.tx-rail-card > span.tx-rail-meta > b",
-              "right": 1449,
-              "width": 62
-            },
-            {
-              "selector": "a.tx-rail-card > span.tx-rail-meta > i",
-              "right": 1583,
-              "width": 25
-            },
-            {
-              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
-              "right": 1793,
-              "width": 196
-            },
-            {
-              "selector": "div.tx-rail-track > a.tx-rail-card > img",
-              "right": 1793,
-              "width": 196
-            }
-          ]
-        }
-      },
-      "axe": {
-        "skipped": true,
-        "violations": []
-      },
-      "consoleErrors": [],
-      "pageErrors": [],
-      "failedRequests": [],
-      "failedResponses": [],
-      "screenshots": {
-        "desktop": "current/home-desktop.png",
-        "mobile": "current/home-mobile.png"
-      },
-      "mobile": {
-        "meta": {
-          "title": "Gradix — swap graded Pokémon cards, no selling first",
-          "lang": "en",
-          "h1Count": 1,
-          "bodyTextLength": 4300,
-          "scrollWidth": 390,
-          "clientWidth": 390,
-          "focusableCount": 47
-        },
-        "words": [
-          {
-            "word": "$0",
-            "count": 1
-          },
-          {
-            "word": "$1,475",
-            "count": 1
-          },
-          {
-            "word": "$1,500",
-            "count": 1
-          },
-          {
-            "word": "$GRADIX",
-            "count": 16
-          },
-          {
-            "word": "0",
-            "count": 7
-          },
-          {
-            "word": "1",
-            "count": 7
-          },
-          {
-            "word": "1,000,000",
-            "count": 2
-          },
-          {
-            "word": "1,000,000,000",
-            "count": 2
-          },
-          {
-            "word": "1,090",
-            "count": 2
-          },
-          {
-            "word": "1,150",
-            "count": 2
-          },
-          {
-            "word": "1,475",
-            "count": 2
-          },
-          {
-            "word": "1,500",
-            "count": 2
-          },
-          {
-            "word": "10",
-            "count": 19
-          },
-          {
-            "word": "100%",
-            "count": 3
-          },
-          {
-            "word": "13",
-            "count": 2
-          },
-          {
-            "word": "2",
-            "count": 2
-          },
-          {
-            "word": "2%",
-            "count": 1
-          },
-          {
-            "word": "20",
-            "count": 2
-          },
-          {
-            "word": "3",
-            "count": 1
-          },
-          {
-            "word": "4",
-            "count": 1
-          },
-          {
-            "word": "490",
-            "count": 2
-          },
-          {
-            "word": "500",
-            "count": 2
-          },
-          {
-            "word": "535",
-            "count": 2
-          },
-          {
-            "word": "550",
-            "count": 2
-          },
-          {
-            "word": "5wvj…JCW6",
-            "count": 2
-          },
-          {
-            "word": "600",
-            "count": 2
-          },
-          {
-            "word": "7",
-            "count": 3
-          },
-          {
-            "word": "700",
-            "count": 2
-          },
-          {
-            "word": "715",
-            "count": 2
-          },
-          {
-            "word": "8",
-            "count": 6
-          },
-          {
-            "word": "825",
-            "count": 2
-          },
-          {
-            "word": "9",
-            "count": 4
-          },
-          {
-            "word": "900",
-            "count": 4
-          },
-          {
-            "word": "a",
-            "count": 12
-          },
-          {
-            "word": "A",
-            "count": 3
-          },
-          {
-            "word": "about",
-            "count": 1
-          },
-          {
-            "word": "accept",
-            "count": 5
-          },
-          {
-            "word": "accepted",
-            "count": 2
-          },
-          {
-            "word": "account",
-            "count": 1
-          },
-          {
-            "word": "add",
-            "count": 1
-          },
-          {
-            "word": "Add",
-            "count": 2
-          },
-          {
-            "word": "address",
-            "count": 3
-          },
-          {
-            "word": "admin",
-            "count": 2
-          },
-          {
-            "word": "advice",
-            "count": 1
-          },
-          {
-            "word": "affiliated",
-            "count": 1
-          },
-          {
-            "word": "afford",
-            "count": 1
-          },
-          {
-            "word": "after",
-            "count": 1
-          },
-          {
-            "word": "After",
-            "count": 1
-          },
-          {
-            "word": "against",
-            "count": 2
-          },
-          {
-            "word": "airdrop",
-            "count": 2
-          },
-          {
-            "word": "all",
-            "count": 1
-          },
-          {
-            "word": "All",
-            "count": 2
-          },
-          {
-            "word": "allocation",
-            "count": 2
-          },
-          {
-            "word": "an",
-            "count": 4
-          },
-          {
-            "word": "An",
-            "count": 3
-          },
-          {
-            "word": "and",
-            "count": 22
-          },
-          {
-            "word": "answered",
-            "count": 1
-          },
-          {
-            "word": "any",
-            "count": 2
-          },
-          {
-            "word": "Any",
-            "count": 1
-          },
-          {
-            "word": "anyone",
-            "count": 2
-          },
-          {
-            "word": "anything",
-            "count": 1
-          },
-          {
-            "word": "Anything",
-            "count": 1
-          },
-          {
-            "word": "app",
-            "count": 3
-          },
-          {
-            "word": "appear",
-            "count": 1
-          },
-          {
-            "word": "applies",
-            "count": 1
-          },
-          {
-            "word": "are",
-            "count": 3
-          },
-          {
-            "word": "ask",
-            "count": 1
-          },
-          {
-            "word": "Asking",
-            "count": 1
-          },
-          {
-            "word": "asset",
-            "count": 1
-          },
-          {
-            "word": "at",
-            "count": 3
-          },
-          {
-            "word": "attacks",
-            "count": 2
-          },
-          {
-            "word": "audit",
-            "count": 1
-          },
-          {
-            "word": "audited",
-            "count": 4
-          },
-          {
-            "word": "Auth",
-            "count": 1
-          },
-          {
-            "word": "back",
-            "count": 3
-          },
-          {
-            "word": "balance",
-            "count": 1
-          },
-          {
-            "word": "be",
-            "count": 3
-          },
-          {
-            "word": "Before",
-            "count": 1
-          },
-          {
-            "word": "bidder",
-            "count": 3
-          },
-          {
-            "word": "block",
-            "count": 1
-          },
-          {
-            "word": "blocks",
-            "count": 1
-          },
-          {
-            "word": "both",
-            "count": 2
-          },
-          {
-            "word": "Both",
-            "count": 2
-          },
-          {
-            "word": "bought",
-            "count": 1
-          },
-          {
-            "word": "bug",
-            "count": 1
-          },
-          {
-            "word": "builds",
-            "count": 1
-          },
-          {
-            "word": "Built",
-            "count": 1
-          },
-          {
-            "word": "burn",
-            "count": 1
-          },
-          {
-            "word": "burns",
-            "count": 1
-          },
-          {
-            "word": "buy",
-            "count": 2
-          },
-          {
-            "word": "Buy",
-            "count": 1
-          },
-          {
-            "word": "buyback",
-            "count": 2
-          },
-          {
-            "word": "Buyback",
-            "count": 1
-          },
-          {
-            "word": "buys",
-            "count": 2
-          },
-          {
-            "word": "by",
-            "count": 2
-          },
-          {
-            "word": "CA",
-            "count": 3
-          },
-          {
-            "word": "can",
-            "count": 9
-          },
-          {
-            "word": "Can",
-            "count": 1
-          },
-          {
-            "word": "cancel",
-            "count": 4
-          },
-          {
-            "word": "Cancelled",
-            "count": 2
-          },
-          {
-            "word": "cannot",
-            "count": 2
-          },
-          {
-            "word": "cap",
-            "count": 1
-          },
-          {
-            "word": "caps",
-            "count": 1
-          },
-          {
-            "word": "card",
-            "count": 11
-          },
-          {
-            "word": "Card",
-            "count": 3
-          },
-          {
-            "word": "card-for-card",
-            "count": 1
-          },
-          {
-            "word": "Card-for-card",
-            "count": 1
-          },
-          {
-            "word": "cards",
-            "count": 16
-          },
-          {
-            "word": "Cards",
-            "count": 1
-          },
-          {
-            "word": "CCry…N2Yf",
-            "count": 1
-          },
-          {
-            "word": "CGC",
-            "count": 2
-          },
-          {
-            "word": "change",
-            "count": 3
-          },
-          {
-            "word": "charged",
-            "count": 1
-          },
-          {
-            "word": "checked",
-            "count": 1
-          },
-          {
-            "word": "claim",
-            "count": 1
-          },
-          {
-            "word": "collectibles",
-            "count": 1
-          },
-          {
-            "word": "collection",
-            "count": 2
-          },
-          {
-            "word": "Collector",
-            "count": 16
-          },
-          {
-            "word": "come",
-            "count": 1
-          },
-          {
-            "word": "Company",
-            "count": 1
-          },
-          {
-            "word": "completed",
-            "count": 2
-          },
-          {
-            "word": "completes",
-            "count": 1
-          },
-          {
-            "word": "contract",
-            "count": 1
-          },
-          {
-            "word": "controls",
-            "count": 1
-          },
-          {
-            "word": "costs",
-            "count": 2
-          },
-          {
-            "word": "could",
-            "count": 3
-          },
-          {
-            "word": "Crypt",
-            "count": 11
-          },
-          {
-            "word": "Crypt's",
-            "count": 2
-          },
-          {
-            "word": "Crypt’s",
-            "count": 3
-          },
-          {
-            "word": "daily",
-            "count": 1
-          },
-          {
-            "word": "day",
-            "count": 2
-          },
-          {
-            "word": "Delist",
-            "count": 1
-          },
-          {
-            "word": "delivers",
-            "count": 1
-          },
-          {
-            "word": "dev",
-            "count": 2
-          },
-          {
-            "word": "directly",
-            "count": 1
-          },
-          {
-            "word": "disclosed",
-            "count": 2
-          },
-          {
-            "word": "do",
-            "count": 1
-          },
-          {
-            "word": "Do",
-            "count": 1
-          },
-          {
-            "word": "Docs",
-            "count": 2
-          },
-          {
-            "word": "does",
-            "count": 1
-          },
-          {
-            "word": "each",
-            "count": 2
-          },
-          {
-            "word": "Each",
-            "count": 1
-          },
-          {
-            "word": "else's",
-            "count": 1
-          },
-          {
-            "word": "Elsewhere",
-            "count": 1
-          },
-          {
-            "word": "emissions",
-            "count": 1
-          },
-          {
-            "word": "escrow",
-            "count": 4
-          },
-          {
-            "word": "escrowed",
-            "count": 3
-          },
-          {
-            "word": "estimate",
-            "count": 1
-          },
-          {
-            "word": "estimates",
-            "count": 1
-          },
-          {
-            "word": "every",
-            "count": 4
-          },
-          {
-            "word": "Every",
-            "count": 1
-          },
-          {
-            "word": "exists",
-            "count": 1
-          },
-          {
-            "word": "exits",
-            "count": 1
-          },
-          {
-            "word": "expired",
-            "count": 2
-          },
-          {
-            "word": "expiry",
-            "count": 2
-          },
-          {
-            "word": "fail",
-            "count": 1
-          },
-          {
-            "word": "fair",
-            "count": 1
-          },
-          {
-            "word": "fee",
-            "count": 8
-          },
-          {
-            "word": "Fee",
-            "count": 1
-          },
-          {
-            "word": "fees",
-            "count": 5
-          },
-          {
-            "word": "Fees",
-            "count": 1
-          },
-          {
-            "word": "final",
-            "count": 1
-          },
-          {
-            "word": "financial",
-            "count": 1
-          },
-          {
-            "word": "Find",
-            "count": 1
-          },
-          {
-            "word": "first",
-            "count": 2
-          },
-          {
-            "word": "fixed",
-            "count": 2
-          },
-          {
-            "word": "for",
-            "count": 6
-          },
-          {
-            "word": "Four",
-            "count": 1
-          },
-          {
-            "word": "free",
-            "count": 2
-          },
-          {
-            "word": "from",
-            "count": 3
-          },
-          {
-            "word": "GEM-MT",
-            "count": 17
-          },
-          {
-            "word": "go",
-            "count": 5
-          },
-          {
-            "word": "goes",
-            "count": 2
-          },
-          {
-            "word": "grade",
-            "count": 1
-          },
-          {
-            "word": "graded",
-            "count": 1
-          },
-          {
-            "word": "gradix",
-            "count": 3
-          },
-          {
-            "word": "Gradix",
-            "count": 1
-          },
-          {
-            "word": "hands",
-            "count": 1
-          },
-          {
-            "word": "has",
-            "count": 1
-          },
-          {
-            "word": "have",
-            "count": 1
-          },
-          {
-            "word": "held",
-            "count": 1
-          },
-          {
-            "word": "here",
-            "count": 2
-          },
-          {
-            "word": "Hold",
-            "count": 2
-          },
-          {
-            "word": "How",
-            "count": 5
-          },
-          {
-            "word": "I",
-            "count": 3
-          },
-          {
-            "word": "if",
-            "count": 2
-          },
-          {
-            "word": "If",
-            "count": 2
-          },
-          {
-            "word": "in",
-            "count": 14
-          },
-          {
-            "word": "including",
-            "count": 1
-          },
-          {
-            "word": "insured",
-            "count": 2
-          },
-          {
-            "word": "is",
-            "count": 19
-          },
-          {
-            "word": "Is",
-            "count": 2
-          },
-          {
-            "word": "it",
-            "count": 16
-          },
-          {
-            "word": "its",
-            "count": 4
-          },
-          {
-            "word": "keep",
-            "count": 1
-          },
-          {
-            "word": "keeps",
-            "count": 1
-          },
-          {
-            "word": "key",
-            "count": 2
-          },
-          {
-            "word": "keys",
-            "count": 1
-          },
-          {
-            "word": "land",
-            "count": 1
-          },
-          {
-            "word": "launch",
-            "count": 3
-          },
-          {
-            "word": "Launch",
-            "count": 3
-          },
-          {
-            "word": "launches",
-            "count": 2
-          },
-          {
-            "word": "least",
-            "count": 1
-          },
-          {
-            "word": "less",
-            "count": 1
-          },
-          {
-            "word": "listed",
-            "count": 2
-          },
-          {
-            "word": "listing",
-            "count": 1
-          },
-          {
-            "word": "LiteSVM",
-            "count": 1
-          },
-          {
-            "word": "load",
-            "count": 1
-          },
-          {
-            "word": "lock",
-            "count": 1
-          },
-          {
-            "word": "Lock",
-            "count": 1
-          },
-          {
-            "word": "locks",
-            "count": 1
-          },
-          {
-            "word": "lose",
-            "count": 2
-          },
-          {
-            "word": "made",
-            "count": 3
-          },
-          {
-            "word": "mainnet",
-            "count": 2
-          },
-          {
-            "word": "make",
-            "count": 1
-          },
-          {
-            "word": "makes",
-            "count": 1
-          },
-          {
-            "word": "market",
-            "count": 1
-          },
-          {
-            "word": "marketplace",
-            "count": 1
-          },
-          {
-            "word": "Metadata",
-            "count": 2
-          },
-          {
-            "word": "middle",
-            "count": 1
-          },
-          {
-            "word": "MINT",
-            "count": 4
-          },
-          {
-            "word": "money",
-            "count": 1
-          },
-          {
-            "word": "more",
-            "count": 1
-          },
-          {
-            "word": "move",
-            "count": 3
-          },
-          {
-            "word": "must",
-            "count": 2
-          },
-          {
-            "word": "name",
-            "count": 1
-          },
-          {
-            "word": "need",
-            "count": 1
-          },
-          {
-            "word": "needed",
-            "count": 1
-          },
-          {
-            "word": "never",
-            "count": 2
-          },
-          {
-            "word": "new",
-            "count": 2
-          },
-          {
-            "word": "next",
-            "count": 1
-          },
-          {
-            "word": "NM",
-            "count": 3
-          },
-          {
-            "word": "NM-MT",
-            "count": 4
-          },
-          {
-            "word": "NM/MINT",
-            "count": 2
-          },
-          {
-            "word": "no",
-            "count": 7
-          },
-          {
-            "word": "No",
-            "count": 4
-          },
-          {
-            "word": "nobody",
-            "count": 2
-          },
-          {
-            "word": "None",
-            "count": 1
-          },
-          {
-            "word": "not",
-            "count": 7
-          },
-          {
-            "word": "Not",
-            "count": 4
-          },
-          {
-            "word": "nothing",
-            "count": 5
-          },
-          {
-            "word": "now",
-            "count": 1
-          },
-          {
-            "word": "of",
-            "count": 6
-          },
-          {
-            "word": "offer",
-            "count": 7
-          },
-          {
-            "word": "Offer",
-            "count": 1
-          },
-          {
-            "word": "offers",
-            "count": 7
-          },
-          {
-            "word": "Offers",
-            "count": 2
-          },
-          {
-            "word": "on",
-            "count": 10
-          },
-          {
-            "word": "On",
-            "count": 2
-          },
-          {
-            "word": "once",
-            "count": 2
-          },
-          {
-            "word": "onchain",
-            "count": 2
-          },
-          {
-            "word": "one",
-            "count": 4
-          },
-          {
-            "word": "One",
-            "count": 1
-          },
-          {
-            "word": "only",
-            "count": 5
-          },
-          {
-            "word": "Only",
-            "count": 1
-          },
-          {
-            "word": "open",
-            "count": 2
-          },
-          {
-            "word": "Open",
-            "count": 1
-          },
-          {
-            "word": "or",
-            "count": 13
-          },
-          {
-            "word": "Or",
-            "count": 1
-          },
-          {
-            "word": "other",
-            "count": 1
-          },
-          {
-            "word": "ours",
-            "count": 1
-          },
-          {
-            "word": "outside",
-            "count": 2
-          },
-          {
-            "word": "own",
-            "count": 2
-          },
-          {
-            "word": "owner",
-            "count": 2
-          },
-          {
-            "word": "party",
-            "count": 1
-          },
-          {
-            "word": "pause",
-            "count": 2
-          },
-          {
-            "word": "pay",
-            "count": 3
-          },
-          {
-            "word": "pays",
-            "count": 1
-          },
-          {
-            "word": "per",
-            "count": 6
-          },
-          {
-            "word": "Pinocchio",
-            "count": 1
-          },
-          {
-            "word": "Pokémon",
-            "count": 2
-          },
-          {
-            "word": "presale",
-            "count": 2
-          },
-          {
-            "word": "Presale",
-            "count": 1
-          },
-          {
-            "word": "pressure",
-            "count": 1
-          },
-          {
-            "word": "price",
-            "count": 1
-          },
-          {
-            "word": "Product",
-            "count": 1
-          },
-          {
-            "word": "program",
-            "count": 5
-          },
-          {
-            "word": "Program",
-            "count": 2
-          },
-          {
-            "word": "programs",
-            "count": 2
-          },
-          {
-            "word": "promises",
-            "count": 1
-          },
-          {
-            "word": "Protocol",
-            "count": 1
-          },
-          {
-            "word": "PSA",
-            "count": 28
-          },
-          {
-            "word": "Public",
-            "count": 1
-          },
-          {
-            "word": "pull",
-            "count": 1
-          },
-          {
-            "word": "Pump.fun",
-            "count": 2
-          },
-          {
-            "word": "Put",
-            "count": 1
-          },
-          {
-            "word": "Questions",
-            "count": 1
-          },
-          {
-            "word": "real",
-            "count": 4
-          },
-          {
-            "word": "Real",
-            "count": 1
-          },
-          {
-            "word": "Receipts",
-            "count": 1
-          },
-          {
-            "word": "refused",
-            "count": 1
-          },
-          {
-            "word": "rejected",
-            "count": 1
-          },
-          {
-            "word": "return",
-            "count": 1
-          },
-          {
-            "word": "Risks",
-            "count": 1
-          },
-          {
-            "word": "royalty",
-            "count": 3
-          },
-          {
-            "word": "rule",
-            "count": 3
-          },
-          {
-            "word": "rules",
-            "count": 2
-          },
-          {
-            "word": "Rules",
-            "count": 1
-          },
-          {
-            "word": "run",
-            "count": 1
-          },
-          {
-            "word": "Run",
-            "count": 1
-          },
-          {
-            "word": "runs",
-            "count": 1
-          },
-          {
-            "word": "sale",
-            "count": 1
-          },
-          {
-            "word": "sales",
-            "count": 1
-          },
-          {
-            "word": "same",
-            "count": 1
-          },
-          {
-            "word": "say",
-            "count": 1
-          },
-          {
-            "word": "Search",
-            "count": 1
-          },
-          {
-            "word": "Secure",
-            "count": 1
-          },
-          {
-            "word": "Security",
-            "count": 1
-          },
-          {
-            "word": "See",
-            "count": 1
-          },
-          {
-            "word": "selling",
-            "count": 1
-          },
-          {
-            "word": "set",
-            "count": 4
-          },
-          {
-            "word": "sets",
-            "count": 1
-          },
-          {
-            "word": "settle",
-            "count": 1
-          },
-          {
-            "word": "settled",
-            "count": 1
-          },
-          {
-            "word": "settles",
-            "count": 2
-          },
-          {
-            "word": "shown",
-            "count": 1
-          },
-          {
-            "word": "side",
-            "count": 5
-          },
-          {
-            "word": "sides",
-            "count": 2
-          },
-          {
-            "word": "signature",
-            "count": 1
-          },
-          {
-            "word": "signs",
-            "count": 2
-          },
-          {
-            "word": "simulates",
-            "count": 1
-          },
-          {
-            "word": "single",
-            "count": 1
-          },
-          {
-            "word": "sit",
-            "count": 1
-          },
-          {
-            "word": "skip",
-            "count": 1
-          },
-          {
-            "word": "slabs",
-            "count": 1
-          },
-          {
-            "word": "small",
-            "count": 1
-          },
-          {
-            "word": "so",
-            "count": 2
-          },
-          {
-            "word": "Solana",
-            "count": 4
-          },
-          {
-            "word": "Solscan",
-            "count": 1
-          },
-          {
-            "word": "someone",
-            "count": 1
-          },
-          {
-            "word": "soon",
-            "count": 3
-          },
-          {
-            "word": "standard",
-            "count": 1
-          },
-          {
-            "word": "start",
-            "count": 1
-          },
-          {
-            "word": "Start",
-            "count": 2
-          },
-          {
-            "word": "steps",
-            "count": 1
-          },
-          {
-            "word": "still",
-            "count": 1
-          },
-          {
-            "word": "straight",
-            "count": 2
-          },
-          {
-            "word": "stuck",
-            "count": 1
-          },
-          {
-            "word": "supply",
-            "count": 1
-          },
-          {
-            "word": "Supply",
-            "count": 1
-          },
-          {
-            "word": "swap",
-            "count": 13
-          },
-          {
-            "word": "Swap",
-            "count": 6
-          },
-          {
-            "word": "swappable",
-            "count": 1
-          },
-          {
-            "word": "swapped",
-            "count": 1
-          },
-          {
-            "word": "swaps",
-            "count": 2
-          },
-          {
-            "word": "Swaps",
-            "count": 1
-          },
-          {
-            "word": "take",
-            "count": 1
-          },
-          {
-            "word": "team",
-            "count": 4
-          },
-          {
-            "word": "testing",
-            "count": 1
-          },
-          {
-            "word": "tests",
-            "count": 2
-          },
-          {
-            "word": "that",
-            "count": 3
-          },
-          {
-            "word": "That",
-            "count": 1
-          },
-          {
-            "word": "the",
-            "count": 41
-          },
-          {
-            "word": "The",
-            "count": 13
-          },
-          {
-            "word": "them",
-            "count": 3
-          },
-          {
-            "word": "then",
-            "count": 2
-          },
-          {
-            "word": "there",
-            "count": 1
-          },
-          {
-            "word": "There",
-            "count": 1
-          },
-          {
-            "word": "they",
-            "count": 2
-          },
-          {
-            "word": "They",
-            "count": 1
-          },
-          {
-            "word": "third",
-            "count": 1
-          },
-          {
-            "word": "Three",
-            "count": 1
-          },
-          {
-            "word": "time",
-            "count": 1
-          },
-          {
-            "word": "to",
-            "count": 11
-          },
-          {
-            "word": "To",
-            "count": 1
-          },
-          {
-            "word": "together",
-            "count": 1
-          },
-          {
-            "word": "Token",
-            "count": 3
-          },
-          {
-            "word": "top-ups",
-            "count": 1
-          },
-          {
-            "word": "tradable",
-            "count": 1
-          },
-          {
-            "word": "Trade",
-            "count": 1
-          },
-          {
-            "word": "transaction",
-            "count": 6
-          },
-          {
-            "word": "transfer",
-            "count": 2
-          },
-          {
-            "word": "transfers",
-            "count": 1
-          },
-          {
-            "word": "treasury",
-            "count": 4
-          },
-          {
-            "word": "Treasury",
-            "count": 1
-          },
-          {
-            "word": "turns",
-            "count": 1
-          },
-          {
-            "word": "two",
-            "count": 3
-          },
-          {
-            "word": "until",
-            "count": 1
-          },
-          {
-            "word": "Until",
-            "count": 1
-          },
-          {
-            "word": "USDC",
-            "count": 20
-          },
-          {
             "word": "value",
             "count": 4
           },
@@ -3819,6 +1579,10 @@
           {
             "word": "waiver",
             "count": 2
+          },
+          {
+            "word": "waives",
+            "count": 1
           },
           {
             "word": "wallet",
@@ -3874,7 +1638,7 @@
           },
           {
             "word": "will",
-            "count": 3
+            "count": 2
           },
           {
             "word": "with",
@@ -3895,6 +1659,14 @@
           {
             "word": "wrong",
             "count": 2
+          },
+          {
+            "word": "X",
+            "count": 3
+          },
+          {
+            "word": "x.com",
+            "count": 1
           },
           {
             "word": "xyz",
@@ -3980,11 +1752,15 @@
           },
           {
             "key": "aria-label=Footer",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Gemmora home",
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
-            "count": 1
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 4
           },
           {
             "key": "aria-label=Primary",
@@ -3993,6 +1769,10 @@
           {
             "key": "aria-label=Two Collector Crypt cards being swapped",
             "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
+            "count": 2
           }
         ],
         "links": [
@@ -4091,6 +1871,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 6
           }
         ],
         "forms": [],
@@ -4098,117 +1882,126 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-actions",
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-badge",
-          "tx-badge-dot",
-          "tx-band",
-          "tx-band--showcase",
-          "tx-band--stats",
-          "tx-band-head",
-          "tx-band-head--split",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--ghost",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-chip",
-          "tx-copy",
-          "tx-display",
-          "tx-display--xl",
-          "tx-eyebrow",
-          "tx-faq",
-          "tx-faq-item",
-          "tx-feature-icon",
-          "tx-feature-label",
-          "tx-features",
-          "tx-final",
-          "tx-final-card",
-          "tx-final-card--l",
-          "tx-final-card--r",
-          "tx-final-inner",
-          "tx-final-slabs",
-          "tx-flow",
-          "tx-flow-line",
-          "tx-flow-node",
-          "tx-flow-node--hot",
-          "tx-footer",
-          "tx-footer-brand",
-          "tx-footer-col",
-          "tx-footer-cols",
-          "tx-footer-grid",
-          "tx-h2",
-          "tx-index",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-kicker",
-          "tx-lede",
-          "tx-legal",
-          "tx-main",
-          "tx-metarow",
-          "tx-note",
-          "tx-plate",
-          "tx-plate-caption",
-          "tx-plate-cards",
-          "tx-plate-slab",
-          "tx-plate-slab--a",
-          "tx-plate-slab--b",
-          "tx-plate-swap",
-          "tx-rail",
-          "tx-rail-card",
-          "tx-rail-meta",
-          "tx-rail-track",
-          "tx-secgrid",
-          "tx-secicon",
-          "tx-secitem",
-          "tx-shell",
-          "tx-shell--marketing",
-          "tx-split",
-          "tx-stage",
-          "tx-stat",
-          "tx-stats",
-          "tx-step",
-          "tx-step-copy",
-          "tx-step-num",
-          "tx-steps",
-          "tx-thesis",
-          "tx-token",
-          "tx-token-head",
-          "tx-token-rows",
-          "tx-token-title",
-          "tx-wordmark"
+          "gx-actions",
+          "gx-band",
+          "gx-bandhead",
+          "gx-bandnum",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--ghost",
+          "gx-btn--primary",
+          "gx-btn--xs",
+          "gx-chip",
+          "gx-chip-arrow",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-copy",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-faq",
+          "gx-faq-item",
+          "gx-feature",
+          "gx-feature-copy",
+          "gx-feature-icon",
+          "gx-features",
+          "gx-final",
+          "gx-final-art",
+          "gx-final-card",
+          "gx-final-card--l",
+          "gx-final-card--r",
+          "gx-final-inner",
+          "gx-flow",
+          "gx-flow--rail",
+          "gx-flownode",
+          "gx-flownode--hot",
+          "gx-h2",
+          "gx-h2--rail",
+          "gx-hints",
+          "gx-hints-brand",
+          "gx-hints-col",
+          "gx-hints-cols",
+          "gx-kicker",
+          "gx-lede",
+          "gx-legal",
+          "gx-meta",
+          "gx-meta-note",
+          "gx-note",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-pane--spec",
+          "gx-plate",
+          "gx-plate-caption",
+          "gx-plate-cards",
+          "gx-plate-slab",
+          "gx-plate-swap",
+          "gx-rail",
+          "gx-rail-card",
+          "gx-rail-meta",
+          "gx-rail-track",
+          "gx-railsec",
+          "gx-rule",
+          "gx-secicon",
+          "gx-seclist",
+          "gx-sig",
+          "gx-spec",
+          "gx-spec-title",
+          "gx-spechead",
+          "gx-specrows",
+          "gx-stat",
+          "gx-stats",
+          "gx-status",
+          "gx-status-tail",
+          "gx-stepicon",
+          "gx-stepnum",
+          "gx-steps",
+          "gx-table",
+          "gx-title",
+          "gx-wordmark",
+          "gx-work",
+          "gx-work--three",
+          "gx-xlink"
         ],
         "fingerprint": [
           "a@11:0",
+          "a@5:1",
+          "a@6:0",
+          "a@6:1",
+          "a@6:2",
+          "a@6:4+",
           "a@7:0",
           "a@7:1",
+          "a@7:4+",
           "a@8:0",
           "a@8:1",
           "a@9:0",
           "a@9:1",
           "a@9:2",
-          "a@9:3",
-          "aside@4:1",
           "b@10:0",
           "b@11:0",
-          "b@12:0",
+          "b@7:0",
+          "b@8:0",
           "b@9:0",
+          "circle@10:0",
           "circle@11:0",
           "circle@12:0",
           "code@11:0",
-          "dd@11:0",
-          "details@9:2",
-          "div@10:0",
-          "div@10:2",
-          "div@10:3",
-          "div@3:2",
-          "div@4:2",
+          "dd@9:0",
+          "details@8:2",
+          "div@3:4+",
+          "div@4:3",
+          "div@5:1",
+          "div@5:2",
           "div@5:3",
+          "div@5:4+",
           "div@6:2",
+          "div@6:3",
           "div@6:4+",
           "div@7:1",
           "div@7:2",
@@ -4218,132 +2011,171 @@
           "div@8:2",
           "div@8:3",
           "div@8:4+",
+          "div@9:0",
           "div@9:2",
-          "div@9:4+",
-          "dl@9:4+",
-          "dt@11:0",
-          "em@10:0",
+          "dl@7:4+",
+          "dt@9:0",
+          "em@7:0",
           "em@8:0",
           "em@9:0",
-          "footer@5:2",
-          "h1@7:2",
+          "footer@4:3",
+          "h1@6:2",
+          "h2@7:1",
           "h2@8:1",
-          "h2@9:1",
-          "h3@10:0",
-          "h3@9:2",
+          "h3@7:2",
+          "header@4:3",
           "i@11:0",
           "img@10:0",
-          "img@11:0",
+          "img@7:0",
           "img@8:0",
           "img@9:0",
-          "li@8:1",
+          "li@7:2",
           "li@8:2",
-          "li@8:3",
           "main@5:4+",
-          "nav@6:1",
-          "ol@7:4+",
+          "nav@5:3",
+          "nav@5:4+",
           "p@10:0",
           "p@10:1",
           "p@10:2",
+          "p@5:0",
           "p@6:0",
+          "p@6:1",
           "p@7:0",
           "p@7:1",
           "p@8:0",
-          "p@9:0",
+          "path@10:0",
           "path@11:0",
           "path@12:0",
+          "path@8:0",
+          "path@9:0",
           "rect@11:0",
-          "section@6:1",
+          "rect@12:0",
+          "section@4:1",
           "section@6:2",
-          "small@11:0",
+          "section@6:3",
+          "section@6:4+",
+          "small@8:0",
           "small@9:0",
           "span@10:0",
           "span@10:2",
-          "span@11:0",
-          "span@11:1",
+          "span@6:2",
+          "span@7:0",
+          "span@7:1",
           "span@8:0",
+          "span@8:1",
           "span@8:2",
           "span@9:0",
           "span@9:1",
-          "span@9:2",
-          "summary@10:1",
+          "summary@9:1",
           "svg@10:1",
           "svg@10:2",
           "svg@10:3",
           "svg@11:1",
           "svg@11:2",
+          "svg@7:1",
+          "svg@8:1",
+          "svg@9:1",
+          "svg@9:2",
+          "svg@9:3",
+          "table@7:1",
+          "tbody@8:4+",
+          "td@10:0",
+          "td@10:1",
+          "th@10:0",
+          "tr@9:4+",
+          "ul@6:4+",
           "ul@7:4+"
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
-            "top": -5,
-            "left": 0,
-            "width": 390,
-            "height": 761
+            "top": 0,
+            "left": 1,
+            "width": 1438,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 90,
-            "left": 20,
-            "width": 350,
-            "height": 74
+            "top": 6,
+            "left": 146,
+            "width": 1150,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 778,
-            "left": 20,
-            "width": 350,
-            "height": 4529
+            "top": 466,
+            "left": 221,
+            "width": 878,
+            "height": 1895
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 5341,
-            "left": 20,
-            "width": 350,
-            "height": 423
+            "top": 2361,
+            "left": 1,
+            "width": 1438,
+            "height": 249
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 2392,
+            "left": 605,
+            "width": 797,
+            "height": 118
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 286
+            "hex": "#f2f6fa",
+            "count": 246
           },
           {
-            "hex": "#4e6577",
-            "count": 89
+            "hex": "#8fa3b5",
+            "count": 124
           },
           {
-            "hex": "#0b5fc0",
-            "count": 80
+            "hex": "#ff8a80",
+            "count": 75
           },
           {
-            "hex": "#ffffff",
-            "count": 46
+            "hex": "#101a23",
+            "count": 28
           },
           {
-            "hex": "#5b7082",
-            "count": 16
+            "hex": "#6d8296",
+            "count": 25
           },
           {
-            "hex": "#d7ebff",
-            "count": 10
+            "hex": "#c9d6e1",
+            "count": 23
           },
           {
-            "hex": "#b42318",
+            "hex": "#0b1117",
+            "count": 7
+          },
+          {
+            "hex": "#140807",
+            "count": 5
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 4
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#1b2733",
+            "count": 3
+          },
+          {
+            "hex": "#0d151d",
             "count": 2
-          },
-          {
-            "hex": "#b7d2e8",
-            "count": 2
-          },
-          {
-            "hex": "#1e7be8",
-            "count": 1
           }
         ],
         "contrast": [],
@@ -4362,68 +2194,27 @@
             "text": "Four steps. Both cards move together."
           },
           {
-            "tag": "h3",
-            "text": "Find the card you want"
-          },
-          {
-            "tag": "h3",
-            "text": "Lock your offer"
-          },
-          {
-            "tag": "h3",
-            "text": "They accept, it settles"
-          },
-          {
-            "tag": "h3",
-            "text": "Or cancel for free"
-          },
-          {
-            "tag": "h2",
-            "text": "Every swap fee buys $GRADIX."
-          },
-          {
-            "tag": "h3",
-            "text": "Hold 1,000,000 $GRADIX. Swap for free."
-          },
-          {
-            "tag": "h2",
-            "text": "Receipts, not promises."
-          },
-          {
-            "tag": "h3",
-            "text": "Program on Solana"
-          },
-          {
-            "tag": "h3",
-            "text": "One escrow per offer"
-          },
-          {
-            "tag": "h3",
-            "text": "Verified cards only"
-          },
-          {
-            "tag": "h3",
-            "text": "Three exits only"
-          },
-          {
-            "tag": "h3",
-            "text": "20 tests, real programs"
-          },
-          {
-            "tag": "h3",
-            "text": "Your keys, your signature"
-          },
-          {
             "tag": "h2",
             "text": "Questions, answered straight."
           },
           {
             "tag": "h2",
             "text": "The card you want is in someone else's wallet."
+          },
+          {
+            "tag": "h2",
+            "text": "Every swap fee buys $GEMMORA."
+          },
+          {
+            "tag": "h3",
+            "text": "Hold 1,000,000 $GEMMORA. Swap for free."
+          },
+          {
+            "tag": "h2",
+            "text": "Receipts, not promises."
           }
         ],
         "navTargets": [
-          "",
           "/",
           "/app",
           "/docs",
@@ -4433,44 +2224,2297 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "section.tx-band.tx-band--showcase > div.tx-rail > div.tx-rail-track",
-              "right": 4298,
-              "width": 4298
+              "selector": "section.gx-band > div.gx-rail > div.gx-rail-track",
+              "right": 3434,
+              "width": 3182
             },
             {
-              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
-              "right": 448,
-              "width": 140
+              "selector": "div.gx-rail > div.gx-rail-track > a.gx-rail-card",
+              "right": 1496,
+              "width": 104
             },
             {
-              "selector": "div.tx-rail-track > a.tx-rail-card > img",
-              "right": 448,
-              "width": 140
+              "selector": "div.gx-rail-track > a.gx-rail-card > img",
+              "right": 1489,
+              "width": 90
             },
             {
-              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
-              "right": 448,
-              "width": 140
+              "selector": "div.gx-rail-track > a.gx-rail-card > span.gx-rail-meta",
+              "right": 1489,
+              "width": 90
             },
             {
-              "selector": "a.tx-rail-card > span.tx-rail-meta > i",
-              "right": 448,
-              "width": 37
+              "selector": "a.gx-rail-card > span.gx-rail-meta > b",
+              "right": 1462,
+              "width": 63
             },
             {
-              "selector": "div.tx-rail > div.tx-rail-track > a.tx-rail-card",
-              "right": 602,
-              "width": 140
+              "selector": "a.gx-rail-card > span.gx-rail-meta > i",
+              "right": 1489,
+              "width": 19
             },
             {
-              "selector": "div.tx-rail-track > a.tx-rail-card > img",
-              "right": 602,
-              "width": 140
+              "selector": "div.gx-rail > div.gx-rail-track > a.gx-rail-card",
+              "right": 1610,
+              "width": 104
             },
             {
-              "selector": "div.tx-rail-track > a.tx-rail-card > span.tx-rail-meta",
-              "right": 602,
-              "width": 140
+              "selector": "div.gx-rail-track > a.gx-rail-card > img",
+              "right": 1603,
+              "width": 90
+            }
+          ]
+        }
+      },
+      "axe": {
+        "skipped": true,
+        "violations": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": [],
+      "failedResponses": [],
+      "screenshots": {
+        "desktop": "current/home-desktop.png",
+        "mobile": "current/home-mobile.png"
+      },
+      "mobile": {
+        "meta": {
+          "title": "Gemmora — swap graded Pokémon cards, no selling first",
+          "lang": "en",
+          "h1Count": 1,
+          "bodyTextLength": 4286,
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "focusableCount": 52
+        },
+        "words": [
+          {
+            "word": "$0",
+            "count": 1
+          },
+          {
+            "word": "$1,475",
+            "count": 1
+          },
+          {
+            "word": "$1,500",
+            "count": 1
+          },
+          {
+            "word": "$GEMMORA",
+            "count": 13
+          },
+          {
+            "word": "0",
+            "count": 7
+          },
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
+          },
+          {
+            "word": "1",
+            "count": 8
+          },
+          {
+            "word": "1,000,000",
+            "count": 3
+          },
+          {
+            "word": "1,000,000,000",
+            "count": 2
+          },
+          {
+            "word": "1,090",
+            "count": 2
+          },
+          {
+            "word": "1,150",
+            "count": 2
+          },
+          {
+            "word": "1,475",
+            "count": 2
+          },
+          {
+            "word": "1,500",
+            "count": 2
+          },
+          {
+            "word": "10",
+            "count": 19
+          },
+          {
+            "word": "100%",
+            "count": 3
+          },
+          {
+            "word": "13",
+            "count": 2
+          },
+          {
+            "word": "2",
+            "count": 2
+          },
+          {
+            "word": "2%",
+            "count": 1
+          },
+          {
+            "word": "20",
+            "count": 2
+          },
+          {
+            "word": "3",
+            "count": 1
+          },
+          {
+            "word": "4",
+            "count": 1
+          },
+          {
+            "word": "490",
+            "count": 2
+          },
+          {
+            "word": "500",
+            "count": 2
+          },
+          {
+            "word": "535",
+            "count": 2
+          },
+          {
+            "word": "550",
+            "count": 2
+          },
+          {
+            "word": "5wvj…JCW6",
+            "count": 2
+          },
+          {
+            "word": "600",
+            "count": 2
+          },
+          {
+            "word": "7",
+            "count": 3
+          },
+          {
+            "word": "700",
+            "count": 2
+          },
+          {
+            "word": "715",
+            "count": 2
+          },
+          {
+            "word": "8",
+            "count": 6
+          },
+          {
+            "word": "825",
+            "count": 2
+          },
+          {
+            "word": "9",
+            "count": 4
+          },
+          {
+            "word": "900",
+            "count": 4
+          },
+          {
+            "word": "a",
+            "count": 12
+          },
+          {
+            "word": "A",
+            "count": 3
+          },
+          {
+            "word": "about",
+            "count": 1
+          },
+          {
+            "word": "accept",
+            "count": 5
+          },
+          {
+            "word": "accepted",
+            "count": 2
+          },
+          {
+            "word": "account",
+            "count": 1
+          },
+          {
+            "word": "add",
+            "count": 1
+          },
+          {
+            "word": "Add",
+            "count": 2
+          },
+          {
+            "word": "address",
+            "count": 1
+          },
+          {
+            "word": "admin",
+            "count": 2
+          },
+          {
+            "word": "advice",
+            "count": 1
+          },
+          {
+            "word": "affiliated",
+            "count": 1
+          },
+          {
+            "word": "afford",
+            "count": 1
+          },
+          {
+            "word": "after",
+            "count": 1
+          },
+          {
+            "word": "After",
+            "count": 1
+          },
+          {
+            "word": "against",
+            "count": 2
+          },
+          {
+            "word": "airdrop",
+            "count": 2
+          },
+          {
+            "word": "all",
+            "count": 1
+          },
+          {
+            "word": "All",
+            "count": 2
+          },
+          {
+            "word": "allocation",
+            "count": 2
+          },
+          {
+            "word": "an",
+            "count": 4
+          },
+          {
+            "word": "An",
+            "count": 3
+          },
+          {
+            "word": "and",
+            "count": 22
+          },
+          {
+            "word": "answered",
+            "count": 1
+          },
+          {
+            "word": "any",
+            "count": 1
+          },
+          {
+            "word": "Any",
+            "count": 1
+          },
+          {
+            "word": "anyone",
+            "count": 2
+          },
+          {
+            "word": "anything",
+            "count": 1
+          },
+          {
+            "word": "Anything",
+            "count": 1
+          },
+          {
+            "word": "app",
+            "count": 3
+          },
+          {
+            "word": "applies",
+            "count": 1
+          },
+          {
+            "word": "are",
+            "count": 3
+          },
+          {
+            "word": "ask",
+            "count": 1
+          },
+          {
+            "word": "Asking",
+            "count": 1
+          },
+          {
+            "word": "asset",
+            "count": 1
+          },
+          {
+            "word": "at",
+            "count": 3
+          },
+          {
+            "word": "attacks",
+            "count": 2
+          },
+          {
+            "word": "audit",
+            "count": 1
+          },
+          {
+            "word": "audited",
+            "count": 4
+          },
+          {
+            "word": "Auth",
+            "count": 1
+          },
+          {
+            "word": "back",
+            "count": 3
+          },
+          {
+            "word": "balance",
+            "count": 1
+          },
+          {
+            "word": "be",
+            "count": 3
+          },
+          {
+            "word": "Before",
+            "count": 1
+          },
+          {
+            "word": "bidder",
+            "count": 3
+          },
+          {
+            "word": "block",
+            "count": 1
+          },
+          {
+            "word": "blocks",
+            "count": 1
+          },
+          {
+            "word": "both",
+            "count": 2
+          },
+          {
+            "word": "Both",
+            "count": 2
+          },
+          {
+            "word": "bought",
+            "count": 1
+          },
+          {
+            "word": "bug",
+            "count": 1
+          },
+          {
+            "word": "builds",
+            "count": 1
+          },
+          {
+            "word": "Built",
+            "count": 1
+          },
+          {
+            "word": "burn",
+            "count": 1
+          },
+          {
+            "word": "burns",
+            "count": 1
+          },
+          {
+            "word": "buy",
+            "count": 2
+          },
+          {
+            "word": "Buy",
+            "count": 1
+          },
+          {
+            "word": "buyback",
+            "count": 2
+          },
+          {
+            "word": "Buyback",
+            "count": 1
+          },
+          {
+            "word": "buys",
+            "count": 2
+          },
+          {
+            "word": "by",
+            "count": 2
+          },
+          {
+            "word": "can",
+            "count": 9
+          },
+          {
+            "word": "Can",
+            "count": 1
+          },
+          {
+            "word": "cancel",
+            "count": 4
+          },
+          {
+            "word": "Cancelled",
+            "count": 2
+          },
+          {
+            "word": "cannot",
+            "count": 2
+          },
+          {
+            "word": "cap",
+            "count": 1
+          },
+          {
+            "word": "caps",
+            "count": 1
+          },
+          {
+            "word": "card",
+            "count": 11
+          },
+          {
+            "word": "Card",
+            "count": 3
+          },
+          {
+            "word": "card-for-card",
+            "count": 1
+          },
+          {
+            "word": "Card-for-card",
+            "count": 1
+          },
+          {
+            "word": "cards",
+            "count": 16
+          },
+          {
+            "word": "Cards",
+            "count": 1
+          },
+          {
+            "word": "CCry…N2Yf",
+            "count": 1
+          },
+          {
+            "word": "CGC",
+            "count": 2
+          },
+          {
+            "word": "change",
+            "count": 3
+          },
+          {
+            "word": "charged",
+            "count": 1
+          },
+          {
+            "word": "checked",
+            "count": 1
+          },
+          {
+            "word": "claim",
+            "count": 1
+          },
+          {
+            "word": "collectibles",
+            "count": 1
+          },
+          {
+            "word": "collection",
+            "count": 2
+          },
+          {
+            "word": "Collector",
+            "count": 16
+          },
+          {
+            "word": "come",
+            "count": 1
+          },
+          {
+            "word": "Company",
+            "count": 1
+          },
+          {
+            "word": "completed",
+            "count": 2
+          },
+          {
+            "word": "completes",
+            "count": 1
+          },
+          {
+            "word": "controls",
+            "count": 1
+          },
+          {
+            "word": "costs",
+            "count": 2
+          },
+          {
+            "word": "could",
+            "count": 3
+          },
+          {
+            "word": "Crypt",
+            "count": 11
+          },
+          {
+            "word": "Crypt's",
+            "count": 2
+          },
+          {
+            "word": "Crypt’s",
+            "count": 3
+          },
+          {
+            "word": "daily",
+            "count": 1
+          },
+          {
+            "word": "day",
+            "count": 1
+          },
+          {
+            "word": "Delist",
+            "count": 1
+          },
+          {
+            "word": "delivers",
+            "count": 1
+          },
+          {
+            "word": "dev",
+            "count": 2
+          },
+          {
+            "word": "directly",
+            "count": 1
+          },
+          {
+            "word": "disclosed",
+            "count": 2
+          },
+          {
+            "word": "do",
+            "count": 1
+          },
+          {
+            "word": "Do",
+            "count": 1
+          },
+          {
+            "word": "Docs",
+            "count": 2
+          },
+          {
+            "word": "does",
+            "count": 1
+          },
+          {
+            "word": "each",
+            "count": 2
+          },
+          {
+            "word": "Each",
+            "count": 1
+          },
+          {
+            "word": "else's",
+            "count": 1
+          },
+          {
+            "word": "Elsewhere",
+            "count": 1
+          },
+          {
+            "word": "emissions",
+            "count": 1
+          },
+          {
+            "word": "escrow",
+            "count": 4
+          },
+          {
+            "word": "escrowed",
+            "count": 3
+          },
+          {
+            "word": "estimate",
+            "count": 1
+          },
+          {
+            "word": "estimates",
+            "count": 1
+          },
+          {
+            "word": "every",
+            "count": 4
+          },
+          {
+            "word": "Every",
+            "count": 1
+          },
+          {
+            "word": "exists",
+            "count": 1
+          },
+          {
+            "word": "exits",
+            "count": 1
+          },
+          {
+            "word": "expired",
+            "count": 2
+          },
+          {
+            "word": "expiry",
+            "count": 2
+          },
+          {
+            "word": "fail",
+            "count": 1
+          },
+          {
+            "word": "fair",
+            "count": 1
+          },
+          {
+            "word": "fee",
+            "count": 9
+          },
+          {
+            "word": "Fee",
+            "count": 1
+          },
+          {
+            "word": "fees",
+            "count": 5
+          },
+          {
+            "word": "Fees",
+            "count": 1
+          },
+          {
+            "word": "final",
+            "count": 1
+          },
+          {
+            "word": "financial",
+            "count": 1
+          },
+          {
+            "word": "Find",
+            "count": 1
+          },
+          {
+            "word": "first",
+            "count": 2
+          },
+          {
+            "word": "fixed",
+            "count": 2
+          },
+          {
+            "word": "follow",
+            "count": 1
+          },
+          {
+            "word": "for",
+            "count": 6
+          },
+          {
+            "word": "Four",
+            "count": 1
+          },
+          {
+            "word": "free",
+            "count": 2
+          },
+          {
+            "word": "from",
+            "count": 3
+          },
+          {
+            "word": "GEM-MT",
+            "count": 17
+          },
+          {
+            "word": "gemmora",
+            "count": 4
+          },
+          {
+            "word": "Gemmora",
+            "count": 1
+          },
+          {
+            "word": "go",
+            "count": 5
+          },
+          {
+            "word": "goes",
+            "count": 2
+          },
+          {
+            "word": "grade",
+            "count": 1
+          },
+          {
+            "word": "graded",
+            "count": 1
+          },
+          {
+            "word": "hands",
+            "count": 1
+          },
+          {
+            "word": "has",
+            "count": 1
+          },
+          {
+            "word": "have",
+            "count": 1
+          },
+          {
+            "word": "held",
+            "count": 1
+          },
+          {
+            "word": "here",
+            "count": 1
+          },
+          {
+            "word": "Hold",
+            "count": 2
+          },
+          {
+            "word": "holding",
+            "count": 1
+          },
+          {
+            "word": "How",
+            "count": 5
+          },
+          {
+            "word": "I",
+            "count": 3
+          },
+          {
+            "word": "if",
+            "count": 2
+          },
+          {
+            "word": "If",
+            "count": 2
+          },
+          {
+            "word": "in",
+            "count": 14
+          },
+          {
+            "word": "including",
+            "count": 1
+          },
+          {
+            "word": "insured",
+            "count": 2
+          },
+          {
+            "word": "is",
+            "count": 18
+          },
+          {
+            "word": "Is",
+            "count": 2
+          },
+          {
+            "word": "it",
+            "count": 15
+          },
+          {
+            "word": "its",
+            "count": 4
+          },
+          {
+            "word": "keep",
+            "count": 1
+          },
+          {
+            "word": "keeps",
+            "count": 1
+          },
+          {
+            "word": "key",
+            "count": 2
+          },
+          {
+            "word": "keys",
+            "count": 1
+          },
+          {
+            "word": "land",
+            "count": 2
+          },
+          {
+            "word": "launch",
+            "count": 3
+          },
+          {
+            "word": "Launch",
+            "count": 4
+          },
+          {
+            "word": "launches",
+            "count": 1
+          },
+          {
+            "word": "least",
+            "count": 1
+          },
+          {
+            "word": "less",
+            "count": 1
+          },
+          {
+            "word": "listed",
+            "count": 2
+          },
+          {
+            "word": "listing",
+            "count": 1
+          },
+          {
+            "word": "LiteSVM",
+            "count": 1
+          },
+          {
+            "word": "load",
+            "count": 1
+          },
+          {
+            "word": "lock",
+            "count": 1
+          },
+          {
+            "word": "Lock",
+            "count": 1
+          },
+          {
+            "word": "locks",
+            "count": 1
+          },
+          {
+            "word": "lose",
+            "count": 2
+          },
+          {
+            "word": "made",
+            "count": 3
+          },
+          {
+            "word": "mainnet",
+            "count": 2
+          },
+          {
+            "word": "make",
+            "count": 1
+          },
+          {
+            "word": "makes",
+            "count": 1
+          },
+          {
+            "word": "market",
+            "count": 1
+          },
+          {
+            "word": "marketplace",
+            "count": 1
+          },
+          {
+            "word": "Metadata",
+            "count": 2
+          },
+          {
+            "word": "middle",
+            "count": 1
+          },
+          {
+            "word": "MINT",
+            "count": 4
+          },
+          {
+            "word": "money",
+            "count": 1
+          },
+          {
+            "word": "more",
+            "count": 1
+          },
+          {
+            "word": "move",
+            "count": 3
+          },
+          {
+            "word": "must",
+            "count": 2
+          },
+          {
+            "word": "name",
+            "count": 1
+          },
+          {
+            "word": "need",
+            "count": 1
+          },
+          {
+            "word": "needed",
+            "count": 1
+          },
+          {
+            "word": "never",
+            "count": 2
+          },
+          {
+            "word": "new",
+            "count": 2
+          },
+          {
+            "word": "next",
+            "count": 1
+          },
+          {
+            "word": "NM",
+            "count": 3
+          },
+          {
+            "word": "NM-MT",
+            "count": 4
+          },
+          {
+            "word": "NM/MINT",
+            "count": 2
+          },
+          {
+            "word": "no",
+            "count": 7
+          },
+          {
+            "word": "No",
+            "count": 4
+          },
+          {
+            "word": "nobody",
+            "count": 2
+          },
+          {
+            "word": "None",
+            "count": 1
+          },
+          {
+            "word": "not",
+            "count": 6
+          },
+          {
+            "word": "Not",
+            "count": 4
+          },
+          {
+            "word": "nothing",
+            "count": 5
+          },
+          {
+            "word": "now",
+            "count": 1
+          },
+          {
+            "word": "of",
+            "count": 6
+          },
+          {
+            "word": "offer",
+            "count": 7
+          },
+          {
+            "word": "Offer",
+            "count": 1
+          },
+          {
+            "word": "offers",
+            "count": 7
+          },
+          {
+            "word": "Offers",
+            "count": 2
+          },
+          {
+            "word": "on",
+            "count": 13
+          },
+          {
+            "word": "On",
+            "count": 2
+          },
+          {
+            "word": "once",
+            "count": 2
+          },
+          {
+            "word": "onchain",
+            "count": 2
+          },
+          {
+            "word": "one",
+            "count": 4
+          },
+          {
+            "word": "One",
+            "count": 1
+          },
+          {
+            "word": "only",
+            "count": 5
+          },
+          {
+            "word": "Only",
+            "count": 1
+          },
+          {
+            "word": "open",
+            "count": 2
+          },
+          {
+            "word": "Open",
+            "count": 1
+          },
+          {
+            "word": "or",
+            "count": 13
+          },
+          {
+            "word": "Or",
+            "count": 1
+          },
+          {
+            "word": "outside",
+            "count": 2
+          },
+          {
+            "word": "own",
+            "count": 2
+          },
+          {
+            "word": "owner",
+            "count": 2
+          },
+          {
+            "word": "party",
+            "count": 1
+          },
+          {
+            "word": "pause",
+            "count": 2
+          },
+          {
+            "word": "pay",
+            "count": 3
+          },
+          {
+            "word": "pays",
+            "count": 1
+          },
+          {
+            "word": "per",
+            "count": 6
+          },
+          {
+            "word": "Pinocchio",
+            "count": 1
+          },
+          {
+            "word": "Pokémon",
+            "count": 2
+          },
+          {
+            "word": "presale",
+            "count": 2
+          },
+          {
+            "word": "Presale",
+            "count": 1
+          },
+          {
+            "word": "pressure",
+            "count": 1
+          },
+          {
+            "word": "price",
+            "count": 1
+          },
+          {
+            "word": "Product",
+            "count": 1
+          },
+          {
+            "word": "program",
+            "count": 5
+          },
+          {
+            "word": "Program",
+            "count": 2
+          },
+          {
+            "word": "programs",
+            "count": 2
+          },
+          {
+            "word": "promises",
+            "count": 1
+          },
+          {
+            "word": "Protocol",
+            "count": 1
+          },
+          {
+            "word": "PSA",
+            "count": 28
+          },
+          {
+            "word": "Public",
+            "count": 1
+          },
+          {
+            "word": "pull",
+            "count": 1
+          },
+          {
+            "word": "Pump.fun",
+            "count": 2
+          },
+          {
+            "word": "Put",
+            "count": 1
+          },
+          {
+            "word": "Questions",
+            "count": 1
+          },
+          {
+            "word": "real",
+            "count": 4
+          },
+          {
+            "word": "Real",
+            "count": 1
+          },
+          {
+            "word": "Receipts",
+            "count": 1
+          },
+          {
+            "word": "refused",
+            "count": 1
+          },
+          {
+            "word": "rejected",
+            "count": 1
+          },
+          {
+            "word": "return",
+            "count": 1
+          },
+          {
+            "word": "Risks",
+            "count": 1
+          },
+          {
+            "word": "royalty",
+            "count": 3
+          },
+          {
+            "word": "rule",
+            "count": 3
+          },
+          {
+            "word": "rules",
+            "count": 2
+          },
+          {
+            "word": "Rules",
+            "count": 1
+          },
+          {
+            "word": "run",
+            "count": 1
+          },
+          {
+            "word": "Run",
+            "count": 1
+          },
+          {
+            "word": "runs",
+            "count": 1
+          },
+          {
+            "word": "sale",
+            "count": 1
+          },
+          {
+            "word": "sales",
+            "count": 1
+          },
+          {
+            "word": "same",
+            "count": 1
+          },
+          {
+            "word": "say",
+            "count": 1
+          },
+          {
+            "word": "Search",
+            "count": 1
+          },
+          {
+            "word": "Secure",
+            "count": 1
+          },
+          {
+            "word": "Security",
+            "count": 1
+          },
+          {
+            "word": "See",
+            "count": 1
+          },
+          {
+            "word": "selling",
+            "count": 1
+          },
+          {
+            "word": "set",
+            "count": 4
+          },
+          {
+            "word": "sets",
+            "count": 1
+          },
+          {
+            "word": "settle",
+            "count": 1
+          },
+          {
+            "word": "settled",
+            "count": 1
+          },
+          {
+            "word": "settles",
+            "count": 2
+          },
+          {
+            "word": "shown",
+            "count": 1
+          },
+          {
+            "word": "side",
+            "count": 5
+          },
+          {
+            "word": "sides",
+            "count": 2
+          },
+          {
+            "word": "signature",
+            "count": 1
+          },
+          {
+            "word": "signs",
+            "count": 2
+          },
+          {
+            "word": "simulates",
+            "count": 1
+          },
+          {
+            "word": "single",
+            "count": 1
+          },
+          {
+            "word": "sit",
+            "count": 1
+          },
+          {
+            "word": "skip",
+            "count": 1
+          },
+          {
+            "word": "slabs",
+            "count": 1
+          },
+          {
+            "word": "small",
+            "count": 1
+          },
+          {
+            "word": "so",
+            "count": 2
+          },
+          {
+            "word": "Solana",
+            "count": 4
+          },
+          {
+            "word": "Solscan",
+            "count": 1
+          },
+          {
+            "word": "someone",
+            "count": 1
+          },
+          {
+            "word": "standard",
+            "count": 1
+          },
+          {
+            "word": "start",
+            "count": 1
+          },
+          {
+            "word": "Start",
+            "count": 2
+          },
+          {
+            "word": "steps",
+            "count": 1
+          },
+          {
+            "word": "still",
+            "count": 1
+          },
+          {
+            "word": "straight",
+            "count": 2
+          },
+          {
+            "word": "stuck",
+            "count": 1
+          },
+          {
+            "word": "supply",
+            "count": 1
+          },
+          {
+            "word": "Supply",
+            "count": 1
+          },
+          {
+            "word": "swap",
+            "count": 13
+          },
+          {
+            "word": "Swap",
+            "count": 6
+          },
+          {
+            "word": "swappable",
+            "count": 1
+          },
+          {
+            "word": "swapped",
+            "count": 1
+          },
+          {
+            "word": "swaps",
+            "count": 2
+          },
+          {
+            "word": "Swaps",
+            "count": 1
+          },
+          {
+            "word": "take",
+            "count": 1
+          },
+          {
+            "word": "team",
+            "count": 4
+          },
+          {
+            "word": "testing",
+            "count": 1
+          },
+          {
+            "word": "tests",
+            "count": 2
+          },
+          {
+            "word": "that",
+            "count": 3
+          },
+          {
+            "word": "That",
+            "count": 1
+          },
+          {
+            "word": "the",
+            "count": 41
+          },
+          {
+            "word": "The",
+            "count": 12
+          },
+          {
+            "word": "them",
+            "count": 3
+          },
+          {
+            "word": "then",
+            "count": 2
+          },
+          {
+            "word": "there",
+            "count": 1
+          },
+          {
+            "word": "There",
+            "count": 1
+          },
+          {
+            "word": "they",
+            "count": 2
+          },
+          {
+            "word": "They",
+            "count": 1
+          },
+          {
+            "word": "third",
+            "count": 1
+          },
+          {
+            "word": "Three",
+            "count": 1
+          },
+          {
+            "word": "time",
+            "count": 1
+          },
+          {
+            "word": "to",
+            "count": 11
+          },
+          {
+            "word": "To",
+            "count": 1
+          },
+          {
+            "word": "together",
+            "count": 1
+          },
+          {
+            "word": "Token",
+            "count": 3
+          },
+          {
+            "word": "top-ups",
+            "count": 1
+          },
+          {
+            "word": "tradable",
+            "count": 1
+          },
+          {
+            "word": "Trade",
+            "count": 1
+          },
+          {
+            "word": "transaction",
+            "count": 6
+          },
+          {
+            "word": "transfer",
+            "count": 2
+          },
+          {
+            "word": "transfers",
+            "count": 1
+          },
+          {
+            "word": "treasury",
+            "count": 4
+          },
+          {
+            "word": "Treasury",
+            "count": 1
+          },
+          {
+            "word": "turns",
+            "count": 1
+          },
+          {
+            "word": "two",
+            "count": 3
+          },
+          {
+            "word": "until",
+            "count": 1
+          },
+          {
+            "word": "Until",
+            "count": 1
+          },
+          {
+            "word": "updates",
+            "count": 1
+          },
+          {
+            "word": "USDC",
+            "count": 21
+          },
+          {
+            "word": "value",
+            "count": 4
+          },
+          {
+            "word": "values",
+            "count": 3
+          },
+          {
+            "word": "vault",
+            "count": 1
+          },
+          {
+            "word": "vaulted",
+            "count": 1
+          },
+          {
+            "word": "verified",
+            "count": 1
+          },
+          {
+            "word": "Verified",
+            "count": 1
+          },
+          {
+            "word": "waiver",
+            "count": 2
+          },
+          {
+            "word": "waives",
+            "count": 1
+          },
+          {
+            "word": "wallet",
+            "count": 5
+          },
+          {
+            "word": "wallets",
+            "count": 1
+          },
+          {
+            "word": "want",
+            "count": 2
+          },
+          {
+            "word": "was",
+            "count": 1
+          },
+          {
+            "word": "what",
+            "count": 1
+          },
+          {
+            "word": "What",
+            "count": 3
+          },
+          {
+            "word": "when",
+            "count": 3
+          },
+          {
+            "word": "where",
+            "count": 1
+          },
+          {
+            "word": "Where",
+            "count": 2
+          },
+          {
+            "word": "which",
+            "count": 1
+          },
+          {
+            "word": "while",
+            "count": 1
+          },
+          {
+            "word": "who",
+            "count": 2
+          },
+          {
+            "word": "Who",
+            "count": 1
+          },
+          {
+            "word": "will",
+            "count": 2
+          },
+          {
+            "word": "with",
+            "count": 6
+          },
+          {
+            "word": "works",
+            "count": 4
+          },
+          {
+            "word": "worth",
+            "count": 2
+          },
+          {
+            "word": "Written",
+            "count": 1
+          },
+          {
+            "word": "wrong",
+            "count": 2
+          },
+          {
+            "word": "X",
+            "count": 3
+          },
+          {
+            "word": "x.com",
+            "count": 1
+          },
+          {
+            "word": "yet",
+            "count": 1
+          },
+          {
+            "word": "you",
+            "count": 5
+          },
+          {
+            "word": "your",
+            "count": 9
+          },
+          {
+            "word": "Your",
+            "count": 2
+          },
+          {
+            "word": "yours",
+            "count": 2
+          }
+        ],
+        "attrs": [
+          {
+            "key": "alt=1996 #9 Blastoise-Holo PSA 9 Japanese Basic Pokemon",
+            "count": 2
+          },
+          {
+            "key": "alt=1999 #5 Gengar CGC 8 Fossil - 1st Edition - English",
+            "count": 2
+          },
+          {
+            "key": "alt=1999 #70 Clefairy Doll 1st Edition PSA 10 Game Pokemon",
+            "count": 3
+          },
+          {
+            "key": "alt=2000 POKEMON GYM CHALLENGE 1ST EDITION HOLO BLAINE'S CHARIZARD #2 PSA 7 NM",
+            "count": 3
+          },
+          {
+            "key": "alt=2001 #123 JAPANESE EXPEDITION 1ST EDITION HOLO PIDGEOT PSA 10 POKEMON",
+            "count": 2
+          },
+          {
+            "key": "alt=2001 #176 LIGHT TOGETIC-HOLO PSA 10 POKEMON JAPANESE NEO 4",
+            "count": 2
+          },
+          {
+            "key": "alt=2001 #94 Dark Gengar-Holo PSA 8 Japanese Neo 4 Pokemon",
+            "count": 2
+          },
+          {
+            "key": "alt=2004 #54 JAPANESE FLIGHT OF LEGENDS 1ST ED. HOLO MR. MIME EX PSA 10 POKEMON",
+            "count": 2
+          },
+          {
+            "key": "alt=2013 #137 BLACK AND WHITE PLASMA STORM BLASTOISE PSA 8 POKEMON",
+            "count": 2
+          },
+          {
+            "key": "alt=2017 #XY150A XY BLACK STAR PROMO PREMIUM FULL ART YVELTAL EX PSA 9 POKEMON",
+            "count": 2
+          },
+          {
+            "key": "alt=2019 #33 Pikachu & Zekrom GX PSA 10 Sun & Moon Team Up Pokemon",
+            "count": 2
+          },
+          {
+            "key": "alt=2019 YU-GI-OH! RISING RAMPAGE | 1ST EDITION-STARLIGHT RARE #EN077 STORM DRAGON'S RETURN PSA 10",
+            "count": 2
+          },
+          {
+            "key": "alt=2023 #94 Gengar Master Ball Reverse Holo PSA 10 Japanese Sv2a- 151 Pokemon",
+            "count": 2
+          },
+          {
+            "key": "alt=2024 #150 GIRATINA V PSA 10 POKEMON SIMPLIFIED CHINESE CS6b C-SHADOW OF THE BLUE SEA | SUPER RARE",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Footer",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Gemmora home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 3
+          },
+          {
+            "key": "aria-label=Primary",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Two Collector Crypt cards being swapped",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
+            "count": 1
+          }
+        ],
+        "links": [
+          {
+            "href": "/",
+            "count": 1
+          },
+          {
+            "href": "/#fees",
+            "count": 1
+          },
+          {
+            "href": "/#how",
+            "count": 2
+          },
+          {
+            "href": "/#risks",
+            "count": 1
+          },
+          {
+            "href": "/#token",
+            "count": 1
+          },
+          {
+            "href": "/app",
+            "count": 5
+          },
+          {
+            "href": "/card/2qPZKRo2DG9QPr3Hmqog9MGWqma1FCS7XY53HpCzXAWP",
+            "count": 2
+          },
+          {
+            "href": "/card/2Wf7wBEFdjoiEwUBXsa9qwuSD1fXdXjbE34XPo6AH69G",
+            "count": 2
+          },
+          {
+            "href": "/card/33G1UP7sC6qwDxk9ipLGZesFCAhWxWfMUSC1Dp3TMFDd",
+            "count": 2
+          },
+          {
+            "href": "/card/3LzCMMduoPhP3jkAYERNAJtZHscsdsEqRrKkpUVcyeXn",
+            "count": 2
+          },
+          {
+            "href": "/card/6nwA7DQB5DbCGgcd1MRETdEX6oVXaaSRZYBR3sYgSMDf",
+            "count": 2
+          },
+          {
+            "href": "/card/7Kk1dQg7LMcH4WvmAAkMBqoSFiecuiAQdftZNgmW7kwx",
+            "count": 2
+          },
+          {
+            "href": "/card/9qBfj4G6BAwMmb5tT2PgVqzTZA7pU9NAaPHzEMRbjvYT",
+            "count": 2
+          },
+          {
+            "href": "/card/Bq4phDSSxtVXRmH9qrLH9eKJrxfazmEaZNHsb1G3PhiS",
+            "count": 2
+          },
+          {
+            "href": "/card/E1ugz1AhcWYyJwvBEUc6R5LJNYgc8dTmvQkg12KUxGJM",
+            "count": 2
+          },
+          {
+            "href": "/card/GaQ9fW22K9rVzDzG4aXq11VBSHPeK8fx5cBwcoJYJr2U",
+            "count": 2
+          },
+          {
+            "href": "/card/GavuhFKoi35sg6dy14mEBs8FGcw6GJRYQckJUtJqufT1",
+            "count": 2
+          },
+          {
+            "href": "/card/HF87PDfAVMecmJqRkrZxCheZKfpGrv9KccbyhtZ8dRNV",
+            "count": 2
+          },
+          {
+            "href": "/card/krgW7j4XxdX6xbSe9wuZh5ZYkFBkNM7SRbXjJkvW4PL",
+            "count": 2
+          },
+          {
+            "href": "/card/yp4bu9WtYvLqJibqxLxLkr5E3FdN98LcS7XPuAMu2M9",
+            "count": 2
+          },
+          {
+            "href": "/docs",
+            "count": 2
+          },
+          {
+            "href": "/offers",
+            "count": 3
+          },
+          {
+            "href": "#how",
+            "count": 1
+          },
+          {
+            "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
+            "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 5
+          }
+        ],
+        "forms": [],
+        "fieldIssues": [],
+        "imageIssues": [],
+        "interactiveIssues": [],
+        "classTokens": [
+          "gx-actions",
+          "gx-band",
+          "gx-bandhead",
+          "gx-bandnum",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--ghost",
+          "gx-btn--primary",
+          "gx-btn--xs",
+          "gx-chip",
+          "gx-chip-arrow",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-copy",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-faq",
+          "gx-faq-item",
+          "gx-feature",
+          "gx-feature-copy",
+          "gx-feature-icon",
+          "gx-features",
+          "gx-final",
+          "gx-final-inner",
+          "gx-flow",
+          "gx-flow--rail",
+          "gx-flownode",
+          "gx-flownode--hot",
+          "gx-h2",
+          "gx-h2--rail",
+          "gx-hints",
+          "gx-hints-brand",
+          "gx-hints-col",
+          "gx-hints-cols",
+          "gx-kicker",
+          "gx-lede",
+          "gx-legal",
+          "gx-meta",
+          "gx-meta-note",
+          "gx-note",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-pane--spec",
+          "gx-plate",
+          "gx-plate-caption",
+          "gx-plate-cards",
+          "gx-plate-slab",
+          "gx-plate-swap",
+          "gx-rail",
+          "gx-rail-card",
+          "gx-rail-meta",
+          "gx-rail-track",
+          "gx-railsec",
+          "gx-rule",
+          "gx-secicon",
+          "gx-seclist",
+          "gx-sig",
+          "gx-spec",
+          "gx-spec-title",
+          "gx-spechead",
+          "gx-specrows",
+          "gx-stat",
+          "gx-stats",
+          "gx-status",
+          "gx-status-tail",
+          "gx-stepicon",
+          "gx-stepnum",
+          "gx-steps",
+          "gx-table",
+          "gx-title",
+          "gx-work",
+          "gx-work--three",
+          "gx-xlink"
+        ],
+        "fingerprint": [
+          "a@11:0",
+          "a@5:1",
+          "a@6:0",
+          "a@6:2",
+          "a@6:4+",
+          "a@7:0",
+          "a@7:1",
+          "a@7:4+",
+          "a@8:0",
+          "a@8:1",
+          "a@9:0",
+          "a@9:1",
+          "a@9:2",
+          "b@10:0",
+          "b@11:0",
+          "b@7:0",
+          "b@8:0",
+          "b@9:0",
+          "circle@10:0",
+          "circle@11:0",
+          "circle@12:0",
+          "code@11:0",
+          "dd@9:0",
+          "details@8:2",
+          "div@3:4+",
+          "div@4:3",
+          "div@5:1",
+          "div@5:2",
+          "div@5:3",
+          "div@5:4+",
+          "div@6:2",
+          "div@6:3",
+          "div@6:4+",
+          "div@7:1",
+          "div@7:2",
+          "div@7:3",
+          "div@7:4+",
+          "div@8:1",
+          "div@8:2",
+          "div@8:3",
+          "div@8:4+",
+          "div@9:0",
+          "div@9:2",
+          "dl@7:4+",
+          "dt@9:0",
+          "em@7:0",
+          "em@8:0",
+          "em@9:0",
+          "footer@4:3",
+          "h1@6:2",
+          "h2@7:1",
+          "h2@8:1",
+          "h3@7:2",
+          "header@4:3",
+          "i@11:0",
+          "img@10:0",
+          "img@7:0",
+          "img@9:0",
+          "li@7:2",
+          "li@8:2",
+          "main@5:4+",
+          "nav@5:3",
+          "nav@5:4+",
+          "p@10:0",
+          "p@10:1",
+          "p@10:2",
+          "p@5:0",
+          "p@6:0",
+          "p@6:1",
+          "p@7:0",
+          "p@7:1",
+          "p@8:0",
+          "path@10:0",
+          "path@11:0",
+          "path@12:0",
+          "path@8:0",
+          "path@9:0",
+          "rect@11:0",
+          "rect@12:0",
+          "section@4:1",
+          "section@6:2",
+          "section@6:3",
+          "section@6:4+",
+          "small@8:0",
+          "small@9:0",
+          "span@10:0",
+          "span@10:2",
+          "span@6:2",
+          "span@7:0",
+          "span@8:0",
+          "span@8:1",
+          "span@8:2",
+          "span@9:0",
+          "span@9:1",
+          "summary@9:1",
+          "svg@10:1",
+          "svg@10:2",
+          "svg@10:3",
+          "svg@11:1",
+          "svg@11:2",
+          "svg@7:1",
+          "svg@8:1",
+          "svg@9:1",
+          "svg@9:2",
+          "svg@9:3",
+          "table@7:1",
+          "tbody@8:4+",
+          "td@10:0",
+          "td@10:1",
+          "th@10:0",
+          "tr@9:4+",
+          "ul@6:4+",
+          "ul@7:4+"
+        ],
+        "landmarks": [
+          {
+            "tag": "header",
+            "role": "",
+            "top": 0,
+            "left": 1,
+            "width": 388,
+            "height": 41
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 6,
+            "left": 39,
+            "width": 247,
+            "height": 28
+          },
+          {
+            "tag": "main",
+            "role": "",
+            "top": 648,
+            "left": 1,
+            "width": 388,
+            "height": 2094
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 4439,
+            "left": 1,
+            "width": 388,
+            "height": 439
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 4600,
+            "left": 17,
+            "width": 356,
+            "height": 174
+          }
+        ],
+        "colors": [
+          {
+            "hex": "#f2f6fa",
+            "count": 240
+          },
+          {
+            "hex": "#8fa3b5",
+            "count": 118
+          },
+          {
+            "hex": "#ff8a80",
+            "count": 75
+          },
+          {
+            "hex": "#101a23",
+            "count": 28
+          },
+          {
+            "hex": "#6d8296",
+            "count": 25
+          },
+          {
+            "hex": "#c9d6e1",
+            "count": 23
+          },
+          {
+            "hex": "#0b1117",
+            "count": 7
+          },
+          {
+            "hex": "#140807",
+            "count": 5
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 4
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#1b2733",
+            "count": 3
+          },
+          {
+            "hex": "#0d151d",
+            "count": 2
+          }
+        ],
+        "contrast": [],
+        "contrastChecked": 196,
+        "headings": [
+          {
+            "tag": "h1",
+            "text": "Trade collectibles directly onchain."
+          },
+          {
+            "tag": "h2",
+            "text": "Any card in the vault can be your next one."
+          },
+          {
+            "tag": "h2",
+            "text": "Four steps. Both cards move together."
+          },
+          {
+            "tag": "h2",
+            "text": "Questions, answered straight."
+          },
+          {
+            "tag": "h2",
+            "text": "The card you want is in someone else's wallet."
+          },
+          {
+            "tag": "h2",
+            "text": "Every swap fee buys $GEMMORA."
+          },
+          {
+            "tag": "h3",
+            "text": "Hold 1,000,000 $GEMMORA. Swap for free."
+          },
+          {
+            "tag": "h2",
+            "text": "Receipts, not promises."
+          }
+        ],
+        "navTargets": [
+          "/",
+          "/app",
+          "/docs",
+          "/offers"
+        ],
+        "overflow": {
+          "documentOverflow": false,
+          "offenders": [
+            {
+              "selector": "header.gx-status > nav.gx-commands > a.gx-command",
+              "right": 402,
+              "width": 93
+            },
+            {
+              "selector": "header.gx-status > nav.gx-commands > a.gx-command",
+              "right": 469,
+              "width": 65
+            },
+            {
+              "selector": "nav.gx-commands > a.gx-command > span.gx-command-num",
+              "right": 425,
+              "width": 11
+            },
+            {
+              "selector": "nav.gx-commands > a.gx-command > span.gx-command-label",
+              "right": 459,
+              "width": 27
+            },
+            {
+              "selector": "section.gx-band > div.gx-rail > div.gx-rail-track",
+              "right": 3199,
+              "width": 3182
+            },
+            {
+              "selector": "div.gx-rail > div.gx-rail-track > a.gx-rail-card",
+              "right": 463,
+              "width": 104
+            },
+            {
+              "selector": "div.gx-rail-track > a.gx-rail-card > img",
+              "right": 456,
+              "width": 90
+            },
+            {
+              "selector": "div.gx-rail-track > a.gx-rail-card > span.gx-rail-meta",
+              "right": 456,
+              "width": 90
             }
           ]
         }
@@ -4504,83 +4548,83 @@
         "samples": [
           {
             "tag": "a",
-            "text": "Gradix home",
+            "text": "Gemmora home",
             "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
             "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43)",
+            "borderColor": "rgb(242, 246, 250)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "a",
-            "text": "Launch app",
+            "text": "01 SWAP",
             "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "rgba(11, 95, 192, 0.65) 0px 14px 30px -12px",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
             "borderColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "rgb(11, 95, 192)"
-          },
-          {
-            "tag": "a",
-            "text": "01 Swap →",
-            "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
             "backgroundColor": "rgba(0, 0, 0, 0)"
           },
           {
             "tag": "a",
-            "text": "02 Offers →",
+            "text": "02 OFFERS",
             "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
             "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "03 How it works →",
-            "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "04 $GRADIX →",
-            "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "05 Docs →",
-            "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "none",
-            "borderColor": "rgb(8, 27, 43) rgb(8, 27, 43) rgb(213, 229, 244)",
-            "backgroundColor": "rgba(0, 0, 0, 0)"
-          },
-          {
-            "tag": "a",
-            "text": "Start a swap →",
-            "outlineStyle": "solid",
-            "outlineWidth": "3px",
-            "outlineColor": "rgb(11, 95, 192)",
-            "boxShadow": "rgba(11, 95, 192, 0.65) 0px 14px 30px -12px",
             "borderColor": "rgba(0, 0, 0, 0)",
-            "backgroundColor": "rgb(11, 95, 192)"
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "03 HOW IT WORKS",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "04 $GEMMORA",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "05 DOCS",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "Gemmora on X, @gemmora",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
+            "borderColor": "rgb(27, 39, 51)",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "tag": "a",
+            "text": "LAUNCH APP",
+            "outlineStyle": "solid",
+            "outlineWidth": "2px",
+            "outlineColor": "rgb(255, 138, 128)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 59, 48)",
+            "backgroundColor": "rgb(255, 59, 48)"
           }
         ],
         "visibleCount": 8,
@@ -4589,17 +4633,17 @@
     },
     "/app": {
       "route": "/app",
-      "url": "http://127.0.0.1:3000/app",
+      "url": "http://127.0.0.1:4317/app",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Swap — Gradix",
+          "title": "Swap — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4635,
+          "bodyTextLength": 4638,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 108
+          "focusableCount": 109
         },
         "words": [
           {
@@ -5399,6 +5443,10 @@
             "count": 15
           },
           {
+            "word": "gemmora",
+            "count": 1
+          },
+          {
             "word": "Gengar",
             "count": 2
           },
@@ -5413,10 +5461,6 @@
           {
             "word": "Graded",
             "count": 18
-          },
-          {
-            "word": "gradix",
-            "count": 1
           },
           {
             "word": "Greninja",
@@ -6037,6 +6081,10 @@
             "count": 1
           },
           {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
             "count": 1
           },
@@ -6045,11 +6093,19 @@
             "count": 1
           },
           {
+            "key": "aria-label=Status",
+            "count": 1
+          },
+          {
             "key": "aria-label=Swap views",
             "count": 1
           },
           {
             "key": "placeholder=Search Charizard, PSA 10, Base Set… or paste a card address",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -6261,6 +6317,10 @@
           {
             "href": "/offers",
             "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [
@@ -6273,139 +6333,177 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-band",
-          "tx-band--first",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--ghost",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-card",
-          "tx-card-copy",
-          "tx-card-index",
-          "tx-card-link",
-          "tx-card-main",
-          "tx-card-meta",
-          "tx-card-name",
-          "tx-card-thumb",
-          "tx-catalog",
-          "tx-display",
-          "tx-display--doc",
-          "tx-eyebrow",
-          "tx-hint",
-          "tx-index",
-          "tx-index-arrow",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-index-num",
-          "tx-input",
-          "tx-lede",
-          "tx-main",
-          "tx-search",
-          "tx-shell",
-          "tx-shell--product",
-          "tx-stage",
-          "tx-tab",
-          "tx-tab--active",
-          "tx-tabs",
-          "tx-thesis",
-          "tx-wordmark"
+          "gx-actions",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--ghost",
+          "gx-btn--primary",
+          "gx-btn--sm",
+          "gx-btn--xs",
+          "gx-cardrow",
+          "gx-cardrow-copy",
+          "gx-cardrow-link",
+          "gx-cardrow-main",
+          "gx-cardrow-meta",
+          "gx-cardrow-name",
+          "gx-catalog",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-hint",
+          "gx-input",
+          "gx-lede",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-row-num",
+          "gx-search",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-statusfoot",
+          "gx-thumb",
+          "gx-tick",
+          "gx-title",
+          "gx-view",
+          "gx-view--active",
+          "gx-views",
+          "gx-wordmark",
+          "gx-work",
+          "gx-work--two",
+          "gx-xlink"
         ],
         "fingerprint": [
-          "a@7:1",
+          "a@5:1",
+          "a@6:1",
+          "a@6:2",
           "a@9:0",
-          "a@9:3",
-          "aside@4:1",
-          "b@10:0",
+          "b@8:0",
+          "button@6:0",
           "button@7:0",
           "button@8:0",
-          "button@9:3",
-          "div@3:2",
-          "div@4:1",
+          "button@9:2",
+          "div@3:4+",
+          "div@4:2",
+          "div@5:1",
+          "div@5:2",
           "div@5:4+",
-          "div@6:2",
+          "div@6:1",
           "div@6:4+",
-          "div@7:4+",
-          "div@8:2",
+          "footer@4:4+",
           "form@7:2",
-          "h1@7:0",
+          "h1@6:0",
+          "header@4:3",
           "img@11:0",
-          "img@9:0",
+          "img@7:0",
           "input@8:0",
-          "li@8:1",
+          "li@8:3",
           "main@5:1",
-          "nav@6:1",
-          "ol@7:3",
+          "nav@5:3",
+          "p@6:0",
+          "p@6:1",
           "p@7:0",
+          "path@8:0",
+          "section@4:1",
           "section@6:3",
-          "span@10:0",
           "span@10:1",
           "span@10:2",
           "span@11:0",
           "span@11:2",
           "span@12:0",
-          "span@8:2",
-          "span@9:1"
+          "span@5:0",
+          "span@6:2",
+          "span@7:0",
+          "span@7:1",
+          "span@9:0",
+          "svg@7:1",
+          "ul@7:4+"
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 547,
-            "height": 900
+            "left": 1,
+            "width": 1438,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 130,
-            "left": 43,
-            "width": 460,
-            "height": 127
+            "top": 6,
+            "left": 146,
+            "width": 1169,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": -25,
-            "left": 613,
-            "width": 760,
-            "height": 2192
+            "top": 331,
+            "left": 221,
+            "width": 1218,
+            "height": 4480
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 4811,
+            "left": 1,
+            "width": 1438,
+            "height": 30
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 315
+            "hex": "#f2f6fa",
+            "count": 263
           },
           {
-            "hex": "#4e6577",
-            "count": 197
+            "hex": "#6d8296",
+            "count": 152
           },
           {
-            "hex": "#5b7082",
-            "count": 50
+            "hex": "#8fa3b5",
+            "count": 60
           },
           {
-            "hex": "#e8f3ff",
-            "count": 48
+            "hex": "#ff8a80",
+            "count": 51
           },
           {
-            "hex": "#0b5fc0",
-            "count": 9
+            "hex": "#101a23",
+            "count": 49
           },
           {
-            "hex": "#ffffff",
-            "count": 4
+            "hex": "#c9d6e1",
+            "count": 49
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#0b1117",
+            "count": 3
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 3
+          },
+          {
+            "hex": "#140807",
+            "count": 2
           }
         ],
         "contrast": [],
-        "contrastChecked": 211,
+        "contrastChecked": 208,
         "headings": [
           {
             "tag": "h1",
@@ -6437,10 +6535,10 @@
       },
       "mobile": {
         "meta": {
-          "title": "Swap — Gradix",
+          "title": "Swap — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 4620,
+          "bodyTextLength": 4626,
           "scrollWidth": 390,
           "clientWidth": 390,
           "focusableCount": 108
@@ -6548,15 +6646,15 @@
           },
           {
             "word": "01",
-            "count": 1
+            "count": 2
           },
           {
             "word": "02",
-            "count": 1
+            "count": 2
           },
           {
             "word": "03",
-            "count": 1
+            "count": 2
           },
           {
             "word": "04",
@@ -7259,10 +7357,6 @@
             "count": 18
           },
           {
-            "word": "gradix",
-            "count": 1
-          },
-          {
             "word": "Greninja",
             "count": 1
           },
@@ -7719,10 +7813,6 @@
             "count": 1
           },
           {
-            "word": "xyz",
-            "count": 1
-          },
-          {
             "word": "you",
             "count": 2
           },
@@ -7886,6 +7976,10 @@
           },
           {
             "key": "aria-label=Search cards",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Status",
             "count": 1
           },
           {
@@ -8117,137 +8211,170 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-band",
-          "tx-band--first",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--ghost",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-card",
-          "tx-card-copy",
-          "tx-card-index",
-          "tx-card-link",
-          "tx-card-main",
-          "tx-card-meta",
-          "tx-card-name",
-          "tx-card-thumb",
-          "tx-catalog",
-          "tx-display",
-          "tx-display--doc",
-          "tx-eyebrow",
-          "tx-hint",
-          "tx-index",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-input",
-          "tx-lede",
-          "tx-main",
-          "tx-search",
-          "tx-shell",
-          "tx-shell--product",
-          "tx-stage",
-          "tx-tab",
-          "tx-tab--active",
-          "tx-tabs",
-          "tx-thesis",
-          "tx-wordmark"
+          "gx-actions",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--ghost",
+          "gx-btn--primary",
+          "gx-btn--sm",
+          "gx-btn--xs",
+          "gx-cardrow",
+          "gx-cardrow-copy",
+          "gx-cardrow-link",
+          "gx-cardrow-main",
+          "gx-cardrow-meta",
+          "gx-cardrow-name",
+          "gx-catalog",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-hint",
+          "gx-input",
+          "gx-lede",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-row-num",
+          "gx-search",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-statusfoot",
+          "gx-thumb",
+          "gx-tick",
+          "gx-title",
+          "gx-view",
+          "gx-view--active",
+          "gx-views",
+          "gx-work",
+          "gx-work--two"
         ],
         "fingerprint": [
-          "a@7:1",
+          "a@5:1",
+          "a@6:2",
           "a@9:0",
-          "a@9:3",
-          "aside@4:1",
-          "b@10:0",
+          "button@6:0",
           "button@7:0",
           "button@8:0",
-          "button@9:3",
-          "div@3:2",
-          "div@4:1",
+          "button@9:2",
+          "div@3:4+",
+          "div@4:2",
+          "div@5:1",
+          "div@5:2",
           "div@5:4+",
-          "div@6:2",
+          "div@6:1",
           "div@6:4+",
-          "div@7:4+",
-          "div@8:2",
+          "footer@4:4+",
           "form@7:2",
-          "h1@7:0",
+          "h1@6:0",
+          "header@4:3",
           "img@11:0",
-          "img@9:0",
+          "img@7:0",
           "input@8:0",
-          "li@8:1",
+          "li@8:3",
           "main@5:1",
-          "nav@6:1",
-          "ol@7:3",
+          "nav@5:3",
+          "p@6:0",
+          "p@6:1",
           "p@7:0",
+          "section@4:1",
           "section@6:3",
-          "span@10:0",
           "span@10:1",
           "span@10:2",
           "span@11:0",
           "span@11:2",
           "span@12:0",
-          "span@8:2",
-          "span@9:1"
+          "span@5:0",
+          "span@6:2",
+          "span@7:0",
+          "span@9:0",
+          "ul@7:4+"
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 406
+            "left": 1,
+            "width": 388,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 95,
-            "left": 20,
-            "width": 350,
-            "height": 34
+            "top": 6,
+            "left": 39,
+            "width": 266,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 428,
-            "left": 20,
-            "width": 350,
-            "height": 3877
+            "top": 342,
+            "left": 1,
+            "width": 388,
+            "height": 5204
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 5547,
+            "left": 1,
+            "width": 388,
+            "height": 30
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 315
+            "hex": "#f2f6fa",
+            "count": 262
           },
           {
-            "hex": "#4e6577",
-            "count": 197
+            "hex": "#6d8296",
+            "count": 152
           },
           {
-            "hex": "#5b7082",
-            "count": 48
+            "hex": "#8fa3b5",
+            "count": 56
           },
           {
-            "hex": "#e8f3ff",
-            "count": 48
+            "hex": "#ff8a80",
+            "count": 51
           },
           {
-            "hex": "#0b5fc0",
-            "count": 7
+            "hex": "#101a23",
+            "count": 49
           },
           {
-            "hex": "#ffffff",
-            "count": 4
+            "hex": "#c9d6e1",
+            "count": 49
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#0b1117",
+            "count": 3
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 3
+          },
+          {
+            "hex": "#140807",
+            "count": 2
           }
         ],
         "contrast": [],
-        "contrastChecked": 208,
+        "contrastChecked": 206,
         "headings": [
           {
             "tag": "h1",
@@ -8326,30 +8453,30 @@
     },
     "/offers": {
       "route": "/offers",
-      "url": "http://127.0.0.1:3000/offers",
+      "url": "http://127.0.0.1:4317/offers",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Open offers — Gradix",
+          "title": "Open offers — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 638,
+          "bodyTextLength": 632,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 7
+          "focusableCount": 8
         },
         "words": [
           {
             "word": "01",
-            "count": 2
+            "count": 1
           },
           {
             "word": "02",
-            "count": 2
+            "count": 1
           },
           {
             "word": "03",
-            "count": 2
+            "count": 1
           },
           {
             "word": "a",
@@ -8448,7 +8575,7 @@
             "count": 1
           },
           {
-            "word": "gradix",
+            "word": "gemmora",
             "count": 1
           },
           {
@@ -8654,7 +8781,19 @@
             "count": 1
           },
           {
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 1
+          },
+          {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Status",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -8674,6 +8813,10 @@
           {
             "href": "/offers",
             "count": 1
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 1
           }
         ],
         "forms": [],
@@ -8681,125 +8824,169 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-band",
-          "tx-band--first",
-          "tx-band-head",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-copy",
-          "tx-display",
-          "tx-display--doc",
-          "tx-empty",
-          "tx-empty-art",
-          "tx-eyebrow",
-          "tx-index",
-          "tx-index-arrow",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-index-num",
-          "tx-kicker",
-          "tx-kicker-num",
-          "tx-lede",
-          "tx-main",
-          "tx-shell",
-          "tx-shell--product",
-          "tx-stage",
-          "tx-thesis",
-          "tx-wordmark"
+          "gx-band",
+          "gx-bandhead",
+          "gx-bandnum",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--primary",
+          "gx-btn--sm",
+          "gx-btn--xs",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-copy",
+          "gx-dot",
+          "gx-empty",
+          "gx-empty-art",
+          "gx-eyebrow",
+          "gx-eyebrow--index",
+          "gx-h2",
+          "gx-lede",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-rule",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-statusfoot",
+          "gx-tick",
+          "gx-ticks",
+          "gx-title",
+          "gx-wordmark",
+          "gx-work",
+          "gx-work--two",
+          "gx-xlink"
         ],
         "fingerprint": [
-          "a@7:1",
+          "a@5:1",
+          "a@6:1",
+          "a@6:2",
           "a@9:1",
-          "a@9:3",
-          "aside@4:1",
-          "b@10:0",
-          "button@7:0",
-          "div@3:2",
-          "div@4:1",
-          "div@5:3",
-          "div@6:2",
+          "b@8:0",
+          "button@6:0",
+          "div@3:4+",
+          "div@4:2",
+          "div@5:2",
           "div@6:3",
-          "div@7:1",
           "div@7:2",
+          "div@7:3",
+          "div@7:4+",
           "div@8:2",
           "div@8:3",
-          "em@8:0",
+          "em@7:0",
           "em@9:0",
-          "h1@7:1",
-          "h2@8:2",
+          "footer@4:4+",
+          "h1@6:1",
+          "h2@8:1",
           "h3@9:0",
-          "img@9:0",
-          "li@8:1",
+          "header@4:3",
+          "img@7:0",
           "main@5:3",
-          "nav@6:1",
-          "ol@7:3",
-          "p@7:0",
+          "nav@5:3",
+          "p@6:0",
+          "p@6:1",
           "p@8:0",
           "p@9:0",
+          "path@8:0",
+          "section@4:1",
           "section@6:2",
           "span@10:0",
+          "span@5:0",
+          "span@6:2",
+          "span@7:0",
+          "span@7:1",
           "span@8:0",
-          "span@8:2",
-          "span@9:0",
-          "span@9:1"
+          "svg@7:1"
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 547,
-            "height": 900
+            "left": 1,
+            "width": 1438,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 130,
-            "left": 43,
-            "width": 460,
-            "height": 127
+            "top": 6,
+            "left": 146,
+            "width": 1169,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 53,
-            "left": 613,
-            "width": 760,
-            "height": 1026
+            "top": 257,
+            "left": 221,
+            "width": 1218,
+            "height": 877
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 1134,
+            "left": 1,
+            "width": 1438,
+            "height": 30
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 41
+            "hex": "#f2f6fa",
+            "count": 43
           },
           {
-            "hex": "#0b5fc0",
+            "hex": "#8fa3b5",
             "count": 13
           },
           {
-            "hex": "#ffffff",
-            "count": 8
+            "hex": "#ff8a80",
+            "count": 9
           },
           {
-            "hex": "#4e6577",
+            "hex": "#6d8296",
+            "count": 7
+          },
+          {
+            "hex": "#140807",
             "count": 5
           },
           {
-            "hex": "#5b7082",
+            "hex": "#0b1117",
             "count": 4
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 4
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#1b2733",
+            "count": 3
+          },
+          {
+            "hex": "#26374a",
+            "count": 3
+          },
+          {
+            "hex": "#101a23",
+            "count": 1
           }
         ],
         "contrast": [],
-        "contrastChecked": 28,
+        "contrastChecked": 23,
         "headings": [
           {
             "tag": "h1",
@@ -8811,7 +8998,7 @@
           },
           {
             "tag": "h2",
-            "text": "02 OPEN to swap."
+            "text": "Open to swap."
           },
           {
             "tag": "h3",
@@ -8819,7 +9006,7 @@
           },
           {
             "tag": "h2",
-            "text": "03 COMPLETED swaps."
+            "text": "Completed swaps."
           },
           {
             "tag": "h3",
@@ -8851,10 +9038,10 @@
       },
       "mobile": {
         "meta": {
-          "title": "Open offers — Gradix",
+          "title": "Open offers — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 623,
+          "bodyTextLength": 620,
           "scrollWidth": 390,
           "clientWidth": 390,
           "focusableCount": 7
@@ -8969,10 +9156,6 @@
             "count": 1
           },
           {
-            "word": "gradix",
-            "count": 1
-          },
-          {
             "word": "here",
             "count": 3
           },
@@ -9157,10 +9340,6 @@
             "count": 1
           },
           {
-            "word": "xyz",
-            "count": 1
-          },
-          {
             "word": "yet",
             "count": 3
           },
@@ -9176,6 +9355,10 @@
           },
           {
             "key": "aria-label=Home",
+            "count": 1
+          },
+          {
+            "key": "aria-label=Status",
             "count": 1
           }
         ],
@@ -9202,123 +9385,162 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-band",
-          "tx-band--first",
-          "tx-band-head",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-copy",
-          "tx-display",
-          "tx-display--doc",
-          "tx-empty",
-          "tx-empty-art",
-          "tx-eyebrow",
-          "tx-index",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-kicker",
-          "tx-kicker-num",
-          "tx-lede",
-          "tx-main",
-          "tx-shell",
-          "tx-shell--product",
-          "tx-stage",
-          "tx-thesis",
-          "tx-wordmark"
+          "gx-band",
+          "gx-bandhead",
+          "gx-bandnum",
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--primary",
+          "gx-btn--sm",
+          "gx-btn--xs",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-copy",
+          "gx-dot",
+          "gx-empty",
+          "gx-empty-art",
+          "gx-eyebrow",
+          "gx-eyebrow--index",
+          "gx-h2",
+          "gx-lede",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-rule",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-statusfoot",
+          "gx-tick",
+          "gx-ticks",
+          "gx-title",
+          "gx-work",
+          "gx-work--two"
         ],
         "fingerprint": [
-          "a@7:1",
+          "a@5:1",
+          "a@6:2",
           "a@9:1",
-          "a@9:3",
-          "aside@4:1",
-          "b@10:0",
-          "button@7:0",
-          "div@3:2",
-          "div@4:1",
-          "div@5:3",
-          "div@6:2",
+          "button@6:0",
+          "div@3:4+",
+          "div@4:2",
+          "div@5:2",
           "div@6:3",
-          "div@7:1",
           "div@7:2",
+          "div@7:3",
+          "div@7:4+",
           "div@8:2",
           "div@8:3",
-          "em@8:0",
+          "em@7:0",
           "em@9:0",
-          "h1@7:1",
-          "h2@8:2",
+          "footer@4:4+",
+          "h1@6:1",
+          "h2@8:1",
           "h3@9:0",
-          "img@9:0",
-          "li@8:1",
+          "header@4:3",
+          "img@7:0",
           "main@5:3",
-          "nav@6:1",
-          "ol@7:3",
-          "p@7:0",
+          "nav@5:3",
+          "p@6:0",
+          "p@6:1",
           "p@8:0",
           "p@9:0",
+          "section@4:1",
           "section@6:2",
           "span@10:0",
-          "span@8:0",
-          "span@8:2",
-          "span@9:0",
-          "span@9:1"
+          "span@5:0",
+          "span@6:2",
+          "span@7:0",
+          "span@8:0"
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 295
+            "left": 1,
+            "width": 388,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 95,
-            "left": 20,
-            "width": 350,
-            "height": 34
+            "top": 6,
+            "left": 39,
+            "width": 266,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 317,
-            "left": 20,
-            "width": 350,
-            "height": 991
+            "top": 320,
+            "left": 1,
+            "width": 388,
+            "height": 793
+          },
+          {
+            "tag": "footer",
+            "role": "",
+            "top": 1114,
+            "left": 1,
+            "width": 388,
+            "height": 30
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 41
+            "hex": "#f2f6fa",
+            "count": 42
           },
           {
-            "hex": "#0b5fc0",
-            "count": 11
+            "hex": "#8fa3b5",
+            "count": 9
           },
           {
-            "hex": "#ffffff",
-            "count": 8
+            "hex": "#ff8a80",
+            "count": 9
           },
           {
-            "hex": "#4e6577",
+            "hex": "#6d8296",
+            "count": 7
+          },
+          {
+            "hex": "#140807",
             "count": 5
           },
           {
-            "hex": "#5b7082",
-            "count": 2
+            "hex": "#0b1117",
+            "count": 4
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 4
+          },
+          {
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#1b2733",
+            "count": 3
+          },
+          {
+            "hex": "#26374a",
+            "count": 3
+          },
+          {
+            "hex": "#101a23",
+            "count": 1
           }
         ],
         "contrast": [],
-        "contrastChecked": 25,
+        "contrastChecked": 21,
         "headings": [
           {
             "tag": "h1",
@@ -9330,7 +9552,7 @@
           },
           {
             "tag": "h2",
-            "text": "02 OPEN to swap."
+            "text": "Open to swap."
           },
           {
             "tag": "h3",
@@ -9338,7 +9560,7 @@
           },
           {
             "tag": "h2",
-            "text": "03 COMPLETED swaps."
+            "text": "Completed swaps."
           },
           {
             "tag": "h3",
@@ -9369,17 +9591,17 @@
     },
     "/docs": {
       "route": "/docs",
-      "url": "http://127.0.0.1:3000/docs",
+      "url": "http://127.0.0.1:4317/docs",
       "status": 200,
       "desktop": {
         "meta": {
-          "title": "Docs — Gradix",
+          "title": "Docs — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 8863,
+          "bodyTextLength": 8891,
           "scrollWidth": 1440,
           "clientWidth": 1440,
-          "focusableCount": 21
+          "focusableCount": 24
         },
         "words": [
           {
@@ -9391,8 +9613,8 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 16
+            "word": "$GEMMORA",
+            "count": 15
           },
           {
             "word": "0",
@@ -9779,10 +10001,6 @@
             "count": 7
           },
           {
-            "word": "CA",
-            "count": 1
-          },
-          {
             "word": "can",
             "count": 13
           },
@@ -10163,6 +10381,14 @@
             "count": 5
           },
           {
+            "word": "gemmora",
+            "count": 4
+          },
+          {
+            "word": "Gemmora",
+            "count": 3
+          },
+          {
             "word": "Gets",
             "count": 1
           },
@@ -10180,14 +10406,6 @@
           },
           {
             "word": "graded",
-            "count": 3
-          },
-          {
-            "word": "gradix",
-            "count": 2
-          },
-          {
-            "word": "Gradix",
             "count": 3
           },
           {
@@ -10536,7 +10754,7 @@
           },
           {
             "word": "on",
-            "count": 14
+            "count": 15
           },
           {
             "word": "On",
@@ -10891,10 +11109,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 1
-          },
-          {
             "word": "specific",
             "count": 1
           },
@@ -11215,6 +11429,14 @@
             "count": 1
           },
           {
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "x.com",
+            "count": 1
+          },
+          {
             "word": "xyz",
             "count": 2
           },
@@ -11234,18 +11456,22 @@
         "attrs": [
           {
             "key": "aria-label=Footer",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Gemmora home",
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
-            "count": 1
-          },
-          {
-            "key": "aria-label=On this page",
-            "count": 1
+            "key": "aria-label=Gemmora on X, @gemmora",
+            "count": 2
           },
           {
             "key": "aria-label=Primary",
+            "count": 1
+          },
+          {
+            "key": "title=@gemmora on X",
             "count": 1
           }
         ],
@@ -11309,6 +11535,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 3
           }
         ],
         "forms": [],
@@ -11316,102 +11546,106 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-chip",
-          "tx-display",
-          "tx-display--doc",
-          "tx-doc-article",
-          "tx-doc-facts",
-          "tx-doc-faq",
-          "tx-doc-instr",
-          "tx-doc-note",
-          "tx-doc-risks",
-          "tx-doc-steps",
-          "tx-doc-toc",
-          "tx-eyebrow",
-          "tx-footer",
-          "tx-footer-brand",
-          "tx-footer-col",
-          "tx-footer-cols",
-          "tx-footer-grid",
-          "tx-index",
-          "tx-index-arrow",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-index-num",
-          "tx-legal",
-          "tx-main",
-          "tx-num",
-          "tx-shell",
-          "tx-shell--marketing",
-          "tx-stage",
-          "tx-table",
-          "tx-table-wrap",
-          "tx-thesis",
-          "tx-thesis--doc",
-          "tx-wordmark"
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--primary",
+          "gx-btn--xs",
+          "gx-chip",
+          "gx-chip-arrow",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-doc",
+          "gx-docfacts",
+          "gx-docfaq",
+          "gx-docinstr",
+          "gx-docnote",
+          "gx-docrisks",
+          "gx-docsteps",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-hints",
+          "gx-hints-brand",
+          "gx-hints-col",
+          "gx-hints-cols",
+          "gx-legal",
+          "gx-num",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-sep",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-table",
+          "gx-tablewrap",
+          "gx-title",
+          "gx-toc",
+          "gx-wordmark",
+          "gx-work",
+          "gx-work--two",
+          "gx-xlink"
         ],
         "fingerprint": [
           "a@11:0",
+          "a@5:1",
+          "a@6:0",
+          "a@6:1",
+          "a@6:2",
+          "a@6:4+",
           "a@7:0",
-          "a@7:1",
-          "a@8:0",
-          "a@9:0",
-          "a@9:3",
           "article@6:4+",
-          "aside@4:1",
           "b@10:0",
-          "b@9:0",
+          "b@7:0",
+          "b@8:0",
           "code@11:0",
           "dd@10:0",
           "dd@10:1",
           "dd@10:2",
-          "div@3:2",
+          "div@3:4+",
           "div@4:2",
+          "div@5:1",
+          "div@5:2",
           "div@5:3",
-          "div@6:2",
+          "div@6:3",
           "div@6:4+",
-          "div@7:3",
           "div@8:1",
-          "div@8:2",
-          "div@8:4+",
           "div@9:2",
           "dl@8:4+",
           "dt@10:0",
-          "footer@5:2",
-          "h1@7:0",
+          "footer@4:3",
+          "h1@6:0",
           "h2@8:0",
           "h3@8:0",
-          "img@9:0",
-          "li@8:1",
+          "header@4:3",
+          "img@7:0",
           "li@9:0",
           "li@9:1",
           "li@9:2",
           "main@5:1",
-          "nav@6:1",
-          "nav@7:4+",
-          "ol@7:4+",
+          "nav@5:3",
+          "nav@5:4+",
           "ol@8:4+",
           "p@10:0",
           "p@10:2",
+          "p@5:0",
           "p@6:0",
-          "p@7:0",
+          "p@6:2",
           "p@8:0",
+          "path@8:0",
+          "section@4:1",
           "section@7:2",
           "section@7:4+",
-          "span@10:0",
           "span@11:0",
-          "span@8:2",
-          "span@9:0",
-          "span@9:1",
+          "span@6:2",
+          "span@7:0",
+          "span@7:1",
+          "svg@7:1",
           "table@9:2",
           "tbody@10:4+",
           "td@12:0",
@@ -11422,74 +11656,94 @@
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 547,
-            "height": 900
+            "left": 1,
+            "width": 1438,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 130,
-            "left": 43,
-            "width": 460,
-            "height": 211
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 534,
-            "left": 43,
-            "width": 460,
-            "height": 224
+            "top": 6,
+            "left": 146,
+            "width": 1150,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 13,
-            "left": 613,
-            "width": 760,
-            "height": 4295
+            "top": 176,
+            "left": 221,
+            "width": 1218,
+            "height": 4025
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 4377,
-            "left": 613,
-            "width": 760,
-            "height": 291
+            "top": 4201,
+            "left": 1,
+            "width": 1438,
+            "height": 249
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 4232,
+            "left": 605,
+            "width": 797,
+            "height": 118
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 117
+            "hex": "#8fa3b5",
+            "count": 116
           },
           {
-            "hex": "#4e6577",
-            "count": 104
+            "hex": "#f2f6fa",
+            "count": 88
           },
           {
-            "hex": "#5b7082",
-            "count": 20
+            "hex": "#6d8296",
+            "count": 26
           },
           {
-            "hex": "#e8f3ff",
-            "count": 16
+            "hex": "#c9d6e1",
+            "count": 23
           },
           {
-            "hex": "#0b5fc0",
-            "count": 13
+            "hex": "#ff8a80",
+            "count": 8
           },
           {
-            "hex": "#ffffff",
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#0b1117",
             "count": 2
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 2
+          },
+          {
+            "hex": "#101a23",
+            "count": 1
+          },
+          {
+            "hex": "#140807",
+            "count": 1
+          },
+          {
+            "hex": "#26374a",
+            "count": 1
           }
         ],
         "contrast": [],
-        "contrastChecked": 163,
+        "contrastChecked": 158,
         "headings": [
           {
             "tag": "h1",
@@ -11505,7 +11759,7 @@
           },
           {
             "tag": "h3",
-            "text": "Worked example"
+            "text": "WORKED EXAMPLE"
           },
           {
             "tag": "h2",
@@ -11517,11 +11771,11 @@
           },
           {
             "tag": "h3",
-            "text": "Instructions"
+            "text": "INSTRUCTIONS"
           },
           {
             "tag": "h3",
-            "text": "What is escrowed"
+            "text": "WHAT IS ESCROWED"
           },
           {
             "tag": "h2",
@@ -11533,7 +11787,6 @@
           }
         ],
         "navTargets": [
-          "",
           "/",
           "/app",
           "/docs",
@@ -11558,13 +11811,13 @@
       },
       "mobile": {
         "meta": {
-          "title": "Docs — Gradix",
+          "title": "Docs — Gemmora",
           "lang": "en",
           "h1Count": 1,
-          "bodyTextLength": 8838,
+          "bodyTextLength": 8867,
           "scrollWidth": 390,
           "clientWidth": 390,
-          "focusableCount": 21
+          "focusableCount": 23
         },
         "words": [
           {
@@ -11576,12 +11829,32 @@
             "count": 1
           },
           {
-            "word": "$GRADIX",
-            "count": 16
+            "word": "$GEMMORA",
+            "count": 15
           },
           {
             "word": "0",
             "count": 5
+          },
+          {
+            "word": "01",
+            "count": 1
+          },
+          {
+            "word": "02",
+            "count": 1
+          },
+          {
+            "word": "03",
+            "count": 1
+          },
+          {
+            "word": "04",
+            "count": 1
+          },
+          {
+            "word": "05",
+            "count": 1
           },
           {
             "word": "1",
@@ -11944,10 +12217,6 @@
             "count": 7
           },
           {
-            "word": "CA",
-            "count": 1
-          },
-          {
             "word": "can",
             "count": 13
           },
@@ -12328,6 +12597,14 @@
             "count": 5
           },
           {
+            "word": "gemmora",
+            "count": 2
+          },
+          {
+            "word": "Gemmora",
+            "count": 3
+          },
+          {
             "word": "Gets",
             "count": 1
           },
@@ -12345,14 +12622,6 @@
           },
           {
             "word": "graded",
-            "count": 3
-          },
-          {
-            "word": "gradix",
-            "count": 2
-          },
-          {
-            "word": "Gradix",
             "count": 3
           },
           {
@@ -12701,7 +12970,7 @@
           },
           {
             "word": "on",
-            "count": 14
+            "count": 15
           },
           {
             "word": "On",
@@ -13056,10 +13325,6 @@
             "count": 1
           },
           {
-            "word": "soon",
-            "count": 1
-          },
-          {
             "word": "specific",
             "count": 1
           },
@@ -13380,8 +13645,12 @@
             "count": 1
           },
           {
-            "word": "xyz",
-            "count": 2
+            "word": "X",
+            "count": 1
+          },
+          {
+            "word": "x.com",
+            "count": 1
           },
           {
             "word": "you",
@@ -13399,14 +13668,14 @@
         "attrs": [
           {
             "key": "aria-label=Footer",
+            "count": 2
+          },
+          {
+            "key": "aria-label=Gemmora home",
             "count": 1
           },
           {
-            "key": "aria-label=Gradix home",
-            "count": 1
-          },
-          {
-            "key": "aria-label=On this page",
+            "key": "aria-label=Gemmora on X, @gemmora",
             "count": 1
           },
           {
@@ -13474,6 +13743,10 @@
           {
             "href": "https://solscan.io/account/5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
             "count": 2
+          },
+          {
+            "href": "https://x.com/gemmora",
+            "count": 2
           }
         ],
         "forms": [],
@@ -13481,100 +13754,101 @@
         "imageIssues": [],
         "interactiveIssues": [],
         "classTokens": [
-          "tx-aside",
-          "tx-aside-inner",
-          "tx-brandbar",
-          "tx-brandlink",
-          "tx-brandmark",
-          "tx-btn",
-          "tx-btn--sm",
-          "tx-btn--solid",
-          "tx-chip",
-          "tx-display",
-          "tx-display--doc",
-          "tx-doc-article",
-          "tx-doc-facts",
-          "tx-doc-faq",
-          "tx-doc-instr",
-          "tx-doc-note",
-          "tx-doc-risks",
-          "tx-doc-steps",
-          "tx-doc-toc",
-          "tx-eyebrow",
-          "tx-footer",
-          "tx-footer-brand",
-          "tx-footer-col",
-          "tx-footer-cols",
-          "tx-footer-grid",
-          "tx-index",
-          "tx-index-label",
-          "tx-index-link",
-          "tx-index-list",
-          "tx-legal",
-          "tx-main",
-          "tx-num",
-          "tx-shell",
-          "tx-shell--marketing",
-          "tx-stage",
-          "tx-table",
-          "tx-table-wrap",
-          "tx-thesis",
-          "tx-thesis--doc",
-          "tx-wordmark"
+          "gx-brand",
+          "gx-brandmark",
+          "gx-btn",
+          "gx-btn--primary",
+          "gx-btn--xs",
+          "gx-chip",
+          "gx-chip-arrow",
+          "gx-cmdline",
+          "gx-cmdline-main",
+          "gx-command",
+          "gx-command-label",
+          "gx-command-num",
+          "gx-commands",
+          "gx-console",
+          "gx-doc",
+          "gx-docfacts",
+          "gx-docfaq",
+          "gx-docinstr",
+          "gx-docnote",
+          "gx-docrisks",
+          "gx-docsteps",
+          "gx-dot",
+          "gx-eyebrow",
+          "gx-hints",
+          "gx-hints-brand",
+          "gx-hints-col",
+          "gx-hints-cols",
+          "gx-legal",
+          "gx-num",
+          "gx-pane",
+          "gx-pane--data",
+          "gx-pane--index",
+          "gx-sep",
+          "gx-sig",
+          "gx-status",
+          "gx-status-tail",
+          "gx-table",
+          "gx-tablewrap",
+          "gx-title",
+          "gx-toc",
+          "gx-work",
+          "gx-work--two"
         ],
         "fingerprint": [
           "a@11:0",
+          "a@5:1",
+          "a@6:0",
+          "a@6:2",
+          "a@6:4+",
           "a@7:0",
-          "a@7:1",
-          "a@8:0",
-          "a@9:0",
-          "a@9:3",
           "article@6:4+",
-          "aside@4:1",
           "b@10:0",
-          "b@9:0",
+          "b@7:0",
           "code@11:0",
           "dd@10:0",
           "dd@10:1",
           "dd@10:2",
-          "div@3:2",
+          "div@3:4+",
           "div@4:2",
+          "div@5:1",
+          "div@5:2",
           "div@5:3",
-          "div@6:2",
+          "div@6:3",
           "div@6:4+",
-          "div@7:3",
           "div@8:1",
-          "div@8:2",
-          "div@8:4+",
           "div@9:2",
           "dl@8:4+",
           "dt@10:0",
-          "footer@5:2",
-          "h1@7:0",
+          "footer@4:3",
+          "h1@6:0",
           "h2@8:0",
           "h3@8:0",
-          "img@9:0",
-          "li@8:1",
+          "header@4:3",
+          "img@7:0",
           "li@9:0",
           "li@9:1",
           "li@9:2",
           "main@5:1",
-          "nav@6:1",
-          "nav@7:4+",
-          "ol@7:4+",
+          "nav@5:3",
+          "nav@5:4+",
           "ol@8:4+",
           "p@10:0",
           "p@10:2",
+          "p@5:0",
           "p@6:0",
-          "p@7:0",
+          "p@6:2",
           "p@8:0",
+          "path@8:0",
+          "section@4:1",
           "section@7:2",
           "section@7:4+",
-          "span@10:0",
           "span@11:0",
-          "span@8:2",
-          "span@9:0",
-          "span@9:1",
+          "span@6:2",
+          "span@7:0",
+          "svg@7:1",
           "table@9:2",
           "tbody@10:4+",
           "td@12:0",
@@ -13585,74 +13859,94 @@
         ],
         "landmarks": [
           {
-            "tag": "aside",
+            "tag": "header",
             "role": "",
             "top": 0,
-            "left": 0,
-            "width": 390,
-            "height": 428
+            "left": 1,
+            "width": 388,
+            "height": 41
           },
           {
             "tag": "nav",
             "role": "",
-            "top": 95,
-            "left": 20,
-            "width": 350,
-            "height": 74
-          },
-          {
-            "tag": "nav",
-            "role": "",
-            "top": 331,
-            "left": 20,
-            "width": 350,
-            "height": 75
+            "top": 6,
+            "left": 39,
+            "width": 247,
+            "height": 28
           },
           {
             "tag": "main",
             "role": "",
-            "top": 450,
-            "left": 20,
-            "width": 350,
-            "height": 5573
+            "top": 283,
+            "left": 1,
+            "width": 388,
+            "height": 6349
           },
           {
             "tag": "footer",
             "role": "",
-            "top": 6057,
-            "left": 20,
-            "width": 350,
-            "height": 423
+            "top": 6632,
+            "left": 1,
+            "width": 388,
+            "height": 439
+          },
+          {
+            "tag": "nav",
+            "role": "",
+            "top": 6793,
+            "left": 17,
+            "width": 356,
+            "height": 174
           }
         ],
         "colors": [
           {
-            "hex": "#081b2b",
-            "count": 117
+            "hex": "#8fa3b5",
+            "count": 111
           },
           {
-            "hex": "#4e6577",
-            "count": 104
+            "hex": "#f2f6fa",
+            "count": 86
           },
           {
-            "hex": "#5b7082",
-            "count": 16
+            "hex": "#6d8296",
+            "count": 26
           },
           {
-            "hex": "#e8f3ff",
-            "count": 16
+            "hex": "#c9d6e1",
+            "count": 23
           },
           {
-            "hex": "#0b5fc0",
-            "count": 11
+            "hex": "#ff8a80",
+            "count": 8
           },
           {
-            "hex": "#ffffff",
+            "hex": "#06090d",
+            "count": 3
+          },
+          {
+            "hex": "#0b1117",
             "count": 2
+          },
+          {
+            "hex": "#ff3b30",
+            "count": 2
+          },
+          {
+            "hex": "#101a23",
+            "count": 1
+          },
+          {
+            "hex": "#140807",
+            "count": 1
+          },
+          {
+            "hex": "#26374a",
+            "count": 1
           }
         ],
         "contrast": [],
-        "contrastChecked": 158,
+        "contrastChecked": 154,
         "headings": [
           {
             "tag": "h1",
@@ -13668,7 +13962,7 @@
           },
           {
             "tag": "h3",
-            "text": "Worked example"
+            "text": "WORKED EXAMPLE"
           },
           {
             "tag": "h2",
@@ -13680,11 +13974,11 @@
           },
           {
             "tag": "h3",
-            "text": "Instructions"
+            "text": "INSTRUCTIONS"
           },
           {
             "tag": "h3",
-            "text": "What is escrowed"
+            "text": "WHAT IS ESCROWED"
           },
           {
             "tag": "h2",
@@ -13696,7 +13990,6 @@
           }
         ],
         "navTargets": [
-          "",
           "/",
           "/app",
           "/docs",
@@ -13706,44 +13999,24 @@
           "documentOverflow": false,
           "offenders": [
             {
-              "selector": "section#how > div.tx-table-wrap > table.tx-table",
-              "right": 641,
-              "width": 620
+              "selector": "header.gx-status > nav.gx-commands > a.gx-command",
+              "right": 402,
+              "width": 93
             },
             {
-              "selector": "div.tx-table-wrap > table.tx-table > thead",
-              "right": 641,
-              "width": 620
+              "selector": "header.gx-status > nav.gx-commands > a.gx-command",
+              "right": 469,
+              "width": 65
             },
             {
-              "selector": "table.tx-table > thead > tr",
-              "right": 641,
-              "width": 620
+              "selector": "nav.gx-commands > a.gx-command > span.gx-command-num",
+              "right": 425,
+              "width": 11
             },
             {
-              "selector": "thead > tr > th",
-              "right": 567,
-              "width": 216
-            },
-            {
-              "selector": "thead > tr > th",
-              "right": 641,
-              "width": 74
-            },
-            {
-              "selector": "div.tx-table-wrap > table.tx-table > tbody",
-              "right": 641,
-              "width": 620
-            },
-            {
-              "selector": "table.tx-table > tbody > tr",
-              "right": 641,
-              "width": 620
-            },
-            {
-              "selector": "tbody > tr > td",
-              "right": 567,
-              "width": 216
+              "selector": "nav.gx-commands > a.gx-command > span.gx-command-label",
+              "right": 459,
+              "width": 27
             }
           ]
         }

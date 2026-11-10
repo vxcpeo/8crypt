@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T19:11:20.430Z",
+  "project": {
+    "root": "E:/workspace/chuangye/solana/8crypt/website",
+    "name": "gradix-website",
+    "vueVersion": null,
+    "nuxt": false,
+    "framework": "next",
+    "dependencies": [
+      "@solana/spl-token",
+      "@solana/web3.js",
+      "@types/bs58",
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "bs58",
+      "next",
+      "react",
+      "react-dom",
+      "tweetnacl",
+      "typescript"
+    ],
+    "packageManager": "npm",
+    "scripts": {
+      "dev": "next dev -p 3000",
+      "build": "next build",
+      "start": "next start -p 3000",
+      "lint": "next lint",
+      "typecheck": "tsc --noEmit"
+    },
+    "frameworks": [
+      "next",
+      "react"
+    ]
+  },
+  "stats": {
+    "filesScanned": 40,
+    "vueFiles": 0,
+    "routes": 5,
+    "staticTextTokens": 329,
+    "bindingTokens": 0,
+    "eventTokens": 0,
+    "classNames": 0,
+    "colors": 44
+  },
+  "routes": [
+    {
+      "path": "/",
+      "dynamic": false
+    },
+    {
+      "path": "/app",
+      "dynamic": false
+    },
+    {
+      "path": "/offers",
+      "dynamic": false
+    },
+    {
+      "path": "/docs",
+      "dynamic": false
+    },
+    {
+      "path": "/card/[mint]",
+      "dynamic": true
+    }
+  ],
+  "unresolvedRoutes": [],
+  "archetype": {
+    "id": "split-stage",
+    "family": "spatial",
+    "traits": {
+      "split": true,
+      "sticky": true,
+      "sidebar": true,
+      "hero": true,
+      "cards": true,
+      "ledger": true,
+      "table": true,
+      "grid": true
+    }
+  },
+  "palette": [
+    {
+      "hex": "#ffffff",
+      "count": 13
+    },
+    {
+      "hex": "#081b2b",
+      "count": 5
+    },
+    {
+      "hex": "#084f9f",
+      "count": 2
+    },
+    {
+      "hex": "#0b5fc0",
+      "count": 2
+    },
+    {
+      "hex": "#d7ebff",
+      "count": 2
+    },
+    {
+      "hex": "#e8f3ff",
+      "count": 2
+    },
+    {
+      "hex": "#f0c5c1",
+      "count": 2
+    },
+    {
+      "hex": "#087a55",
+      "count": 1
+    },
+    {
+      "hex": "#1e7be8",
+      "count": 1
+    },
+    {
+      "hex": "#298dff",
+      "count": 1
+    },
+    {
+      "hex": "#4e6577",
+      "count": 1
+    },
+    {
+      "hex": "#708699",
+      "count": 1
+    },
+    {
+      "hex": "#78c8ff",
+      "count": 1
+    },
+    {
+      "hex": "#8a5a00",
+      "count": 1
+    },
+    {
+      "hex": "#b42318",
+      "count": 1
+    },
+    {
+      "hex": "#b7d2e8",
+      "count": 1
+    },
+    {
+      "hex": "#d5e5f4",
+      "count": 1
+    },
+    {
+      "hex": "#d9ecff",
+      "count": 1
+    },
+    {
+      "hex": "#dcf5ea",
+      "count": 1
+    },
+    {
+      "hex": "#eaf5ff",
+      "count": 1
+    },
+    {
+      "hex": "#eef7ff",
+      "count": 1
+    },
+    {
+      "hex": "#f5faff",
+      "count": 1
+    },
+    {
+      "hex": "#fff4f3",
+      "count": 1
+    }
+  ],
+  "fonts": [],
+  "classNames": [],
+  "designSignals": {
+    "frameworks": [
+      "next",
+      "react"
+    ],
+    "cssVars": [
+      "--tx-bg",
+      "--tx-surface",
+      "--tx-surface-alt",
+      "--tx-surface-deep",
+      "--tx-ink",
+      "--tx-muted",
+      "--tx-faint",
+      "--tx-accent",
+      "--tx-accent-strong",
+      "--tx-accent-soft",
+      "--tx-line",
+      "--tx-line-strong",
+      "--tx-success",
+      "--tx-danger",
+      "--tx-warning"
+    ],
+    "colorVars": [
+      {
+        "name": "--tx-bg",
+        "value": "#f5faff"
+      },
+      {
+        "name": "--tx-surface",
+        "value": "#ffffff"
+      },
+      {
+        "name": "--tx-surface-alt",
+        "value": "#e8f3ff"
+      },
+      {
+        "name": "--tx-surface-deep",
+        "value": "#d9ecff"
+      },
+      {
+        "name": "--tx-ink",
+        "value": "#081b2b"
+      },
+      {
+        "name": "--tx-muted",
+        "value": "#4e6577"
+      },
+      {
+        "name": "--tx-faint",
+        "value": "#708699"
+      },
+      {
+        "name": "--tx-accent",
+        "value": "#1e7be8"
+      },
+      {
+        "name": "--tx-accent-strong",
+        "value": "#0b5fc0"
+      },
+      {
+        "name": "--tx-accent-soft",
+        "value": "#d7ebff"
+      },
+      {
+        "name": "--tx-line",
+        "value": "#d5e5f4"
+      },
+      {
+        "name": "--tx-line-strong",
+        "value": "#b7d2e8"
+      },
+      {
+        "name": "--tx-success",
+        "value": "#087a55"
+      },
+      {
+        "name": "--tx-danger",
+        "value": "#b42318"
+      },
+      {
+        "name": "--tx-warning",
+        "value": "#8a5a00"
+      }
+    ],
+    "mediaQueries": [],
+    "darkMode": true
+  },
+  "structure": {
+    "tagCounts": {},
+    "depthHistogram": {},
+    "maxDepth": 0,
+    "topLevelTags": [],
+    "skeletonSample": []
+  },
+  "contentContract": {
+    "schemaVersion": 1,
+    "meta": {
+      "projectName": "gradix-website",
+      "title": "Gradix — swap graded Pokémon cards, no selling first",
+      "lang": "en"
+    },
+    "routes": [
+      "/",
+      "/app",
+      "/offers",
+      "/docs",
+      "/card/[mint]"
+    ],
+    "visibleText": [
+      {
+        "value": "Offer one of your Collector Crypt cards for the card you want, with optional USDC. Settled on Solana in one transaction.",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt card",
+        "count": 1
+      },
+      {
+        "value": "insured value, Collector Crypt's estimate",
+        "count": 1
+      },
+      {
+        "value": "Offer a card for it",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt ↗",
+        "count": 1
+      },
+      {
+        "value": "Solscan ↗",
+        "count": 3
+      },
+      {
+        "value": "Grade",
+        "count": 1
+      },
+      {
+        "value": "Set",
+        "count": 1
+      },
+      {
+        "value": "Year",
+        "count": 1
+      },
+      {
+        "value": "Category",
+        "count": 1
+      },
+      {
+        "value": "Held by",
+        "count": 1
+      },
+      {
+        "value": "· ready to swap",
+        "count": 1
+      },
+      {
+        "value": "Offers",
+        "count": 3
+      },
+      {
+        "value": "Card not found",
+        "count": 1
+      },
+      {
+        "value": "Docs",
+        "count": 3
+      },
+      {
+        "value": "Gradix documentation",
+        "count": 1
+      },
+      {
+        "value": "Overview",
+        "count": 2
+      },
+      {
+        "value": "How it works",
+        "count": 6
+      },
+      {
+        "value": "Fees",
+        "count": 3
+      },
+      {
+        "value": "Program",
+        "count": 2
+      },
+      {
+        "value": "Risks",
+        "count": 3
+      },
+      {
+        "value": "FAQ",
+        "count": 2
+      },
+      {
+        "value": "Gradix lets Collector Crypt holders swap their tokenized graded Pokémon cards directly, without selling first. Each card is a Metaplex programmable NFT on Solana backed by a graded card in Collector Crypt's vault.",
+        "count": 1
+      },
+      {
+        "value": "A completed swap costs 1 USDC per side. All swap fees buy back and burn $GRADIX once a day. Wallets holding at least 1,000,000 $GRADIX pay no fee.",
+        "count": 1
+      },
+      {
+        "value": "The owner answers.",
+        "count": 1
+      },
+      {
+        "value": "They see the offer with both insured values side by side. They can accept, ignore it, or counter with a new offer the other way.",
+        "count": 1
+      },
+      {
+        "value": "Accept settles everything.",
+        "count": 1
+      },
+      {
+        "value": "The owner signs one transaction. Both cards and the USDC move in the same instruction, or nothing moves.",
+        "count": 1
+      },
+      {
+        "value": "Cancel or expiry.",
+        "count": 1
+      },
+      {
+        "value": "Until it is accepted, the bidder can cancel for free. After an expiry, anyone can send the escrow back to the bidder.",
+        "count": 1
+      },
+      {
+        "value": "Worked example",
+        "count": 1
+      },
+      {
+        "value": "Example names and values.",
+        "count": 1
+      },
+      {
+        "value": "Step",
+        "count": 1
+      },
+      {
+        "value": "Treasury",
+        "count": 3
+      },
+      {
+        "value": "Start",
+        "count": 1
+      },
+      {
+        "value": "Card, 40 USDC and 1 USDC fee in escrow. Wallet: 59 USDC",
+        "count": 1
+      },
+      {
+        "value": "No change",
+        "count": 2
+      },
+      {
+        "value": "accept",
+        "count": 2
+      },
+      {
+        "value": "Receives Charizard ex. Wallet: 59 USDC",
+        "count": 1
+      },
+      {
+        "value": "+2 USDC",
+        "count": 1
+      },
+      {
+        "value": "If Maya cancels instead",
+        "count": 1
+      },
+      {
+        "value": "Gets back Blastoise and 41 USDC. Wallet: 100 USDC",
+        "count": 1
+      },
+      {
+        "value": "Who pays",
+        "count": 1
+      },
+      {
+        "value": "When",
+        "count": 1
+      },
+      {
+        "value": "Amount",
+        "count": 1
+      },
+      {
+        "value": "Where it goes",
+        "count": 1
+      },
+      {
+        "value": "1 USDC",
+        "count": 2
+      },
+      {
+        "value": "On accept, taken first from the USDC the bidder added, the rest from the owner's wallet",
+        "count": 1
+      },
+      {
+        "value": "Any side holding ≥ 1,000,000 $GRADIX",
+        "count": 1
+      },
+      {
+        "value": "Bidder checked at make, owner checked at accept",
+        "count": 1
+      },
+      {
+        "value": "0 USDC",
+        "count": 2
+      },
+      {
+        "value": "Once a day",
+        "count": 1
+      },
+      {
+        "value": "100% of swap fees",
+        "count": 3
+      },
+      {
+        "value": "$GRADIX traders on Pump.fun",
+        "count": 1
+      },
+      {
+        "value": "On every $GRADIX trade, at Pump.fun's creator-fee rate",
+        "count": 1
+      },
+      {
+        "value": "Pump.fun rate",
+        "count": 1
+      },
+      {
+        "value": "Everyone",
+        "count": 1
+      },
+      {
+        "value": "Each transaction",
+        "count": 1
+      },
+      {
+        "value": "Solana network fee",
+        "count": 1
+      },
+      {
+        "value": "The 2% Collector Crypt royalty does not apply: a swap is two transfers, not a sale. Collector Crypt's transfer rule set still runs on every card move.",
+        "count": 1
+      },
+      {
+        "value": "Program ID",
+        "count": 1
+      },
+      {
+        "value": "5wvjqDcFDVri7RUcxn1TQA7MPRjWJ7gMvY2DabbyJCW6",
+        "count": 1
+      },
+      {
+        "value": "Framework",
+        "count": 1
+      },
+      {
+        "value": "Collection check",
+        "count": 1
+      },
+      {
+        "value": "CCryptWBYktukHDQ2vHGtVcmtjXxYzvw8XNVY64YN2Yf",
+        "count": 1
+      },
+      {
+        "value": "in its Token Metadata.",
+        "count": 1
+      },
+      {
+        "value": "Card transfers",
+        "count": 1
+      },
+      {
+        "value": "eBJLFYPxJmMGKuFwpDWkzxZeUrad92kZRC5BJLpzyT9",
+        "count": 1
+      },
+      {
+        "value": "is applied.",
+        "count": 1
+      },
+      {
+        "value": "Escrow",
+        "count": 1
+      },
+      {
+        "value": "One PDA per offer, seeds",
+        "count": 1
+      },
+      {
+        "value": ". It owns the card's token account and the USDC vault.",
+        "count": 1
+      },
+      {
+        "value": "Audit",
+        "count": 1
+      },
+      {
+        "value": "None. 20 tests in LiteSVM against cloned mainnet Token Metadata, Token Auth Rules, Collector Crypt's rule set and two real Collector Crypt cards.",
+        "count": 1
+      },
+      {
+        "value": "Instructions",
+        "count": 1
+      },
+      {
+        "value": "make_offer",
+        "count": 1
+      },
+      {
+        "value": "Bidder",
+        "count": 1
+      },
+      {
+        "value": "cancel",
+        "count": 1
+      },
+      {
+        "value": "Bidder, or anyone after expiry",
+        "count": 1
+      },
+      {
+        "value": "Owner of the wanted card",
+        "count": 1
+      },
+      {
+        "value": "configure",
+        "count": 1
+      },
+      {
+        "value": "Admin key only",
+        "count": 1
+      },
+      {
+        "value": "What is escrowed",
+        "count": 1
+      },
+      {
+        "value": "The program is not audited. A bug could lock or lose escrowed cards or USDC.",
+        "count": 1
+      },
+      {
+        "value": "An accepted swap is final. Check both cards before you sign.",
+        "count": 1
+      },
+      {
+        "value": "Card values shown are Collector Crypt's insured value, an estimate. They are not a price anyone has agreed to pay.",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt is a third party. A change to its collection, metadata or transfer rule set could block new offers or transfers.",
+        "count": 1
+      },
+      {
+        "value": "$GRADIX is a token on a bonding curve and can lose all its value. Holding it only removes your swap fee.",
+        "count": 1
+      },
+      {
+        "value": "Gradix is not affiliated with Collector Crypt or The Pokémon Company. Nothing here is financial advice.",
+        "count": 1
+      },
+      {
+        "value": "Where does the money for the $GRADIX buyback come from?",
+        "count": 2
+      },
+      {
+        "value": "Only from swap fees: 1 USDC per side on each completed swap. There are no emissions and no outside top-ups. If nobody swaps, nothing is bought. Cancelled and expired offers pay nothing.",
+        "count": 2
+      },
+      {
+        "value": "Who can change the rules after launch?",
+        "count": 2
+      },
+      {
+        "value": "An admin key sets the fee, the treasury account and the $GRADIX waiver, and can pause new offers. The program caps the fee at 10 USDC per side, and an open offer keeps the fee it was made with. The admin key cannot move escrowed cards or USDC, and a pause never blocks cancel or accept.",
+        "count": 2
+      },
+      {
+        "value": "Do I need to claim anything?",
+        "count": 2
+      },
+      {
+        "value": "No. On accept, both cards and the USDC land in the two wallets in the same transaction. On cancel or expiry, the card, the USDC and the held fee go straight back to the bidder.",
+        "count": 2
+      },
+      {
+        "value": "What can go wrong?",
+        "count": 2
+      },
+      {
+        "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt's insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GRADIX can lose all its value.",
+        "count": 1
+      },
+      {
+        "value": "Is there a presale, team allocation or airdrop?",
+        "count": 2
+      },
+      {
+        "value": "No presale, no team allocation, no airdrop. $GRADIX launches on Pump.fun with the standard 1,000,000,000 supply. The dev buy at launch will be disclosed with its transaction.",
+        "count": 2
+      },
+      {
+        "value": "Is it audited?",
+        "count": 2
+      },
+      {
+        "value": "Can I swap a card listed on a marketplace?",
+        "count": 2
+      },
+      {
+        "value": "What about the Collector Crypt royalty?",
+        "count": 2
+      },
+      {
+        "value": "The 2% royalty applies to sales. A swap here is two transfers in one transaction, with no sale, so no royalty is charged. Collector Crypt's transfer rule set still runs on every card move.",
+        "count": 1
+      },
+      {
+        "value": "How do I skip the 1 USDC fee?",
+        "count": 2
+      },
+      {
+        "value": "How Gradix swaps graded Collector Crypt cards on Solana: offers, escrow, fees, program instructions and risks.",
+        "count": 1
+      },
+      {
+        "value": "Gradix lets Collector Crypt holders swap tokenized graded Pokémon cards directly on Solana: card for card, with optional USDC to balance, settled in one atomic transaction.",
+        "count": 2
+      },
+      {
+        "value": "Gradix — swap graded Pokémon cards, no selling first",
+        "count": 3
+      },
+      {
+        "value": "Swap graded Pokémon cards card-for-card on Solana, with optional USDC to balance. One signature, one atomic transaction.",
+        "count": 2
+      },
+      {
+        "value": "404",
+        "count": 1
+      },
+      {
+        "value": "This slab is not",
+        "count": 1
+      },
+      {
+        "value": "in the vault.",
+        "count": 1
+      },
+      {
+        "value": "The card or page you are looking for does not exist. Head back to the swap desk and browse the verified Collector Crypt catalog.",
+        "count": 1
+      },
+      {
+        "value": "Browse cards",
+        "count": 2
+      },
+      {
+        "value": "Back home",
+        "count": 1
+      },
+      {
+        "value": "Open offers",
+        "count": 2
+      },
+      {
+        "value": "Live offers on Gradix: cards locked in escrow on Solana, waiting for the holder of the card they ask for.",
+        "count": 1
+      },
+      {
+        "value": "Written in Pinocchio.",
+        "count": 1
+      },
+      {
+        "value": "5wvj…JCW6",
+        "count": 1
+      },
+      {
+        "value": ", body:",
+        "count": 1
+      },
+      {
+        "value": "CCry…N2Yf",
+        "count": 1
+      },
+      {
+        "value": "An escrowed asset can only go back to the bidder, to the owner who delivers the card, or the fixed fee to the treasury.",
+        "count": 1
+      },
+      {
+        "value": "Run against mainnet Token Metadata, Collector Crypt's rule set and real cards, including 13 attacks that must fail.",
+        "count": 1
+      },
+      {
+        "value": "Built on Collector Crypt · Solana",
+        "count": 1
+      },
+      {
+        "value": "Trade collectibles",
+        "count": 1
+      },
+      {
+        "value": "directly",
+        "count": 1
+      },
+      {
+        "value": "onchain.",
+        "count": 1
+      },
+      {
+        "value": "Swap your graded Pokémon cards card-for-card, add USDC to balance the values, and settle both sides in a single transaction. No selling first.",
+        "count": 1
+      },
+      {
+        "value": "Start a swap",
+        "count": 1
+      },
+      {
+        "value": "Swap",
+        "count": 3
+      },
+      {
+        "value": "cards",
+        "count": 1
+      },
+      {
+        "value": "Public",
+        "count": 1
+      },
+      {
+        "value": "offers",
+        "count": 1
+      },
+      {
+        "value": "Add",
+        "count": 1
+      },
+      {
+        "value": "USDC",
+        "count": 2
+      },
+      {
+        "value": "Secure",
+        "count": 1
+      },
+      {
+        "value": "onchain",
+        "count": 1
+      },
+      {
+        "value": "1 USDC per side · only when a swap completes",
+        "count": 1
+      },
+      {
+        "value": "PSA GEM-MT 10 · $1,500",
+        "count": 1
+      },
+      {
+        "value": "PSA NM 7 · $1,475",
+        "count": 1
+      },
+      {
+        "value": "cards in escrow now",
+        "count": 1
+      },
+      {
+        "value": "Swaps settled",
+        "count": 1
+      },
+      {
+        "value": "on Solana",
+        "count": 1
+      },
+      {
+        "value": "$0",
+        "count": 1
+      },
+      {
+        "value": "Card value swapped",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt insured value",
+        "count": 1
+      },
+      {
+        "value": "To $GRADIX buyback",
+        "count": 1
+      },
+      {
+        "value": "Real slabs, vaulted by Collector Crypt",
+        "count": 1
+      },
+      {
+        "value": "Any card in the vault",
+        "count": 1
+      },
+      {
+        "value": "can be your next one.",
+        "count": 1
+      },
+      {
+        "value": "Four steps.",
+        "count": 1
+      },
+      {
+        "value": "Both cards move together.",
+        "count": 1
+      },
+      {
+        "value": "Where the fees go",
+        "count": 1
+      },
+      {
+        "value": "Every swap fee",
+        "count": 1
+      },
+      {
+        "value": "buys $GRADIX.",
+        "count": 1
+      },
+      {
+        "value": "A completed swap costs 1 USDC per side. All of it goes to the treasury, and once a day the treasury buys $GRADIX on the market and burns it. Cancelled and expired offers pay nothing.",
+        "count": 1
+      },
+      {
+        "value": "Swap settles",
+        "count": 1
+      },
+      {
+        "value": "1 USDC × 2 sides",
+        "count": 1
+      },
+      {
+        "value": "100% of fees",
+        "count": 1
+      },
+      {
+        "value": "Buyback + burn",
+        "count": 1
+      },
+      {
+        "value": "$GRADIX, daily",
+        "count": 1
+      },
+      {
+        "value": "Hold 1,000,000 $GRADIX.",
+        "count": 1
+      },
+      {
+        "value": "Swap for free.",
+        "count": 1
+      },
+      {
+        "value": "Launch",
+        "count": 1
+      },
+      {
+        "value": "Pump.fun, fair launch",
+        "count": 1
+      },
+      {
+        "value": "Supply",
+        "count": 1
+      },
+      {
+        "value": "1,000,000,000",
+        "count": 1
+      },
+      {
+        "value": "Presale / team",
+        "count": 1
+      },
+      {
+        "value": "None · dev buy disclosed",
+        "count": 1
+      },
+      {
+        "value": "Buy pressure",
+        "count": 1
+      },
+      {
+        "value": "Fee cap",
+        "count": 1
+      },
+      {
+        "value": "10 USDC, fixed per offer",
+        "count": 1
+      },
+      {
+        "value": "Security",
+        "count": 1
+      },
+      {
+        "value": "Receipts,",
+        "count": 1
+      },
+      {
+        "value": "not promises.",
+        "count": 1
+      },
+      {
+        "value": "Before you swap",
+        "count": 1
+      },
+      {
+        "value": "Questions,",
+        "count": 1
+      },
+      {
+        "value": "answered straight.",
+        "count": 1
+      },
+      {
+        "value": "What can go wrong, who controls what, and where every fee goes.",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt made cards tradable. Gradix makes them swappable.",
+        "count": 1
+      },
+      {
+        "value": "The card you want is in",
+        "count": 1
+      },
+      {
+        "value": "Launch app",
+        "count": 1
+      },
+      {
+        "value": "See open offers",
+        "count": 1
+      },
+      {
+        "value": "Find the card you want",
+        "count": 1
+      },
+      {
+        "value": "Search every verified Collector Crypt card by name, set or grade. Your own cards load from your wallet.",
+        "count": 1
+      },
+      {
+        "value": "Lock your offer",
+        "count": 1
+      },
+      {
+        "value": "Put one of your cards in escrow. Add USDC if yours is worth less, or ask for USDC if it is worth more.",
+        "count": 1
+      },
+      {
+        "value": "They accept, it settles",
+        "count": 1
+      },
+      {
+        "value": "Both cards and the USDC change hands in one transaction. All or nothing, nobody in the middle.",
+        "count": 1
+      },
+      {
+        "value": "Or cancel for free",
+        "count": 1
+      },
+      {
+        "value": "Program on Solana",
+        "count": 1
+      },
+      {
+        "value": "One escrow per offer",
+        "count": 1
+      },
+      {
+        "value": "Verified cards only",
+        "count": 1
+      },
+      {
+        "value": "Three exits only",
+        "count": 1
+      },
+      {
+        "value": "20 tests, real programs",
+        "count": 1
+      },
+      {
+        "value": "Your keys, your signature",
+        "count": 1
+      },
+      {
+        "value": "The program is not audited: a bug could lock or lose escrowed cards or USDC. Card values shown are Collector Crypt’s insured value, an estimate, not a price anyone will pay. An accepted swap is final. Collector Crypt is a third party and could change its collection or transfer rules, which could block new offers. $GRADIX can lose all its value.",
+        "count": 1
+      },
+      {
+        "value": "Not while it is listed. A listing locks the card, so the escrow cannot take it. Delist it first, then make or accept the offer.",
+        "count": 1
+      },
+      {
+        "value": "The 2% royalty applies to sales. A swap here is two transfers in one transaction, with no sale, so no royalty is charged. Collector Crypt’s transfer rule set still runs on every card move.",
+        "count": 1
+      },
+      {
+        "value": "Collector Crypt · Solana",
+        "count": 1
+      },
+      {
+        "value": "Swap cards.",
+        "count": 1
+      },
+      {
+        "value": "Find the card you want, offer one of yours, add or ask for USDC. One signature, settled on-chain.",
+        "count": 1
+      },
+      {
+        "value": "Search",
+        "count": 1
+      },
+      {
+        "value": "Pick the card you want, then offer one of yours for it.",
+        "count": 1
+      },
+      {
+        "value": "No cards match that search.",
+        "count": 1
+      },
+      {
+        "value": "Try a card name, a grade such as PSA 10, a set, or clear the search.",
+        "count": 1
+      },
+      {
+        "value": "Clear search",
+        "count": 1
+      },
+      {
+        "value": "Sign in to load your cards.",
+        "count": 1
+      },
+      {
+        "value": "Your Collector Crypt cards are read from the wallet you sign with. No account, no email.",
+        "count": 1
+      },
+      {
+        "value": "Sign in with a wallet",
+        "count": 1
+      },
+      {
+        "value": "Sign in to see offers for your cards.",
+        "count": 1
+      },
+      {
+        "value": "Offers addressed to any card in your wallet land here.",
+        "count": 1
+      },
+      {
+        "value": "Sign in",
+        "count": 2
+      },
+      {
+        "value": "No offers for your cards yet.",
+        "count": 1
+      },
+      {
+        "value": "When a collector wants one of your cards they will lock their card and USDC in escrow. You will see the offer here.",
+        "count": 1
+      },
+      {
+        "value": "Browse open offers",
+        "count": 1
+      },
+      {
+        "value": "Sign in to see the offers you sent.",
+        "count": 1
+      },
+      {
+        "value": "Everything you lock in escrow stays visible here until it settles or is cancelled.",
+        "count": 1
+      },
+      {
+        "value": "You have not sent an offer yet.",
+        "count": 1
+      },
+      {
+        "value": "My cards",
+        "count": 1
+      },
+      {
+        "value": "Promise",
+        "count": 4
+      },
+      {
+        "value": "gradix",
+        "count": 2
+      },
+      {
+        "value": ".xyz",
+        "count": 2
+      },
+      {
+        "value": "On-chain authentication",
+        "count": 1
+      },
+      {
+        "value": "Your Solana wallet is your account. One signature proves you own it — no email, no password, no transaction, no gas.",
+        "count": 1
+      },
+      {
+        "value": "Solana · mainnet",
+        "count": 1
+      },
+      {
+        "value": "SIWS 1.0",
+        "count": 1
+      },
+      {
+        "value": "How auth works",
+        "count": 1
+      },
+      {
+        "value": "On-chain identity",
+        "count": 1
+      },
+      {
+        "value": "Signature verified",
+        "count": 1
+      },
+      {
+        "value": "View on Solscan",
+        "count": 1
+      },
+      {
+        "value": "Sign out",
+        "count": 1
+      },
+      {
+        "value": "No offer yet. Be the first.",
+        "count": 1
+      },
+      {
+        "value": "Lock one of your cards for this one, add USDC if yours is worth less. If the holder says no, cancel and get everything back.",
+        "count": 1
+      },
+      {
+        "value": "Make an offer",
+        "count": 1
+      },
+      {
+        "value": "Offer for this card",
+        "count": 1
+      },
+      {
+        "value": "Card you give",
+        "count": 1
+      },
+      {
+        "value": "from your wallet · escrowed",
+        "count": 1
+      },
+      {
+        "value": "USDC to balance",
+        "count": 1
+      },
+      {
+        "value": "only moves if both sides accept",
+        "count": 1
+      },
+      {
+        "value": "Even swap",
+        "count": 1
+      },
+      {
+        "value": "I add USDC",
+        "count": 1
+      },
+      {
+        "value": "I ask for USDC",
+        "count": 1
+      },
+      {
+        "value": "Expiry",
+        "count": 1
+      },
+      {
+        "value": "You give",
+        "count": 1
+      },
+      {
+        "value": "You receive",
+        "count": 1
+      },
+      {
+        "value": "Card value: you give",
+        "count": 1
+      },
+      {
+        "value": "1 USDC fee",
+        "count": 1
+      },
+      {
+        "value": "per side is held with the offer and only charged on completion.",
+        "count": 1
+      },
+      {
+        "value": "Cancel",
+        "count": 2
+      },
+      {
+        "value": "Sign in to continue",
+        "count": 1
+      },
+      {
+        "value": "No expiry",
+        "count": 1
+      },
+      {
+        "value": "1 USDC fee / side",
+        "count": 1
+      },
+      {
+        "value": "Connect a wallet to answer",
+        "count": 1
+      },
+      {
+        "value": "View card",
+        "count": 1
+      },
+      {
+        "value": "Read live from the program",
+        "count": 1
+      },
+      {
+        "value": "Open",
+        "count": 2
+      },
+      {
+        "value": "offers.",
+        "count": 1
+      },
+      {
+        "value": "Every card below is locked in escrow right now, waiting for the holder of the card it asks for.",
+        "count": 1
+      },
+      {
+        "value": "01",
+        "count": 1
+      },
+      {
+        "value": "02",
+        "count": 1
+      },
+      {
+        "value": "to swap.",
+        "count": 1
+      },
+      {
+        "value": "Cards their holders listed as available for offers.",
+        "count": 1
+      },
+      {
+        "value": "03",
+        "count": 1
+      },
+      {
+        "value": "Completed",
+        "count": 1
+      },
+      {
+        "value": "swaps.",
+        "count": 1
+      },
+      {
+        "value": "$GRADIX",
+        "count": 1
+      },
+      {
+        "value": "CA soon",
+        "count": 1
+      },
+      {
+        "value": "Card-for-card swaps for Collector Crypt cards on Solana.",
+        "count": 1
+      },
+      {
+        "value": "Product",
+        "count": 1
+      },
+      {
+        "value": "Protocol",
+        "count": 1
+      },
+      {
+        "value": "Elsewhere",
+        "count": 1
+      },
+      {
+        "value": "Program 5wvj…JCW6",
+        "count": 1
+      },
+      {
+        "value": "Not affiliated with Collector Crypt or The Pokémon Company. Not financial advice. The program is not audited. Card values are Collector Crypt's estimates.",
+        "count": 1
+      }
+    ],
+    "hiddenText": [],
+    "attributes": [
+      {
+        "name": "placeholder",
+        "value": "Search Charizard, PSA 10, Base Set… or paste a card address",
+        "count": 1
+      },
+      {
+        "name": "placeholder",
+        "value": "0",
+        "count": 1
+      },
+      {
+        "name": "title",
+        "value": "No open offer yet.",
+        "count": 1
+      },
+      {
+        "name": "title",
+        "value": "Nothing listed yet.",
+        "count": 1
+      },
+      {
+        "name": "title",
+        "value": "No swap yet.",
+        "count": 1
+      }
+    ],
+    "bindings": [],
+    "events": [],
+    "links": [],
+    "assets": [],
+    "forms": [],
+    "i18n": [],
+    "i18nKeys": [],
+    "i18nFiles": [],
+    "api": [
+      "/api/auth/logout",
+      "/api/auth/nonce",
+      "/api/auth/session",
+      "/api/auth/verify",
+      "/api/offers",
+      "/api/offers/${offer.id}/accept",
+      "/api/offers/${offer.id}/cancel"
+    ],
+    "env": [
+      "AUTH_SECRET",
+      "NODE_ENV"
+    ]
+  },
+  "contentContractHash": "2a67ef16a05b74ae7c9e2245f69853ece1f6319882b247e87a8df7c594ae4585"
+}

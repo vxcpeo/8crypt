@@ -62,8 +62,8 @@ export function CardOffers({
 
   if (offers.length) {
     return (
-      <div className="tx-cardoffers">
-        <div className="tx-offer-list">
+      <div className="gx-cardoffers">
+        <div className="gx-offerlist">
           {offers.map((offer) => (
             <OfferRow
               key={offer.id}
@@ -77,8 +77,8 @@ export function CardOffers({
           ))}
         </div>
         {toast ? (
-          <div className="tx-toast" role="status">
-            <span className="tx-dot" />
+          <div className="gx-toast" role="status">
+            <span className="gx-dot" aria-hidden="true" />
             {toast}
           </div>
         ) : null}
@@ -87,15 +87,15 @@ export function CardOffers({
   }
 
   return (
-    <div className="tx-empty">
-      <span className="tx-empty-art" aria-hidden="true" />
+    <div className="gx-empty">
+      <span className="gx-empty-art" aria-hidden="true" />
       <div>
         <h3>No offer yet. Be the first.</h3>
         <p>
           Lock one of your cards for this one, add USDC if yours is worth less. If the holder says
           no, cancel and get everything back.
         </p>
-        <Link className="tx-btn tx-btn--solid tx-btn--sm" href={`/app?want=${mint}`}>
+        <Link className="gx-btn gx-btn--primary gx-btn--sm" href={`/app?want=${mint}`}>
           Make an offer <span aria-hidden="true">→</span>
         </Link>
       </div>

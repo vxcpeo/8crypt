@@ -1,9 +1,9 @@
-# Tabuline — website
+# Gemmora — website
 
-Next.js 15 frontend for the Tabuline card-for-card swap protocol, with wallet-native
+Next.js 15 frontend for the Gemmora card-for-card swap protocol, with wallet-native
 on-chain authentication (Sign-In With Solana) instead of email or hosted auth.
 
-Brand: **tabuline.top** · X: **@tabuline_top**
+Brand: **gemmora.xyz** · X: **@Gemmora_xyz**
 
 ## Brand and social links
 
@@ -11,8 +11,8 @@ The X link is part of the shell, so every route carries it:
 
 | Where | Source |
 | --- | --- |
-| Brand-bar icon button (all routes) | `components/Tidal.tsx` → `XIconLink` |
-| Footer "@tabuline_top on X" chip + `x.com/tabuline_top` link | `components/Tidal.tsx` → `XFollowChip`, `SiteFooter` |
+| Brand-bar icon button (all routes) | `components/Console.tsx` → `XIconLink` |
+| Footer "@Gemmora_xyz on X" chip + `x.com/Gemmora_xyz` link | `components/Console.tsx` → `XPostChip`, `ConsoleFooter` |
 | `<meta name="twitter:site">` / `creator` | `app/layout.tsx` |
 | Canonical/OG base URL | `app/layout.tsx` → `metadataBase` |
 
@@ -61,7 +61,7 @@ npm start
 5. `GET /api/auth/session` restores the session. All write APIs (`POST /api/offers`, accept,
    cancel) require the session and ignore any address supplied by the client.
 
-The companion `tabuline_auth` Anchor program mirrors the same wallet identity on-chain: a
+The companion `gemmora_auth` Anchor program mirrors the same wallet identity on-chain: a
 wallet can register a profile, record login attestations and keep its handle, all keyed by
 the same Solana key that signs swaps.
 
@@ -71,15 +71,16 @@ not be used for a real deployment.
 ## Data / preview mode
 
 The UI keeps the original content, routes, forms and data flows, and is fully
-interactive. It is presented through the new **Tidal Sui / Split Stage** design
-system: an ice-and-cobalt palette, a sticky narrative ledger and a scrolling data
-stage. The card catalog is the public Collector Crypt catalog captured at build
+interactive. It is presented through the new **Abyss Liquidity / Terminal Console**
+design system: a near-black ground with a red instrument accent, a sticky status
+bar, a full-width command line and hairline three-pane consoles (index / data /
+spec). The card catalog is the public Collector Crypt catalog captured at build
 time and served from `public/cards/`. Because a preview wallet normally does not hold Collector Crypt NFTs,
 each connected wallet receives a deterministic six-card preview vault; the offer book is
 stored in `.data/offers.json`. Swap and auth flows are exercised end-to-end in the preview.
 
-To go on-chain, deploy `contracts/programs/tabuline_swap` and point the app at a program
-client (the IDL is generated at `contracts/target/idl/tabuline_swap.json`). The program
+To go on-chain, deploy `contracts/programs/gemmora_swap` and point the app at a program
+client (the IDL is generated at `contracts/target/idl/gemmora_swap.json`). The program
 interface and escrow semantics are documented in `../contracts/README.md`.
 
 ## Environment

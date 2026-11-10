@@ -265,15 +265,20 @@ function WalletModal({
 
   return (
     <div
-      className="tx-backdrop"
+      className="gx-veil"
       role="presentation"
       onMouseDown={(event) => {
         if (event.target === event.currentTarget && !busy) onClose();
       }}
     >
-      <div className="tx-modal tx-modal--auth" role="dialog" aria-modal="true" aria-labelledby="auth-title">
+      <div
+        className="gx-modal gx-modal--auth"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="auth-title"
+      >
         <button
-          className="tx-modal-close"
+          className="gx-modal-close"
           onClick={onClose}
           aria-label="Close sign in"
           type="button"
@@ -281,24 +286,24 @@ function WalletModal({
         >
           ×
         </button>
-        <div className="tx-modal-brand">
-          <span className="tx-modal-mark" aria-hidden="true">
+        <div className="gx-modal-brand">
+          <span className="gx-modal-mark" aria-hidden="true">
             ✦
           </span>
-          <span className="tx-wordmark">
-            tabuline<b>.top</b>
+          <span className="gx-wordmark">
+            gemmora<b>.xyz</b>
           </span>
         </div>
-        <p className="tx-modal-kicker">On-chain authentication</p>
-        <h2 id="auth-title" className="tx-modal-title">
+        <p className="gx-modal-kicker">On-chain authentication</p>
+        <h2 id="auth-title" className="gx-modal-title">
           Sign in with your wallet.
         </h2>
-        <p className="tx-modal-lead">
+        <p className="gx-modal-lead">
           Your Solana wallet is your account. One signature proves you own it — no email, no
           password, no transaction, no gas.
         </p>
 
-        <div className="tx-wallet-list">
+        <div className="gx-wallets">
           {WALLETS.map((wallet) => {
             const isDetected = detected[wallet.id];
             const isBusy = busy === wallet.id;
@@ -306,12 +311,12 @@ function WalletModal({
               <button
                 key={wallet.id}
                 type="button"
-                className={`tx-wallet${isBusy ? ' tx-wallet--busy' : ''}`}
+                className={`gx-wallet${isBusy ? ' gx-wallet--busy' : ''}`}
                 onClick={() => handleWallet(wallet)}
                 disabled={Boolean(busy)}
               >
                 <span
-                  className="tx-wallet-glyph"
+                  className="gx-wallet-glyph"
                   style={{
                     background: `radial-gradient(circle at 30% 20%, ${wallet.accent}55, ${wallet.accent}18)`,
                     borderColor: `${wallet.accent}66`,
@@ -321,7 +326,7 @@ function WalletModal({
                 >
                   {wallet.name.slice(0, 1)}
                 </span>
-                <span className="tx-wallet-copy">
+                <span className="gx-wallet-copy">
                   <b>{wallet.name}</b>
                   <small>
                     {isBusy
@@ -333,7 +338,7 @@ function WalletModal({
                         : 'Not installed · opens download'}
                   </small>
                 </span>
-                <span className={`tx-wallet-state${isDetected ? ' tx-wallet-state--live' : ''}`}>
+                <span className={`gx-wallet-state${isDetected ? ' gx-wallet-state--live' : ''}`}>
                   {isDetected ? (isBusy ? 'Signing' : 'Connect') : 'Install'}
                 </span>
               </button>
@@ -342,14 +347,14 @@ function WalletModal({
         </div>
 
         {error ? (
-          <div className="tx-error" role="alert">
+          <div className="gx-alert" role="alert">
             {error}
           </div>
         ) : null}
 
         {busy ? (
-          <div className="tx-progress">
-            <span className="tx-spinner" aria-hidden="true" />
+          <div className="gx-progress">
+            <span className="gx-spinner" aria-hidden="true" />
             <span>
               {step === 'verifying'
                 ? 'Verifying the signature against your Solana public key…'
@@ -358,15 +363,15 @@ function WalletModal({
           </div>
         ) : null}
 
-        <p className="tx-footnote">
+        <p className="gx-footnote">
           The signature is checked server-side with Ed25519 against your wallet&apos;s public key.
           Session keys are bound to this wallet address; nothing is broadcast to the chain.
         </p>
-        <div className="tx-auth-meta">
-          <span className="tx-dot" /> Solana · mainnet
-          <span className="tx-sep">·</span>
+        <div className="gx-authmeta">
+          <span className="gx-dot" /> Solana · mainnet
+          <span className="gx-sep">·</span>
           SIWS 1.0
-          <span className="tx-sep">·</span>
+          <span className="gx-sep">·</span>
           <Link href="/docs#program" onClick={onClose}>
             How auth works
           </Link>
@@ -377,7 +382,7 @@ function WalletModal({
 }
 
 export function SignInButton({
-  className = 'tx-btn tx-btn--solid',
+  className = 'gx-btn gx-btn--primary',
   label = 'Sign in',
   style,
 }: {
@@ -426,33 +431,33 @@ export function WalletMenu() {
   if (!address) return null;
 
   return (
-    <div className="tx-wallet-menu" ref={ref}>
+    <div className="gx-walletmenu" ref={ref}>
       <button
         type="button"
-        className="tx-wallet-chip"
+        className="gx-walletchip"
         onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
         aria-haspopup="menu"
       >
-        <span className="tx-dot" />
-        <span className="tx-wallet-chip-address">{shortAddress(address)}</span>
+        <span className="gx-dot" />
+        <span className="gx-walletchip-addr">{shortAddress(address)}</span>
         <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
           <path d="m2.5 4.5 3.5 3 3.5-3" fill="none" stroke="currentColor" strokeWidth="1.4" />
         </svg>
       </button>
       {open ? (
-        <div className="tx-wallet-pop" role="menu">
-          <div className="tx-wallet-pop-head">
-            <span className="tx-dot" />
+        <div className="gx-walletpop" role="menu">
+          <div className="gx-pophead">
+            <span className="gx-dot" />
             <div>
               <b>On-chain identity</b>
               <small>Signature verified</small>
             </div>
           </div>
-          <code className="tx-wallet-full">{address}</code>
+          <code className="gx-fulladdr">{address}</code>
           <button
             type="button"
-            className="tx-menu-item"
+            className="gx-menuitem"
             onClick={async () => {
               try {
                 await navigator.clipboard.writeText(address);
@@ -467,7 +472,7 @@ export function WalletMenu() {
             <span aria-hidden="true">{copied ? '✓' : '⧉'}</span>
           </button>
           <a
-            className="tx-menu-item"
+            className="gx-menuitem"
             href={`https://solscan.io/account/${address}`}
             target="_blank"
             rel="noreferrer"
@@ -477,7 +482,7 @@ export function WalletMenu() {
           </a>
           <button
             type="button"
-            className="tx-menu-item tx-menu-danger"
+            className="gx-menuitem gx-menudanger"
             onClick={async () => {
               setOpen(false);
               await signOut();
